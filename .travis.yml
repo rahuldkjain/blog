@@ -2,16 +2,23 @@ language: node_js
 cache:
   directories:
     - ~/.npm
-before_script:
-  - npm install -g gatsby-cli
+notifications:
+  email:
+    recipients:
+      - rahuldkjain@gmail.com
+    on_success: always
+    on_failure: always
 node_js:
-  - "10"
+  - '12.13.1'
+git:
+  depth: 3
+script:
+  - npm run deploy
 deploy:
-  provider: script
-  # Note: change "docs" to the directory where your gatsby-site lives, if necessary
-  script: cd blog/ && npm install && npm run deploy
+  provider: pages
   skip_cleanup: true
   keep_history: true
   github_token: $GITHUB_TOKEN
+  local_dir: public
   on:
     branch: master

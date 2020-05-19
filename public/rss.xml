@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 May 2020 06:42:54 GMT</lastBuildDate><item><title><![CDATA[List of food items for healthy eyes 👀]]></title><description><![CDATA[Foods You Should Be Eating For Healthy Eyes No matter your age, it’s important that you take care of your body to the best of your ability…]]></description><link>https://rahuldkjain.github.io/blog/HealthyEyes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/HealthyEyes/</guid><pubDate>Fri, 01 Nov 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Foods You Should Be Eating For Healthy Eyes&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 May 2020 06:58:41 GMT</lastBuildDate><item><title><![CDATA[List of food items for healthy eyes 👀]]></title><description><![CDATA[Foods You Should Be Eating For Healthy Eyes No matter your age, it’s important that you take care of your body to the best of your ability…]]></description><link>https://rahuldkjain.github.io/blog/HealthyEyes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/HealthyEyes/</guid><pubDate>Fri, 01 Nov 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Foods You Should Be Eating For Healthy Eyes&lt;/h2&gt;
 &lt;p&gt;No matter your age, it’s important that you take care of your body to the best of your ability. One important topic that often gets overlooked (and thrown into the “for old people” category) is eye health.&lt;/p&gt;
 &lt;p&gt;In order to protect your eyes against age-related eye diseases, you should incorporate foods rich in antioxidants like vitamin C and E, beta-carotene, blah blah…&lt;/p&gt;
 &lt;p&gt;I feel the same too&lt;/p&gt;
@@ -509,7 +509,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -522,13 +522,13 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
+        srcset=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
