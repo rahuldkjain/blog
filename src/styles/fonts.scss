@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'PublicSans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../static/fonts/PublicSans-Regular.woff2") format("woff2"), url("../../static/fonts/PublicSans-Regular.woff") format("woff");
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'PublicSans';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../../static/fonts/PublicSans-Italic.woff2") format("woff2"), url("../../static/fonts/PublicSans-Italic.woff")
+        format("woff");
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'PublicSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../static/fonts/PublicSans-Bold.woff2") format("woff2"), url("../../static/fonts/PublicSans-Bold.woff") format("woff");
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../static/fonts/Poppins-Regular.ttf") format("ttf");
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../../static/fonts/Poppins-Italic.ttf") format("ttf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../static/fonts/Poppins-Bold.ttf") format("ttf");
+    font-display: swap;
+  }
