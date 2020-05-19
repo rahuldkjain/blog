@@ -1,98 +1,100 @@
-import React, { useEffect } from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { Link, graphql } from "gatsby"
 
-import * as Elements from '../components/elements'
-import { Layout } from '../layout'
-import { Head } from '../components/head'
-import { PostTitle } from '../components/post-title'
-import { PostDate } from '../components/post-date'
-import { PostContainer } from '../components/post-container'
-import { SocialShare } from '../components/social-share'
-import { SponsorButton } from '../components/sponsor-button'
-import { Bio } from '../components/bio'
-import { PostNavigator } from '../components/post-navigator'
-import { Disqus } from '../components/disqus'
-import { Utterences } from '../components/utterances'
-import * as ScrollManager from '../utils/scroll'
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { rhythm, scale } from "../utils/typography"
 
-import '../styles/code.scss'
-import 'katex/dist/katex.min.css'
-
-export default ({ data, pageContext, location }) => {
-  useEffect(() => {
-    ScrollManager.init()
-    return () => ScrollManager.destroy()
-  }, [])
-
+const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
-  const metaData = data.site.siteMetadata
-  const { title, comment, siteUrl, author, sponsor } = metaData
-  const { disqusShortName, utterances } = comment
-  const { title: postTitle, date, thumbnail } = post.frontmatter
-  const thumbnailSrc = thumbnail
-    ? `${siteUrl}${thumbnail.childImageSharp.fixed.src}`
-    : undefined
+  const siteTitle = data.site.siteMetadata.title
+  const { previous, next } = pageContext
 
   return (
-    <Layout location={location} title={title}>
-      <Head
-        title={postTitle}
-        description={post.excerpt}
-        thumbnail={thumbnailSrc}
+    <Layout location={location} title={siteTitle}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
       />
-      <PostTitle title={postTitle} />
-      <PostDate date={date} />
-      <PostContainer html={post.html} />
-      <SocialShare title={postTitle} author={author} />
-      {!!sponsor.buyMeACoffeeId && (
-        <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
-      <Elements.Hr />
-      <Bio />
-      <PostNavigator pageContext={pageContext} />
-      {!!disqusShortName && (
-        <Disqus
-          post={post}
-          shortName={disqusShortName}
-          siteUrl={siteUrl}
-          slug={pageContext.slug}
+      <article>
+        <header>
+          <h1
+            style={{
+              marginTop: rhythm(1),
+              marginBottom: 0,
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+        </header>
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
         />
-      )}
-      {!!utterances && <Utterences repo={utterances} />}
+        <footer>
+          <Bio />
+        </footer>
+      </article>
+
+      <nav>
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+          <li>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+      </nav>
     </Layout>
   )
 }
+
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title
-        author
-        siteUrl
-        comment {
-          disqusShortName
-          utterances
-        }
-        sponsor {
-          buyMeACoffeeId
-        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 280)
+      excerpt(pruneLength: 160)
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        thumbnail {
-          childImageSharp {
-            fixed(width: 800) {
-              src
-            }
-          }
-        }
+        description
       }
     }
   }
