@@ -1,16 +1,21 @@
 {
   "name": "rahul-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Blog where I cook technical and fictional stories using animations.",
   "version": "0.1.0",
   "author": "Rahul Jain <rahuldkjain@gmail.com>",
   "bugs": {
     "url": "https://github.com/rahuldkjain/blog/issues"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "gatsby": "^2.21.35",
     "gatsby-image": "^2.4.4",
     "gatsby-plugin-feed": "^2.5.1",
+    "gatsby-plugin-fontawesome-css": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.3.1",
     "gatsby-plugin-manifest": "^2.4.4",
     "gatsby-plugin-offline": "^3.2.2",

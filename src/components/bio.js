@@ -7,6 +7,8 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faGithub, faInstagram, faStackOverflow, faDev } from '@fortawesome/free-brands-svg-icons'
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -57,11 +59,41 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
+        Written by <strong>{author.name}</strong> &nbsp;
+        <a href={`https://dev.to/${social.dev}`}>
+          <FontAwesomeIcon icon={faDev} style={{
+            color: '#000000',
+            fontSize: '20px',
+            textDecoration: 'none',
+            boxShadow: 'none'
+          }} />
+        </a> &nbsp;
+        <a href={`https://github.com/${social.github}`}>
+          <FontAwesomeIcon icon={faGithub} style={{
+            color: '#000000',
+            fontSize: '20px',
+            textDecoration: 'none',
+            boxShadow: 'none'
+          }} />
+        </a> &nbsp;
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+          <FontAwesomeIcon icon={faTwitter} style={{
+            fontSize: '20px',
+            textDecoration: 'none',
+            boxShadow: 'none'
+          }} />
+        </a> &nbsp;
+        <a href={`https://instagram.com/${social.instagram}`}>
+          <FontAwesomeIcon icon={faInstagram} style={{
+            color: '#D42F8B',
+            fontSize: '20px',
+            textDecoration: 'none',
+            boxShadow: 'none'
+          }}/>
+        </a>&nbsp;
+        <br></br>
+        {author.summary}
+        {` `}
       </p>
     </div>
   )

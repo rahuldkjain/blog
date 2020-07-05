@@ -5,10 +5,13 @@ module.exports = {
       name: `Rahul Jain`,
       summary: `I write code like I make sandwich`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Blog where I cook technical and fictional stories using animations.`,
     siteUrl: `https://rahuldkjain.github.io/blog/`,
     social: {
       twitter: `rahuldkjain`,
+      instagram: 'rahul_dk_jain',
+      dev: 'rahuldkjain',
+      github: 'rahuldkjain',
     },
   },
   plugins: [
@@ -61,6 +64,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
