@@ -33,15 +33,21 @@ gsap.to('.ball', {
 });
 ```
 It will look like this
+
 https://codepen.io/rahuldkjain/pen/oNbEwNa
 
 Looks real ha! I know the animation is basic, but believe me gsap stagger is really powerful.
 
 Other animations that I made are as follows
 
+
 https://codepen.io/rahuldkjain/pen/XWXVPoX
+
 https://codepen.io/rahuldkjain/pen/rNxerEa
+
 https://codepen.io/rahuldkjain/pen/QWyaQmy
+
 https://codepen.io/rahuldkjain/pen/mdVpGpq
+
 
 Happy Animating!
