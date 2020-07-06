@@ -8,7 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faGithub, faInstagram, faStackOverflow, faDev } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faInstagram, faDev } from '@fortawesome/free-brands-svg-icons'
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -30,7 +30,10 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            twitter,
+            dev,
+            instagram,
+            github
           }
         }
       }
