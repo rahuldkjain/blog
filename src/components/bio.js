@@ -63,7 +63,7 @@ const Bio = () => {
       />
       <p>
         Written by <strong>{author.name}</strong> &nbsp;
-        <a href={`https://dev.to/${social.dev}`}>
+        <a href={`https://dev.to/${social.dev}`} target="_blank">
           <FontAwesomeIcon icon={faDev} style={{
             color: '#000000',
             fontSize: '20px',
@@ -71,7 +71,7 @@ const Bio = () => {
             boxShadow: 'none'
           }} />
         </a> &nbsp;
-        <a href={`https://github.com/${social.github}`}>
+        <a href={`https://github.com/${social.github}`} target="_blank">
           <FontAwesomeIcon icon={faGithub} style={{
             color: '#000000',
             fontSize: '20px',
@@ -79,14 +79,14 @@ const Bio = () => {
             boxShadow: 'none'
           }} />
         </a> &nbsp;
-        <a href={`https://twitter.com/${social.twitter}`}>
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
           <FontAwesomeIcon icon={faTwitter} style={{
             fontSize: '20px',
             textDecoration: 'none',
             boxShadow: 'none'
           }} />
         </a> &nbsp;
-        <a href={`https://instagram.com/${social.instagram}`}>
+        <a href={`https://instagram.com/${social.instagram}`} target="_blank">
           <FontAwesomeIcon icon={faInstagram} style={{
             color: '#D42F8B',
             fontSize: '20px',

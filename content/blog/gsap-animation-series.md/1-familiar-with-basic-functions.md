@@ -21,10 +21,10 @@ gsap.to('#ball', {
    y: 200,  // to drop the ball i.e transform: translateY(200px)
    duration: 1.5, // duration of the animation
    repeat: -1, // to repeat infinite times
-   ease: "Bounce.easeOut" // to give the bounce effect,
+   ease: "bounce.out" // to give the bounce effect,
 });
 ```
-I know you are thinking what the heck `ease: Bounce.easOut` is that. Don't panic, it's just an ease function that **gsap** provides to give bouncing effect. Check out other ease visualizers [here](https://greensock.com/ease-visualizer/).
+I know you are thinking what the heck `ease: bounce.out` is that. Don't panic, it's just an ease function that **gsap** provides to give bouncing effect. Check out other ease visualizers [here](https://greensock.com/ease-visualizer/).
 
 `NOTE` Properties to change things in gsap differs from CSS properties. I recommend you to bookmark gsap-cheatsheat for future purpose.
 
@@ -33,7 +33,7 @@ Let's see the result.
 https://codepen.io/rahuldkjain/pen/OJMQxVB
 
 
-### gsap.fromTo() function
+## gsap.fromTo() function
 As the name suggests, this function is used to animate the element from `initial state` to `final state`.
 
 gsap.fromTo() takes three arguments.

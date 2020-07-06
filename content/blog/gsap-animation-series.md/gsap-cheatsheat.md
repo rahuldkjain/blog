@@ -6,7 +6,7 @@ description: 'cheatsheet for gsap and css. gsap.to, gsap.fromTo, TweenMax, Tween
 draft: false
 ---
 
-```js
+```css
 
 yoyo:true // close to CSS animation direction: alternate- makes the timeline go back and forth.
 repeat:n // iteration count
