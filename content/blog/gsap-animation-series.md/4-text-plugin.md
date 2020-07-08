@@ -5,22 +5,21 @@ category: 'animations'
 description: 'terminal typing text animation using gsap.to() gsap.set() gsap.timeline() and TextPlugin'
 draft: false
 ---
-
-The cool thing about gsap is that you can create animations as small as ~20kb. Yes you read it right. You can create and embed your animations to your website which is less than size of an image. SVG Animations using gsap make this possible.
+The cool thing about gsap is that you can create animations as small as `~20kb`. Yes you read it right. You can create and embed your animations to your website which is less than size of an image. SVG Animations using gsap make this possible.
 
 I am a huge fan of text animations, but didn't developed any because of the fear of dealing with CSS keyframes. But now I can proudly animation such animations within 10-15 minutes.
 
-Today, I'll be talking about TextPlugin of gsap to create typing effect. 
+Today, I'll be talking about **TextPlugin** of gsap to create typing effect. 
 
-Challenge
+## Challenge
 Create an animation showing typing commands in the terminal
 
-Solution
+## Solution
 TextPlugin came to rescue to make the life easy. You can easily manipulate the text with typing effect in **1 line of code**. Sounds great right.
 
 See what I came up with
 
-https://codepen.io/rahuldkjain/pen/dyGeGWb default-tab=result
+https://codepen.io/rahuldkjain/pen/dyGeGWb
 
 If you feel to create your own, follow the instructions
 
@@ -52,7 +51,7 @@ gsap.to(yourElement, 2, {text:"This is the new text", ease:Linear.easeNone});
 gsap.to(yourElement, 2, {text:{value:"This is the new text", delimiter:" "}, ease:Linear.easeNone});
 ```
 
-To know more about this plugin, please refer the official documentation(link in the comment section).
+To know more about this plugin, please refer the official documentation.
 
 ### How I made the above animation
 
