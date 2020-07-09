@@ -1,6 +1,6 @@
 ---
 title: 'Animated banner to be used in repository readme'
-date: 2020-07-08 16:21:13
+date: 2020-07-09 16:21:13
 category: 'animations'
 description: 'animated banner gif using MorphSVGPlugin and TextPlugin of gsap to make repository readme more interesting'
 draft: false
@@ -17,11 +17,10 @@ So, I thought of a plan that, I will develop the animation in codepen, then reco
 So I came up with this.
 
 https://codepen.io/rahuldkjain/pen/BajxYQr
-
 Please look into the code to understand how I did it.
 
-Let's see how to use the `MorphSVG` Plugin.
 
+Let's see how to use the `MorphSVG` Plugin.
 ### Installation
 Follow this [link](https://codepen.io/GreenSock/full/23d3979528b262cb07da37f6a7c7dd76) to get the cdn link to be used in codepen. Copy the cdn link.
 ```js
