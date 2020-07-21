@@ -38,6 +38,7 @@ I am quite active on LinkedIn too. So I took advantage of this and wrote a post 
 That's it! Dev.to and LinkedIn proved out to be a super awesome platform to reach the targetted audience organically.
 
 PS: If you haven't checked out the tool yet, go check it out
+
 :rocket: Try the tool - [live demo](https://rahuldkjain.github.io/gh-profile-readme-generator/)
 
 Github Project: https://github.com/rahuldkjain/github-profile-readme-generator

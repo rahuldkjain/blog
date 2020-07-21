@@ -1,12 +1,10 @@
 ---
 title: 'Bash Scripting Cheatsheet'
-date: 2020-06-30 16:21:13
+date: 2020-07-21 16:21:13
 category: 'scripting'
 description: ''
 draft: true
 ---
-
-
 Shell is common Linux, Unix
 
 Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells the hardware what to do
