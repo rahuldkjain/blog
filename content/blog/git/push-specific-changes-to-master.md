@@ -9,10 +9,11 @@ draft: false
 <p align="center"><img src="../../assets/push-specific-to-master.png" /></p>
 This is the current branching structure. 
 For convenience, I am using the naming conventions as
+
 ```
-fb-1: `feature-branch_1`
-fb-2: `feature-branch_2`
-fb-3: `feature-branch_3`
+fb-1: feature-branch_1
+fb-2: feature-branch_2
+fb-3: feature-branch_3
 ```
 ## Situation
 I am currently working on `fb-2` whose base is off `develop` branch
