@@ -1,4 +1,518 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jul 2020 13:53:46 GMT</lastBuildDate><item><title><![CDATA[How Github profile README Generator tool reached 200+ ⭐️ on github]]></title><description><![CDATA[Github profile README generator tool reached 200+ ⭐️ in less than 36 hours 🥳. It is currently trending on Github under javascript category…]]></description><link>https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</guid><pubDate>Mon, 20 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Github profile README generator tool reached 200+ ⭐️ in less than 36 hours 🥳.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jul 2020 08:00:49 GMT</lastBuildDate><item><title><![CDATA[Bash Shell Scripting: Variables]]></title><description><![CDATA[Bash Path(Shabang or Hashbang) #!/bin/bash also know as  or , is the neccessary command to run the bash script. It is basically the path to…]]></description><link>https://rahuldkjain.github.io/blog/bash/1-variables/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/1-variables/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Bash Path(Shabang or Hashbang)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;#!/bin/bash&lt;/strong&gt; also know as &lt;code class=&quot;language-text&quot;&gt;shabang&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;hashbang&lt;/code&gt;, is the neccessary command to run the bash script. It is basically the path to bash.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Sometimes when the number of commands are large enough, it becomes difficult to understand which command is doing what. So by adding &lt;code class=&quot;language-text&quot;&gt;-x&lt;/code&gt; after &lt;code class=&quot;language-text&quot;&gt;#!/bin/bash&lt;/code&gt;, the commands will be visible along with the result in the output&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash -x&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# + echo &apos;Hello World!&apos;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# give no space before and after of &apos;=&apos;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;declare&lt;/span&gt; -r &lt;span class=&quot;token assign-left variable&quot;&gt;MIN&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# declare constant variable&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# print variable&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;**2 &lt;span class=&quot;token comment&quot;&gt;# shell takes everything as string, so it will output: 5**2&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# $(()) is used for mathematical calculation&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;MIN&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;MIN&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num1&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5**2&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 25&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Shorthand property&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$rand&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand++ = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;++rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand-- = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;--rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 9&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# rand++ = 9&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# ++rand = 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# rand-- = 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# --rand = 9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# use python to add floats&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.2&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4.3&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num5&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;python -c &lt;span class=&quot;token string&quot;&gt;&quot;print(&lt;span class=&quot;token variable&quot;&gt;$num3&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num4&lt;/span&gt;)&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num5&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5.5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# cat prints a file or any string pass to it&lt;/span&gt;
+cat&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; END
+This text prints many line
+etc lorem ipsum END
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# This text prints many line&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# etc lorem ipsum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[What is bash? What is Shell Scripting]]></title><description><![CDATA[Bash is a shell program designed to listen to my commands and do what I tell it to.  Bash is a simple tool in a vast toolbox of programs…]]></description><link>https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Bash is a shell program designed to listen to my commands and do what I tell it to. &lt;/p&gt;
+&lt;p&gt;Bash is a simple tool in a vast toolbox of programs that lets me interact with my system using a text-based interface. &lt;/p&gt;
+&lt;p&gt;The bash shell is a binary program that runs either interactively or non-interactively, usually in a text-based interface provided by a terminal emulator program.&lt;/p&gt;
+&lt;p&gt;A bash command is the smallest unit of code that bash can independently execute. While executing a command, you cannot interact with the bash shell. As soon as bash is done executing a command, it returns to you for the next command to execute. &lt;/p&gt;
+&lt;p&gt;Bash gets commands by reading lines. As soon as it’s read enough lines to compose a complete command, bash begins running that command. Usually, commands are just a single line long. An interactive bash session reads lines from you at the prompt. Non-interactive bash processes read their commands from a file or stream. Files with a hashbang as their first line (and the executable permission) can be started by your system’s kernel like any other program. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Loops]]></title><link>https://rahuldkjain.github.io/blog/bash/10-loops/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/10-loops/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 1. While loop&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num&lt;/span&gt; -le &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 2. continue and break&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt; -le &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# don&apos;t print evens&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num1 &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;continue&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# jump out of the loop with break&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num1 &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;break&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 3. Until loops until the loop is true&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;until&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt; -gt &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num2&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 4. use read and a loop to output file info&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; avg rbis hrs&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# printf allows to use \n&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Avg: &lt;span class=&quot;token variable&quot;&gt;${avg}&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;RBIs: &lt;span class=&quot;token variable&quot;&gt;${rbis}&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;HRs: &lt;span class=&quot;token variable&quot;&gt;${hrs}&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# pipe data into the while loop&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; loop.txt
+
+&lt;span class=&quot;token comment&quot;&gt;# 5. For loop&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;i&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 6. Cycle through ranges&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;A&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;Z&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;q&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Value seperator in strings]]></title><link>https://rahuldkjain.github.io/blog/bash/12-value-seperator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/12-value-seperator/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# you can set what seperates the values with IFS&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# store the original IFS&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;OIFS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$IFS&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# set what seperates the input values&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;IFS&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;,&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter 2 values to sum: &quot;&lt;/span&gt; num1 num2
+
+&lt;span class=&quot;token comment&quot;&gt;# echo $num1&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# echo $num2&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# use the parameter expansion ${} to substitute any whitespace &lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# with nothing&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;${num1&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;blank&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;}&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;${num2&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;blank&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# echo $num1&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# echo $num2&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt; = &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# reset the IFS to original value&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;IFS&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$OIFS&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# parameter expansion allows you to do this&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# the search and replace allows this&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;samp_string&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;The dog climbed the tree&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${samp_string&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;dog&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cat}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# you can assign a default value if it doesn&apos;t exist&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;I am &lt;span class=&quot;token variable&quot;&gt;${name&lt;span class=&quot;token operator&quot;&gt;:-&lt;/span&gt;Rahul}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# this uses the default value if it doesn&apos;t exists and assigns the value&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;I am &lt;span class=&quot;token variable&quot;&gt;${name&lt;span class=&quot;token operator&quot;&gt;:=&lt;/span&gt;titu}&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Positional Parameters]]></title><link>https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# positional parameters are variables that can store data on the command line in variable names 0-9&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# $0 always contains the path tp the executed script&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# you can access names past 9 by using parameter expansio like this ${10}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# add all numbers on the command line&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1st argument: &lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# $# tells you the number of arguments&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$#&lt;/span&gt; -gt &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# get the first argument&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;sum&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# shift moves the value of $2 into $1 until none are left&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# the value of $# decrements as well&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;shift&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum: &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Input and Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# take user input using read&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# -p is used to prompt with string&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;What is your name: &quot;&lt;/span&gt; name &lt;span class=&quot;token comment&quot;&gt;# space after string is neccessary&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you: &quot;&lt;/span&gt; age
+
+&lt;span class=&quot;token comment&quot;&gt;# place your conditions within []&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# include a space after [ and before ]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Integer comparisons: eq, ne, lt, gt, le, ge&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -ge &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# check another condition&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -eq &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive next year&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# executed by default&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can&apos;t drive&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# closes the if statement&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# read multiple values&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter 2 numbers to sum: &quot;&lt;/span&gt; num1 num2
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt; = &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# hide the input with s code (password)&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -sp &lt;span class=&quot;token string&quot;&gt;&quot;Enter the secret code: &quot;&lt;/span&gt; secret
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$secret&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Enter&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Wrong password&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+
+&lt;span class=&quot;token comment&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;can_vote&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;
+
+&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Can Vote: &lt;span class=&quot;token variable&quot;&gt;$can_vote&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Logical Operators and integer conditional statements]]></title><link>https://rahuldkjain.github.io/blog/bash/4-integer-test/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/4-integer-test/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt; num
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Your number equals 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is greater than 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is less than 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is even&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# using logical operators &amp;amp;&amp;amp;, || and !&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num&lt;/span&gt; is between 1 and 10&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# &amp;amp;&amp;amp;, || can also used as control structures&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# create a file and then if that worked open it in gedit&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; samp_file &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; gedit samp_file
+
+&lt;span class=&quot;token comment&quot;&gt;# if samp_dir doesn&apos;t exist, make it&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -d samp_dir &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; samp_dir
+
+&lt;span class=&quot;token comment&quot;&gt;# delete file&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; samp_file
+
+&lt;span class=&quot;token comment&quot;&gt;# delete directory&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;rmdir&lt;/span&gt; samp_dir&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Functions]]></title><link>https://rahuldkjain.github.io/blog/bash/3-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/3-functions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token function-name function&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# get current date and time&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# returns an exit status number between 0-255&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+getDate
+
+&lt;span class=&quot;token comment&quot;&gt;#global variable&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#local values aren&apos;t available outside of the function&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;demLocal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Titu&quot;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+demLocal
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# a function that receives 2 values and returns a sum&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;getSum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# attributes are retrieved by referring $1, $2 ..etc&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
+
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num3&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num4&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;#pass values back with echo&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# pass attributes by seperating them with a space&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# surround function call with $() to get the return value&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;getSum num1 num2&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;the sum is &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: case]]></title><link>https://rahuldkjain.github.io/blog/bash/5-case/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/5-case/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Use `case` to when it makes more sense than if&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you? &quot;&lt;/span&gt; age
+
+&lt;span class=&quot;token comment&quot;&gt;# check the value of age&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# match numbers 0 - 4&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Too young for school&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# stop checking further&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# match only 5&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to kindergarten&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# check 6-18&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;-9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-8&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;grade&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to grade &lt;span class=&quot;token variable&quot;&gt;$grade&lt;/span&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# default action&lt;/span&gt;
+*&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You are too old for school&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;esac&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# End case&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings]]></title><link>https://rahuldkjain.github.io/blog/bash/6-string/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/6-string/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Strings and Parameter Expansions( ${} )&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;rand_str&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;A random string is a string&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string length&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;string length: &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;rand_str}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string slice starting at index (0 index)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string with starting and ending index (0 index)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;7}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# returns whats left after `a`&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;*a }&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings with Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/7-testing-strings/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/7-testing-strings/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Sad&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;str3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Happy&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# test if string is null&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str1&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str1&lt;/span&gt; is not null&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -z &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str1&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str1&lt;/span&gt; has no value&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# check for equality&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; equals &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; is not equal to &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; is greater than &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$str2&lt;/span&gt; is lesser than &lt;span class=&quot;token variable&quot;&gt;$str3&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# check the file test_file1 and test_file2&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;file1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./test_file1&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;file2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./test_file2&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# e: file exists&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# f: normal file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# r: readable file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# w: writable file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# x: executable file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# d: file is directory?&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# L: file is a symbolic link&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# p: file is a named pipe&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# S: file is network socket&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# G: file is owned by the group&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# O: file is owned by the userid&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -e &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; exists&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a normal file&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -r &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a readable file&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -w &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a writable file&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -x &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a executable file&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -d &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a directory&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -L &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a symbolic link&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -p &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a named pipe&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -S &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a network Socket&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -G &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a owned by the group&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -O &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a owned by the userid&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Regular Expressions (Regex)]]></title><link>https://rahuldkjain.github.io/blog/bash/8-regex/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/8-regex/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# with extended test [[ ]] you can use regular expressions&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Validate date: &quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;pat&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;^[0-9]{8}$&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;~ &lt;span class=&quot;token variable&quot;&gt;$pat&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is valid&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is invalid&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Scripting Cheatsheet]]></title><description><![CDATA[Shell is common Linux, Unix Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells…]]></description><link>https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Shell is common Linux, Unix&lt;/p&gt;
+&lt;p&gt;Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells the hardware what to do&lt;/p&gt;
+&lt;h4&gt;To create a script file&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gedit first.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Commands&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash #to the tell the path of bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# hash is used for comments&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# prints stuff on the screen&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Run the script&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x first.sh &lt;span class=&quot;token comment&quot;&gt;# +x makes the file executable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;or &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;755&lt;/span&gt; first.sh &lt;span class=&quot;token comment&quot;&gt;# 755 is the octal here which is used to manage permissions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To show which command is giving which output&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash/ -x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# to know the path(run this in the root directory)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Use &lt;code class=&quot;language-text&quot;&gt;\&lt;/code&gt; to make the long commands readable&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; chrome inkspace vlc sublime mediaplayer &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+soundrecorder vscode &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Points to remember&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BASH is very well documented, don’t hesitate to search the web&lt;/li&gt;
+&lt;li&gt;Always use absolute paths in a script. Eg: /home/Documents/logo.png&lt;/li&gt;
+&lt;li&gt;Write detailed comments&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~&lt;/code&gt; in terminal refers to &lt;strong&gt;home&lt;/strong&gt; directory&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Arrays]]></title><link>https://rahuldkjain.github.io/blog/bash/9-arrays/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/9-arrays/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# bash arrays can only have 1 dimesion and indexes start at 0&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# create an array&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;fav_nums&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.14&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.718&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.57721&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4.6692&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;PI: &lt;span class=&quot;token variable&quot;&gt;${fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# add value to array&lt;/span&gt;
+fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.618&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GR: &lt;span class=&quot;token variable&quot;&gt;${fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# add group of values to array&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;fav_nums&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# output all array values&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# output indexes&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;@&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get number of items in array&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;array length: &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;@&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get length of array element&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Index 3 length: &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;3&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# sort an array&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sorted_nums&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;@&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; $i&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${sorted_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt; 
+&lt;span class=&quot;token comment&quot;&gt;# delete array element&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;unset&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;sorted_nums[1]&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# delete array&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;unset&lt;/span&gt; sorted_nums&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How Github profile README Generator tool reached 200+ ⭐️ on github]]></title><description><![CDATA[Github profile README generator tool reached 200+ ⭐️ in less than 36 hours 🥳. It is currently trending on Github under javascript category…]]></description><link>https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</guid><pubDate>Mon, 20 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Github profile README generator tool reached 200+ ⭐️ in less than 36 hours 🥳.&lt;/p&gt;
 &lt;p&gt;It is currently trending on Github under javascript category🚀
 &lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/f6wxs4wo9fxb4bctrf0o.png&quot; alt=&quot;github-profile-readme-generator&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I was scrolling the twitter feed and got the idea of this tool. Never thought that so many developers will find it useful.&lt;/p&gt;
@@ -17,8 +531,8 @@
 &lt;h4&gt;3. Make developers aware on other platforms(LinkedIn/Reddit/Discord/Twitter)&lt;/h4&gt;
 &lt;p&gt;I am quite active on LinkedIn too. So I took advantage of this and wrote a post regarding the tool. Organic reach of LinkedIn is amazing too and the post was reaching 1000+ people per hour for the first 12 hours. The post became a hit and reached 24000+ people on LinkedIn.&lt;/p&gt;
 &lt;p&gt;That’s it! Dev.to and LinkedIn proved out to be a super awesome platform to reach the targetted audience organically.&lt;/p&gt;
-&lt;p&gt;PS: If you haven’t checked out the tool yet, go check it out
-:rocket: Try the tool - &lt;a href=&quot;https://rahuldkjain.github.io/gh-profile-readme-generator/&quot;&gt;live demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS: If you haven’t checked out the tool yet, go check it out&lt;/p&gt;
+&lt;p&gt;:rocket: Try the tool - &lt;a href=&quot;https://rahuldkjain.github.io/gh-profile-readme-generator/&quot;&gt;live demo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Github Project: &lt;a href=&quot;https://github.com/rahuldkjain/github-profile-readme-generator&quot;&gt;https://github.com/rahuldkjain/github-profile-readme-generator&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Github profile README generator with latest addons like visitors-count]]></title><description><![CDATA[Github recently released profile README feature, which became a hit among developers. As it provides good place to showcase current projects…]]></description><link>https://rahuldkjain.github.io/blog/github-profile-readme-generator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/github-profile-readme-generator/</guid><pubDate>Thu, 16 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Github recently released profile README feature, which became a hit among developers. As it provides good place to showcase current projects and skills, many addons like &lt;code class=&quot;language-text&quot;&gt;visitors-count&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;github-stats&lt;/code&gt; has been developed.&lt;/p&gt;
 &lt;p&gt;I got tired of updating my github profile README again and again to get:&lt;/p&gt;
 &lt;ul&gt;
@@ -33,7 +547,7 @@
 &lt;p&gt;Try the tool: &lt;a href=&quot;https://rahuldkjain.github.io/gh-profile-readme-generator/&quot;&gt;live demo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Click on &lt;code class=&quot;language-text&quot;&gt;Generate README&lt;/code&gt; button after filling the form, to get your README in markdown. You can preview the README too.&lt;/p&gt;
 &lt;p&gt;This project is developed using Gatsby and can be found on github at &lt;a href=&quot;https://github.com/rahuldkjain/github-profile-readme-generator&quot;&gt;Github Profile Readme Generator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Give it a try if it sounds interesting.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Windmill animation in 10KB]]></title><description><![CDATA[The monsoon has started in India and I am from Rajasthan(India) which is the abundant source of renewable energies like . Thought of…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/6-windmill-animation-gsap/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/6-windmill-animation-gsap/</guid><pubDate>Sun, 12 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;The monsoon has started in India and I am from Rajasthan(India) which is the abundant source of renewable energies like &lt;code class=&quot;language-text&quot;&gt;Solar &amp;amp; Wind Energy&lt;/code&gt;. Thought of animation related to wind energy came to my mind because of the ongoing windy season.&lt;/p&gt;
+&lt;p&gt;Give it a try if it sounds interesting.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Windmill animation in 10KB]]></title><description><![CDATA[The monsoon has started in India and I am from Rajasthan(India) which is the abundant source of renewable energies like . Thought of…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/6-windmill-animation-gsap/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/6-windmill-animation-gsap/</guid><pubDate>Sun, 12 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;The monsoon has started in India and I am from Rajasthan(India) which is the abundant source of renewable energies like &lt;code class=&quot;language-text&quot;&gt;Solar &amp;amp; Wind Energy&lt;/code&gt;. Thought of animation related to wind energy came to my mind because of the ongoing windy season.&lt;/p&gt;
 &lt;p&gt;So I present to you the 7th post for &lt;strong&gt;#10daysofanimation&lt;/strong&gt; series. I am doing this series because of the reason that it enables me to develop interesting animations of small size(~ 10-20KB) to make it feasible for web animations. I followed &lt;code class=&quot;language-text&quot;&gt;gsap&lt;/code&gt; library over &lt;code class=&quot;language-text&quot;&gt;css-animations&lt;/code&gt; by taking inspiration from a course on &lt;strong&gt;frontend masters&lt;/strong&gt;. If you want to know about the course, leave a comment. &lt;/p&gt;
 &lt;h2&gt;Challenge&lt;/h2&gt;
 &lt;p&gt;Today’s challenge is to animate the windmill in such a way that it looks more real and interesting.&lt;/p&gt;
@@ -54,7 +568,7 @@
 The animation looks like this&lt;/p&gt;
 &lt;p&gt;&lt;iframe src=&quot;https://codepen.io/rahuldkjain/embed/preview/MWKXNvv&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Looks cool right! The best part of developing such animations is the &lt;strong&gt;size&lt;/strong&gt;. Anyone can easily add such animations into their website/web-app to enhance the UX(User Experience).&lt;/p&gt;
-&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated banner to be used in repository readme]]></title><description><![CDATA[In the last blog, I talked about free TextPlugin of gsap. There is another plugin as  of gsap available only to Greensock club members. I…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/5-readme-banner-morphSVG/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/5-readme-banner-morphSVG/</guid><pubDate>Thu, 09 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;In the last blog, I talked about free TextPlugin of gsap. There is another plugin as &lt;code class=&quot;language-text&quot;&gt;MorphSVG&lt;/code&gt; of gsap available only to Greensock club members. I saw its usecases and fell in love with it.&lt;/p&gt;
+&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated banner to be used in repository readme]]></title><description><![CDATA[In the last blog, I talked about free TextPlugin of gsap. There is another plugin as  of gsap available only to Greensock club members. I…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/5-readme-banner-morphSVG/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/5-readme-banner-morphSVG/</guid><pubDate>Thu, 09 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;In the last blog, I talked about free TextPlugin of gsap. There is another plugin as &lt;code class=&quot;language-text&quot;&gt;MorphSVG&lt;/code&gt; of gsap available only to Greensock club members. I saw its usecases and fell in love with it.&lt;/p&gt;
 &lt;h2&gt;Challenge&lt;/h2&gt;
 &lt;p&gt;Develop an animated gif banner for &lt;a href=&quot;https://github.com/rahuldkjain/minimal-portfolio&quot;&gt;portfolio&lt;/a&gt; readme.&lt;/p&gt;
 &lt;h2&gt;Solution&lt;/h2&gt;
@@ -81,7 +595,7 @@ Please look into the code to understand how I did it.&lt;/p&gt;
 &lt;p&gt;After developing the animation, record the animation. I would recommend &lt;a href=&quot;https://chrome.google.com/webstore/detail/screen-recorder/dhopldobnfjeckokfjimfcdagmlhjdce?hl=en&quot;&gt;Screen Recorder&lt;/a&gt; chrome extension to record the animation.
 Then you can convert the video using &lt;a href=&quot;https://ezgif.com/video-to-gif&quot;&gt;EZGif&lt;/a&gt; converter to convert it in gif.&lt;/p&gt;
 &lt;p&gt;I hope you liked this one. More cool animations to come soon, stay tuned!&lt;/p&gt;
-&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Typing text animation using gsap TextPlugin]]></title><description><![CDATA[The cool thing about gsap is that you can create animations as small as . Yes you read it right. You can create and embed your animations to…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/4-text-plugin/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/4-text-plugin/</guid><pubDate>Wed, 08 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;The cool thing about gsap is that you can create animations as small as &lt;code class=&quot;language-text&quot;&gt;~20kb&lt;/code&gt;. Yes you read it right. You can create and embed your animations to your website which is less than size of an image. SVG Animations using gsap make this possible.&lt;/p&gt;
+&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Typing text animation using gsap TextPlugin]]></title><description><![CDATA[The cool thing about gsap is that you can create animations as small as . Yes you read it right. You can create and embed your animations to…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/4-text-plugin/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/4-text-plugin/</guid><pubDate>Wed, 08 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;The cool thing about gsap is that you can create animations as small as &lt;code class=&quot;language-text&quot;&gt;~20kb&lt;/code&gt;. Yes you read it right. You can create and embed your animations to your website which is less than size of an image. SVG Animations using gsap make this possible.&lt;/p&gt;
 &lt;p&gt;I am a huge fan of text animations, but didn’t developed any because of the fear of dealing with CSS keyframes. But now I can proudly animation such animations within 10-15 minutes.&lt;/p&gt;
 &lt;p&gt;Today, I’ll be talking about &lt;strong&gt;TextPlugin&lt;/strong&gt; of gsap to create typing effect. &lt;/p&gt;
 &lt;h2&gt;Challenge&lt;/h2&gt;
@@ -149,7 +663,7 @@ master&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 master&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;displayText_6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I hope you liked it. Many more cool animations to come. Stay Tuned.&lt;/p&gt;
 &lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Let's animate minion using gsap timeline]]></title><description><![CDATA[This is the fourth post of  and I am loving it. Today, I’ll walk you through timeline functionality of gsap. 
-As the name suggests,  feature…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/3-gsap-timeline/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/3-gsap-timeline/</guid><pubDate>Tue, 07 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This is the fourth post of &lt;code class=&quot;language-text&quot;&gt;10 Days of Animation&lt;/code&gt; and I am loving it. Today, I’ll walk you through &lt;strong&gt;timeline&lt;/strong&gt; functionality of gsap.
+As the name suggests,  feature…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/3-gsap-timeline/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/3-gsap-timeline/</guid><pubDate>Tue, 07 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This is the fourth post of &lt;code class=&quot;language-text&quot;&gt;10 Days of Animation&lt;/code&gt; and I am loving it. Today, I’ll walk you through &lt;strong&gt;timeline&lt;/strong&gt; functionality of gsap.
 As the name suggests, &lt;code class=&quot;language-text&quot;&gt;timeline&lt;/code&gt; feature lets you animate in sequence. The flexibility gsap provide makes it even more awesome. &lt;/p&gt;
 &lt;p&gt;I used timeline to animate minion like this.&lt;/p&gt;
 &lt;p&gt;&lt;iframe src=&quot;https://codepen.io/rahuldkjain/embed/preview/qBboxqR&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -187,7 +701,7 @@ master&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;p&gt;This looks simple, I am telling you this sole feature takes the animation to a next level.
 I am coming with more crazy animations in the coming days.
 Stay tuned.&lt;/p&gt;
-&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[using gsap stagger function to make animations more visually interesting]]></title><description><![CDATA[gsap stagger proves out to be an awesome feature when the animation involves multiple elements having same properties or same class to be…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/2-gsap-stagger/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/2-gsap-stagger/</guid><pubDate>Mon, 06 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;gsap stagger&lt;/strong&gt; proves out to be an awesome feature when the animation involves multiple elements having same properties or same class to be more precise.&lt;/p&gt;
+&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[using gsap stagger function to make animations more visually interesting]]></title><description><![CDATA[gsap stagger proves out to be an awesome feature when the animation involves multiple elements having same properties or same class to be…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/2-gsap-stagger/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/2-gsap-stagger/</guid><pubDate>Mon, 06 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;gsap stagger&lt;/strong&gt; proves out to be an awesome feature when the animation involves multiple elements having same properties or same class to be more precise.&lt;/p&gt;
 &lt;p&gt;Tweaking a few options can make your animations much more visually interesting. You may be surprised by just how easy it is to create advanced effects with a tiny amount of code. &lt;/p&gt;
 &lt;p&gt;Adding a stagger to a multi-target element basically offsets the starting time of each target’s animation.&lt;/p&gt;
 &lt;p&gt;All elements(with the same class i.e targetElement) recognize a stagger property which can be a number, an object, or a function.&lt;/p&gt;
@@ -214,7 +728,7 @@ As there are 6 balls, I’ll set the animation duration to be 3s with stagger de
 &lt;p&gt;&lt;iframe src=&quot;https://codepen.io/rahuldkjain/embed/preview/rNxerEa&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe src=&quot;https://codepen.io/rahuldkjain/embed/preview/QWyaQmy&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe src=&quot;https://codepen.io/rahuldkjain/embed/preview/mdVpGpq&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Getting familiar with gsap.to() and gsap.fromTo() functions]]></title><description><![CDATA[GSAP library comes up with awesome features to create animations with fewer lines of code and great flexibility. Let’s cut the crap and…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/1-familiar-with-basic-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/1-familiar-with-basic-functions/</guid><pubDate>Sun, 05 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;GSAP library comes up with awesome features to create animations with fewer lines of code and great flexibility. Let’s cut the crap and start learning with me using simple examples.&lt;/p&gt;
+&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Getting familiar with gsap.to() and gsap.fromTo() functions]]></title><description><![CDATA[GSAP library comes up with awesome features to create animations with fewer lines of code and great flexibility. Let’s cut the crap and…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/1-familiar-with-basic-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/1-familiar-with-basic-functions/</guid><pubDate>Sun, 05 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;GSAP library comes up with awesome features to create animations with fewer lines of code and great flexibility. Let’s cut the crap and start learning with me using simple examples.&lt;/p&gt;
 &lt;h2&gt;gsap.to() function&lt;/h2&gt;
 &lt;p&gt;If you are familiar with &lt;code class=&quot;language-text&quot;&gt;CSS Keyframes&lt;/code&gt; then it will be a piece of cake for you. It is used to animate the element from current state(in DOM) to the final state(100% keyframe).&lt;/p&gt;
 &lt;p&gt;gsap.to() function takes two arguments.&lt;/p&gt;
@@ -262,7 +776,7 @@ As there are 6 balls, I’ll set the animation duration to be 3s with stagger de
   duration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That’s it! &lt;code class=&quot;language-text&quot;&gt;gsap.to()&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;gsap.fromTo()&lt;/code&gt; lays the foundation to learn the gsap library.&lt;/p&gt;
-&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSAP Cheatsheet]]></title><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/gsap-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/gsap-cheatsheet/</guid><pubDate>Sun, 05 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;yoyo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;true // close to CSS animation &lt;span class=&quot;token property&quot;&gt;direction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; alternate- makes the timeline go back and forth.
+&lt;p&gt;Happy Animating!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSAP Cheatsheet]]></title><link>https://rahuldkjain.github.io/blog/gsap-animation-series/gsap-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/gsap-cheatsheet/</guid><pubDate>Sun, 05 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;yoyo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;true // close to CSS animation &lt;span class=&quot;token property&quot;&gt;direction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; alternate- makes the timeline go back and forth.
 &lt;span class=&quot;token property&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;n // iteration count
 &lt;span class=&quot;token property&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;n // delay of the whole timeline
 &lt;span class=&quot;token property&quot;&gt;repeatDelay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;n // delay in between iteration
@@ -288,7 +802,7 @@ As there are 6 balls, I’ll set the animation duration to be 3s with stagger de
 &lt;span class=&quot;token property&quot;&gt;rotationZ&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 180 // &lt;span class=&quot;token property&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rotateZ&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;180deg&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token property&quot;&gt;perspective&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1000 // &lt;span class=&quot;token property&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;perspective&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;1000px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token property&quot;&gt;transformOrigin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;50% 50%&apos;&lt;/span&gt; // &lt;span class=&quot;token property&quot;&gt;transform-origin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 50% 50%
-&lt;span class=&quot;token property&quot;&gt;boxShadow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0 0 0 0px rgba(130, 195, 3, 0.4)&quot;&lt;/span&gt; // giving shadow to the box&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Animations using gsap(greensock): Inspiration]]></title><description><![CDATA[I was lying on the couch during recent lockdown(in India) scrolling through Instagram feed after watching a rom-com movie. You know nothing…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series.md/0-inspiration/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series.md/0-inspiration/</guid><pubDate>Sat, 04 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was lying on the couch during recent lockdown(in India) scrolling through Instagram feed after watching a rom-com movie. You know nothing is better than Instagram to satisfy the sweet impression that a rom-com leaves. Then suddenly a post got my attention and it goes like this.&lt;/p&gt;
+&lt;span class=&quot;token property&quot;&gt;boxShadow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0 0 0 0px rgba(130, 195, 3, 0.4)&quot;&lt;/span&gt; // giving shadow to the box&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Animations using gsap(greensock): Inspiration]]></title><description><![CDATA[I was lying on the couch during recent lockdown(in India) scrolling through Instagram feed after watching a rom-com movie. You know nothing…]]></description><link>https://rahuldkjain.github.io/blog/gsap-animation-series/0-inspiration/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/gsap-animation-series/0-inspiration/</guid><pubDate>Sat, 04 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was lying on the couch during recent lockdown(in India) scrolling through Instagram feed after watching a rom-com movie. You know nothing is better than Instagram to satisfy the sweet impression that a rom-com leaves. Then suddenly a post got my attention and it goes like this.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;See it’s not me it’s you. You’ve got the time for things which you were crying to do for years and still you are scrolling.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -396,33 +910,7 @@ and much more&lt;/li&gt;
 &lt;h4&gt;22. Open the Clear Browsing Data option&lt;/h4&gt;
 &lt;p&gt;windows/linux: &lt;code class=&quot;language-text&quot;&gt;CTRL&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;SHIFT&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;Delete&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;mac: &lt;code class=&quot;language-text&quot;&gt;Command(⌘)&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;SHIFT&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;Delete&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;I believe that you find it useful too. Keep on memorizing and practicing to become a beast. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bash Scripting Cheatsheet]]></title><description><![CDATA[Shell is common Linux, Unix Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells…]]></description><link>https://rahuldkjain.github.io/blog/bash-scripting-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-scripting-cheatsheet/</guid><pubDate>Tue, 30 Jun 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Shell is common Linux, Unix&lt;/p&gt;
-&lt;p&gt;Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells the hardware what to do&lt;/p&gt;
-&lt;h4&gt;To create a script file&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gedit first.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Commands&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash #to the tell the path of bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# hash is used for comments&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# prints stuff on the screen&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Run the script&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x first.sh &lt;span class=&quot;token comment&quot;&gt;# +x makes the file executable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;or &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;755&lt;/span&gt; first.sh &lt;span class=&quot;token comment&quot;&gt;# 755 is the octal here which is used to manage permissions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;To show which command is giving which output&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash/ -x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# to know the path(run this in the root directory)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Use &lt;code class=&quot;language-text&quot;&gt;\&lt;/code&gt; to make the long commands readable&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; chrome inkspace vlc sublime mediaplayer &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-soundrecorder vscode &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Points to remember&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;BASH is very well documented, don’t hesitate to search the web&lt;/li&gt;
-&lt;li&gt;Always use absolute paths in a script. Eg: /home/Documents/logo.png&lt;/li&gt;
-&lt;li&gt;Write detailed comments&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~&lt;/code&gt; in terminal refers to &lt;strong&gt;home&lt;/strong&gt; directory&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[The Night Out]]></title><description><![CDATA[The story is purely a work of fiction and resemblance to any character, place or thing
+&lt;p&gt;I believe that you find it useful too. Keep on memorizing and practicing to become a beast. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Night Out]]></title><description><![CDATA[The story is purely a work of fiction and resemblance to any character, place or thing
 is just a coincidence. So sit back relax and enjoy…]]></description><link>https://rahuldkjain.github.io/blog/TheNightOut/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/TheNightOut/</guid><pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The story is purely a work of fiction and resemblance to any character, place or thing
 is just a coincidence. So sit back relax and enjoy the ride.&lt;/p&gt;
 &lt;p&gt;In the lap of a beautiful campus filled with trees, lake and leopards, lucky students
