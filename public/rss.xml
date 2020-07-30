@@ -1,4 +1,271 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jul 2020 11:58:12 GMT</lastBuildDate><item><title><![CDATA[Merge a specific change with master, following the master-develop-features git structure]]></title><description><![CDATA[Situation I am currently working on  whose base is off  branch
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jul 2020 03:29:29 GMT</lastBuildDate><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[Grab IP Addresses in logs using regex in grep I want to grab the IP Address from the following line
+ Remove leading whitespaces I want to…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h3&gt;Grab IP Addresses in logs using regex in grep&lt;/h3&gt;
+&lt;p&gt;I want to grab the IP Address from the following line
+&lt;code class=&quot;language-text&quot;&gt;client is accessing /api/register from IP 192.27.82.10&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;ipPattern=&amp;quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&amp;quot; # ip address pattern 
+grep -o $ipPattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Remove leading whitespaces&lt;/h3&gt;
+&lt;p&gt;I want to remove leading whitespaces from the line
+&lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;sed &amp;quot;s/^[ \t]*//&amp;quot; -i file.txt # remove leading whitespaces&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Output file in .csv format&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;tr -s &amp;#39;[:blank:]&amp;#39; &amp;#39;,&amp;#39; &amp;lt;file.txt &amp;gt;file.csv # output file in csv (count, ip)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Grab string starting and ending with using sed&lt;/h3&gt;
+&lt;p&gt;I want to grab the URL from a string starting with “URL” and ending with “Parameter”
+&lt;code class=&quot;language-text&quot;&gt;application client is accessing URL /api/register, Parameters={name: rahul, email: example@gmail.com}&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# Starting word: &amp;quot;URL&amp;quot;
+# Ending word: &amp;quot;, Parameter&amp;quot;
+sed &amp;#39;s/.*URL \(.*\), Parameters.*/\1/&amp;#39; file.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Grab time in hh:mm format from logs&lt;/h3&gt;
+&lt;p&gt;I want to grab time from the string
+&lt;code class=&quot;language-text&quot;&gt;2020-07-30 12:11 AM&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;pattern=&amp;#39;(0[0-9]|1[0-2]):[0-6][0-9]&amp;#39; # pattern to detect time (hh:mm)
+grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What are containers? The industry standard today is to use Virtual Machines (VMs) to run software applications. VMs run applications inside…]]></description><link>https://rahuldkjain.github.io/blog/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg&quot; width=&quot;200&quot; alt=&quot;docker rahuldkjain&quot;&gt;
+&lt;/p&gt;
+# What is docker?
+Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux. The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.
+&lt;h1&gt;What are containers?&lt;/h1&gt;
+&lt;p&gt;The industry standard today is to use Virtual Machines (VMs) to run software applications. VMs run applications inside a guest Operating System, which runs on virtual hardware powered by the server’s host OS.&lt;/p&gt;
+&lt;p&gt;VMs are great at providing full process isolation for applications: there are very few ways a problem in the host operating system can affect the software running in the guest operating system, and vice-versa. But this isolation comes at great cost — the computational overhead spent virtualizing hardware for a guest OS to use is substantial.&lt;/p&gt;
+&lt;p&gt;Containers take a different approach: by leveraging the low-level mechanics of the host operating system, containers provide most of the isolation of virtual machines at a fraction of the computing power.&lt;/p&gt;
+&lt;h2&gt;Install Docker&lt;/h2&gt;
+&lt;p&gt;The best article to install and configure docker
+&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# verify cli can talk to engine
+$ sudo docker version
+
+# most config values of engine
+$ sudo docker info &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Docker Command format&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker &amp;lt;command&amp;gt; &amp;lt;sub-command&amp;gt; (options)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Image Vs Container&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Image&lt;/strong&gt; is the application we want to to run&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Container&lt;/strong&gt; is an instance of that image running as a process&lt;/p&gt;
+&lt;p&gt;We can have many containers running off the same image.&lt;/p&gt;
+&lt;p&gt;Docker’s default image &lt;code class=&quot;language-text&quot;&gt;registry&lt;/code&gt; is called Docker Hub (hub.docker.com)&lt;/p&gt;
+&lt;h2&gt;Creating Docker Container&lt;/h2&gt;
+&lt;p&gt;Will be using simple nginx web server as image&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run --publish 80:80 nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;It downloaded image &lt;code class=&quot;language-text&quot;&gt;nginx&lt;/code&gt; from docker hub.&lt;/li&gt;
+&lt;li&gt;Started a new container from that image.&lt;/li&gt;
+&lt;li&gt;Opened port 80 on the host IP.&lt;/li&gt;
+&lt;li&gt;Routes that traffic to the container IP, port 80.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;open &lt;code class=&quot;language-text&quot;&gt;localhost&lt;/code&gt; in the browser to check nginx&lt;/p&gt;
+&lt;h2&gt;To run it in the background&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run --publish 80:80 --detach nginx
+# or 
+$ sudo docker container run --name mongo -d mongo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;To list containers&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;To stop container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container stop &amp;lt;container-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;No need to put the full &lt;strong&gt;container-id&lt;/strong&gt;. Just put enough so that it becomes unqiue to identify&lt;/p&gt;
+&lt;h2&gt;To start container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container start &amp;lt;container-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;To get the history of all containers&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container ls -a&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Giving name to the container manually&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run --publish 80:80 --detach --name &amp;lt;container-name&amp;gt; &amp;lt;image&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;See the logs&lt;/h2&gt;
+&lt;p&gt;Since, the container running in the background, we can’t see the logs.
+To see it run the command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container logs &amp;lt;container-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;See the Process running inside the container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container top &amp;lt;docker-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Remove containers in a single command&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container rm &amp;lt;container-id&amp;gt; &amp;lt;container-id&amp;gt; ..&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You cannot remove the running container, so you will get an error like this
+&lt;code class=&quot;language-text&quot;&gt;Error response from daemon: You cannot remove a running container f0b6dd04ba5f691115f2e0ad3cc4c506483ec3dd4a52e4c63b9bce23c8cfbba5. Stop the container before attempting removal or force remove&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To force remove the container&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container rm if &amp;lt;container-id&amp;gt; &amp;lt;container-id&amp;gt; ..&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;What happens in &lt;code class=&quot;language-text&quot;&gt;docker container run&lt;/code&gt;?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Looks for that image locally in image cache, doesn’t find anything&lt;/li&gt;
+&lt;li&gt;Then looks in remote image repository (defaults to docker hub)&lt;/li&gt;
+&lt;li&gt;Downloads the latest version by default&lt;/li&gt;
+&lt;li&gt;Creates new container based on that image and prepares to start&lt;/li&gt;
+&lt;li&gt;Gives it a virtual IP on a private network inside docker engine&lt;/li&gt;
+&lt;li&gt;Opens up port 80 on host and forwards to port 80 in container&lt;/li&gt;
+&lt;li&gt;Starts container by using the CMD in the image dockerfile&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Examples of changing the defaults&lt;/h3&gt;
+&lt;h6&gt;change host listening port&lt;/h6&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;8080:80&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;change version of image&lt;/h6&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;nginx:1.11&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;change CMD run on start&lt;/h6&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;-T&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complete command&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run --publish 8080:80 &amp;lt;container-name&amp;gt; -d nginx:1.11 nginx -T&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Containers aren’t just Virtual Machine&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Traditional way of seeing the processes list&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ps aux&lt;/code&gt;
+&lt;code class=&quot;language-text&quot;&gt;ps aux | grep mongo&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;MySQL Container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run -d --name mysql -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Inspect the config of containers&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container inspect&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Live stats of containers&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container stats&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# process list in one container
+$ sudo docker container top
+
+# details of one container config
+$ sudo docker container inspect
+
+# performance stats for all containers
+$ sudo docker container stats&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Run container interactively (in terminal)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run -it --name proxy nginx bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To get out of the shell (it will stop the container)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;root@container-id:/# exit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Ubuntu Container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run -it --name ubuntu ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;To start interactive container again&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container start -ai &amp;lt;container-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Run additional process in running container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo container exec -it &amp;lt;container-name&amp;gt; bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: If you exit from it, it won’t stop the container&lt;/p&gt;
+&lt;h1&gt;Download docker images locally&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker pull &amp;lt;image-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;List existing local docker images&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker image ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Alpine distro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alpine is a small linux distro (~4MB in size)&lt;/li&gt;
+&lt;li&gt;It does not even has bash installed in it&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;but it has sh installed&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker pull alpine
+$ sudo docker container run -it alpine sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# start new container interactively
+$ sudo docker container run -it
+
+# run additional command in existing container
+$ sudo docker container exec -it&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;Docker Network Concepts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Each container connected to a private virtual network &lt;code class=&quot;language-text&quot;&gt;bridge&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Each virtual network routes through NAT Firewall on host IP&lt;/li&gt;
+&lt;li&gt;All containers in a virtual network can talk to each other without -p&lt;/li&gt;
+&lt;li&gt;Best practice is to create a new virtual network for each app&lt;/li&gt;
+&lt;li&gt;“Batteries included, but removable”&lt;/li&gt;
+&lt;li&gt;can attach containers to more than one virtual network (or none)&lt;/li&gt;
+&lt;li&gt;skip virtual networks and use host IP (—net=host)&lt;/li&gt;
+&lt;li&gt;use different docker network drivers to gain new abilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;-p (—publish)&lt;/h2&gt;
+&lt;p&gt;Publishing ports is always in HOST:CONTAINER format&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run -p 80:80 --name webhost -d nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Container port&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container port &amp;lt;container-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It will look like that the container is using the local IP Address but its not.
+To get the  IP Address of the container&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container inspect --format &amp;#39;{{ .NetworkSettings.IPAddress }}&amp;#39; &amp;lt;container-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# Output
+172.17.0.2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But its not same as your IP address&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ ifconfig&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You will see that its different network
+&lt;code class=&quot;language-text&quot;&gt;docker0&lt;/code&gt;: is the virtual network that can talk to your host/network &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We can have many virtual networks for dockers&lt;/li&gt;
+&lt;li&gt;containers in the same virtual network can talk to each other&lt;/li&gt;
+&lt;li&gt;container needs to publish (&lt;strong&gt;-p HOST:CONTAINER&lt;/strong&gt;) to communicate with the host/machine-network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;c1(-p 80:80)/docker0 -&amp;gt; host
+c2/docker0 -&amp;gt; host
+
+c1/docker1 -&amp;gt; host
+c2(-p 8080:80)/docker1 -&amp;gt; host&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;Docker Networks: CLI Management&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# show networks
+$ sudo docker network ls
+
+# inspect a network
+$ sudo docker network inspect
+
+# create a network
+$ sudo docker network create --driver
+
+# attach a network to container
+$ sudo docker network connect
+
+# detach a network from container
+$ sudo docker network disconnect &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;3 Network drivers&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;bridge&lt;/li&gt;
+&lt;li&gt;host&lt;/li&gt;
+&lt;li&gt;none&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;bridge = docker0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;--network bridge&lt;/code&gt;: default docker virtual network which is NAT’ed behind the host IP&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network inspect bridge&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;--network host&lt;/code&gt;: it gains performance by skipping virtual networks but sacrifices security of container mode
+It prevents security boundary of containers&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network inspect host&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Create docker network&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network create &amp;lt;network-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A new network with &lt;code class=&quot;language-text&quot;&gt;bridge&lt;/code&gt; driver as default will be created
+Check: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Run a container in a docker network&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container run -d --name &amp;lt;container-name&amp;gt; --network &amp;lt;network-name&amp;gt; nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Check:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network inspect &amp;lt;network-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A Container can be on different networks at the same time&lt;/p&gt;
+&lt;h2&gt;Connect container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network connect &amp;lt;network-id&amp;gt; &amp;lt;container-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;check: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network inspect &amp;lt;network-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Disconnect container&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network disconnect &amp;lt;network-id&amp;gt; &amp;lt;container-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;check: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker network inspect &amp;lt;network-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;Docker Networks: Default Security&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;create your apps on frontend/backend sit on the same docker network&lt;/li&gt;
+&lt;li&gt;their inter-communication never leaves host&lt;/li&gt;
+&lt;li&gt;All externally exposed ports closed by default&lt;/li&gt;
+&lt;li&gt;You must manually expose via -p, which is better default security&lt;/li&gt;
+&lt;li&gt;This gets even better with Swarn &amp;#x26; Overlay Networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Docker Networks: DNS&lt;/h1&gt;
+&lt;p&gt;How containers find each other?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;understand how DNS is the key to easy inter-container comms&lt;/li&gt;
+&lt;li&gt;see how it works by default with custom networks&lt;/li&gt;
+&lt;li&gt;learn how to use &lt;code class=&quot;language-text&quot;&gt;--link&lt;/code&gt; to enable DNS on default bridge network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Forget IPs&lt;/h4&gt;
+&lt;p&gt;static IP’s and using IP’s for talking to containers is an antipatern. Do your best to avoid it&lt;/p&gt;
+&lt;h4&gt;Docker DNS&lt;/h4&gt;
+&lt;p&gt;Docker daemon has a built-in DNS Server that containers use by default&lt;/p&gt;
+&lt;h4&gt;DNS Default Names&lt;/h4&gt;
+&lt;p&gt;Docker defaults the hostname to the container’s name, but you can also set aliases&lt;/p&gt;
+&lt;p&gt;Check: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container exec -it &amp;lt;container1-name&amp;gt; ping &amp;lt;container2-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If this won’t run and an error like &lt;code class=&quot;language-text&quot;&gt;starting container process caused &amp;quot;exec: \&amp;quot;ping\&amp;quot;: executable file not found in $PATH&amp;quot;: unknown&lt;/code&gt; comes up then it means that ping is not installed in the container&lt;/p&gt;
+&lt;p&gt;Install ping like this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container exec -it &amp;lt;container-name&amp;gt; bash
+apt-get update
+apt-get install iputils-ping&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then run the above command, it will work fine&lt;/p&gt;
+&lt;p&gt;No need to specify specific IP Address. It works absolutely fine with names&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;containers shouldn’t rely on IP’s for inter-communication&lt;/li&gt;
+&lt;li&gt;DNS for friendly names is built-in if you use custom networks&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Merge a specific change with master, following the master-develop-features git structure]]></title><description><![CDATA[Situation I am currently working on  whose base is off  branch
 The tip of  branch got diverged after merging changes by other developers…]]></description><link>https://rahuldkjain.github.io/blog/git/push-specific-changes-to-master/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/git/push-specific-changes-to-master/</guid><pubDate>Thu, 23 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/blog/static/99dfc00e261227963df099ddb2600b1a/50383/push-specific-to-master.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAACNUlEQVQoz1VRW2sTQRjNDxHxQcULFG29PAsi/ghB8VHRF7WPosX0lqa+KOprWxXaaqOopUmaGoySS20qiU02Sy67STezl9ndmd2Z3aQW/NZKofANzHc4Z77vnAkR5nUt/lMi+WZQ6y2iWJx5PRkzaAstkmuSDZkalBPXsw9WqN/vfSrho+Hqpef1q6+ahx5V5rLKLrdHl+WBSfHyi8aVl41TY8KmTDzfN52DYub5v2QystyJJJXoqvLwc6fQtHf6fnILP1lRJhKAb4/HFclwYR2b+UHtiy3Xc7gH7N2d3p++zx1i2XbXsLBpc5dqmmroGncJ0k3VsDTDxBblfg8kgRgO2EY2z4gktWXESygtWE3VqSO6VjUTZQ0qI9qqxYoSSVWMRAl9E+1NmZJgsuNxzy916GBEGJyqXZgWj4xU3xT0ubx+LFw9FxWHpsQzk7WKQm++lcA8EE6MCtdnW5T9E0MSYPtspAa8i0/Fw48rs3ltJqcdD1eHorXz0+LAhPB7m954LZ0eD8Qnx4RrMy2y59nlfkNz7y+17y21h2PtW/NyumatCdbtBXn4QwA+iLUhsGfp7p1FQDp337XhDmZDe7nBDti0FKSpugGBwXMu9zQDK6qGdIMQSpnPOEea3lV14BDH+S+GBUzKsuX6+9VsLJXPlhuYMmQ66Y3qYvzHx6/rxZpMmC8hM5krL6x8/5IpVloIkND+p2HiqibtYoIJ20MM4iJMESamw2AApKPbDrRAsx0OhL+tYSTVDF2fzAAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;

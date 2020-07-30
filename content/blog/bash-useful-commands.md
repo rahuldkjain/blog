@@ -2,9 +2,11 @@
 title: 'Bash Useful Commands'
 date: 2020-07-30 16:21:13
 category: 'shell-sripting'
-description: ''
+description: 'Grab IP Addresses in logs using regex in grep, remove leading whitespaces, output file in .csv format, grab string starting and ending with using sed, grab time in hh:mm format from logs'
 draft: false
 ---
+This article lists useful bash shell-scripting commands which can be used filtering out data from log files.
+
 
 ### Grab IP Addresses in logs using regex in grep
 I want to grab the IP Address from the following line
