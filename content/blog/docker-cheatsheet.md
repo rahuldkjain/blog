@@ -9,6 +9,7 @@ draft: false
 <p align="center">
 <img src="https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" width=200 alt="docker rahuldkjain" />
 </p>
+
 # What is docker?
 Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux. The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.
 
@@ -21,6 +22,7 @@ Containers take a different approach: by leveraging the low-level mechanics of t
 
 ## Install Docker
 The best article to install and configure docker
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 
 
@@ -117,7 +119,7 @@ $ sudo docker container rm if <container-id> <container-id> ..
 ```
 
 
-# What happens in `docker container run`?
+# What happens in docker container run?
 1. Looks for that image locally in image cache, doesn't find anything
 2. Then looks in remote image repository (defaults to docker hub)
 3. Downloads the latest version by default
