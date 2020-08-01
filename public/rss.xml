@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jul 2020 03:33:54 GMT</lastBuildDate><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jul 2020 03:37:11 GMT</lastBuildDate><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
 &lt;h3&gt;Grab IP Addresses in logs using regex in grep&lt;/h3&gt;
-&lt;p&gt;I want to grab the IP Address from the following line
-&lt;code class=&quot;language-text&quot;&gt;client is accessing /api/register from IP 192.27.82.10&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I want to grab the IP Address from the following line&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;client is accessing /api/register from IP 192.27.82.10&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;ipPattern=&amp;quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&amp;quot; # ip address pattern 
 grep -o $ipPattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Remove leading whitespaces&lt;/h3&gt;
-&lt;p&gt;I want to remove leading whitespaces from the line
-&lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I want to remove leading whitespaces from the line&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;20, /api/follow&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;sed &amp;quot;s/^[ \t]*//&amp;quot; -i file.txt # remove leading whitespaces&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Output file in .csv format&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;tr -s &amp;#39;[:blank:]&amp;#39; &amp;#39;,&amp;#39; &amp;lt;file.txt &amp;gt;file.csv # output file in csv (count, ip)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Grab string starting and ending with using sed&lt;/h3&gt;
-&lt;p&gt;I want to grab the URL from a string starting with “URL” and ending with “Parameter”
-&lt;code class=&quot;language-text&quot;&gt;application client is accessing URL /api/register, Parameters={name: rahul, email: example@gmail.com}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I want to grab the URL from a string starting with “URL” and ending with “Parameter”&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;application client is accessing URL /api/register, Parameters={name: rahul, email: example@gmail.com}&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# Starting word: &amp;quot;URL&amp;quot;
 # Ending word: &amp;quot;, Parameter&amp;quot;
 sed &amp;#39;s/.*URL \(.*\), Parameters.*/\1/&amp;#39; file.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Grab time in hh:mm format from logs&lt;/h3&gt;
-&lt;p&gt;I want to grab time from the string
-&lt;code class=&quot;language-text&quot;&gt;2020-07-30 12:11 AM&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I want to grab time from the string&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;2020-07-30 12:11 AM&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;pattern=&amp;#39;(0[0-9]|1[0-2]):[0-6][0-9]&amp;#39; # pattern to detect time (hh:mm)
 grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What is docker? Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers…]]></description><link>https://rahuldkjain.github.io/blog/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg&quot; width=&quot;200&quot; alt=&quot;docker rahuldkjain&quot;&gt;
@@ -81,7 +81,7 @@ To see it run the command&lt;/p&gt;
 &lt;code class=&quot;language-text&quot;&gt;Error response from daemon: You cannot remove a running container f0b6dd04ba5f691115f2e0ad3cc4c506483ec3dd4a52e4c63b9bce23c8cfbba5. Stop the container before attempting removal or force remove&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;To force remove the container&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo docker container rm if &amp;lt;container-id&amp;gt; &amp;lt;container-id&amp;gt; ..&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;What happens in &lt;code class=&quot;language-text&quot;&gt;docker container run&lt;/code&gt;?&lt;/h1&gt;
+&lt;h1&gt;What happens in docker container run?&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Looks for that image locally in image cache, doesn’t find anything&lt;/li&gt;
 &lt;li&gt;Then looks in remote image repository (defaults to docker hub)&lt;/li&gt;

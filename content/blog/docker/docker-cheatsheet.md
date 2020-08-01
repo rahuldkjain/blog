@@ -7,7 +7,7 @@ draft: false
 ---
 
 <p align="center">
-<img src="https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" width=200 alt="docker rahuldkjain" />
+<img src="https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" width=100 alt="docker rahuldkjain" />
 </p>
 
 # What is docker?
