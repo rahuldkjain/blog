@@ -1,4 +1,151 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jul 2020 03:37:11 GMT</lastBuildDate><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Aug 2020 12:48:53 GMT</lastBuildDate><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[What is docker compose? Docker compose is a tool for defining & running multi-container docker applications use yaml files to configure…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-compose/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-compose/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is docker compose?&lt;/h1&gt;
+&lt;p&gt;Docker compose is a tool for defining &amp;#x26; running multi-container docker applications&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use yaml files to configure application services (&lt;strong&gt;docker-compose.yml&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;can start all services with a single command (&lt;strong&gt;docker compose up&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;can stop all services with a single command (&lt;strong&gt;docker compose down&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;can scale up selected services when required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Step 1: Install docker compose&lt;/h4&gt;
+&lt;p&gt;Docker Desktop for Mac and Windows, Docker Toolbox already include Compose along with other Docker apps, so Mac &amp;#x26; Windows users do not need to install Compose separately.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For Linux&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ sudo curl -L &amp;quot;https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)&amp;quot; -o /usr/local/bin/docker-compose
+
+$ sudo chmod +x /usr/local/bin/docker-compose&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Check if installed successfully&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;Still unable to install docker-compose?&lt;/h5&gt;
+&lt;p&gt;Follow the tutorial: &lt;a href=&quot;https://docs.docker.com/compose/install/&quot;&gt;https://docs.docker.com/compose/install/&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Step 2: Create docker compose file at any location&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ touch docker-compose.yml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Enter the following instructions in &lt;code class=&quot;language-text&quot;&gt;docker-compose.yml&lt;/code&gt; file.
+This will be used to create services(web and database in this case)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;3&quot;&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;web&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx
+    
+    &lt;span class=&quot;token key atrule&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; redis&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 3: Check the validity of the compose file&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# move into the compose file directory and run the command
+$ docker-compose config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If any error occurs, please refer: &lt;a href=&quot;https://docs.docker.com/compose/compose-file/&quot;&gt;https://docs.docker.com/compose/compose-file/&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Step 4: Run docker-compose.yml file&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose up&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It will start all the services in one command.&lt;/p&gt;
+&lt;p&gt;To start in detached mode&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 5: Check current containers&lt;/h4&gt;
+&lt;p&gt;List all containers using this command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker ps&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 6: Stop all services&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose down&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It will stop all the running services in one command&lt;/p&gt;
+&lt;h4&gt;Step 7: Scaling services&lt;/h4&gt;
+&lt;p&gt;You can scale up any service using this command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose up -d --scale &amp;lt;service-key&amp;gt;=&amp;lt;number-of-instance&amp;gt;
+
+# Example
+$ docker-compose up -d --scale database=4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Dockerfile]]></title><description><![CDATA[What is Dockerfile? Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-file/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-file/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is Dockerfile?&lt;/h1&gt;
+&lt;p&gt;Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation.&lt;/p&gt;
+&lt;p&gt;Let’s understand this using following steps.&lt;/p&gt;
+&lt;h4&gt;Step 1: Create a file named Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; Dockerfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 2: Add instructions in Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# getting base image&lt;/span&gt;
+FROM alpine
+
+&lt;span class=&quot;token comment&quot;&gt;# MAINTAINER rahul &amp;lt;rahuldkjain@gmail.com&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# the above command is deprecated, so will use LABEL instead&lt;/span&gt;
+LABEL &lt;span class=&quot;token assign-left variable&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;rahuldkjain@gmail.com&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes during the build of the image&lt;/span&gt;
+RUN &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HI my name is rahul jain&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes only when you create container out of the image&lt;/span&gt;
+CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;echo&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;Hello World from my first docker image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 3: build docker file to create the image&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build &amp;lt;file-directory&amp;gt;
+
+# Example
+# . means the same directory
+$ docker build .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to give image-name or tag-name&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build -t myImage1:1.0 &amp;lt;file-directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 4: See docker images&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 5: Run Image to create container&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker run &amp;lt;image-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reference: &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Volume]]></title><description><![CDATA[Docker Volumes Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers. Data is stored inside the…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-volumes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-volumes/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;Docker Volumes&lt;/h1&gt;
+&lt;p&gt;Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers.&lt;/p&gt;
+&lt;p&gt;Data is stored inside the container on a writable container layer by default. It gets deleted on deleting the container. But in enterprise applications we do not want to delete the data.&lt;/p&gt;
+&lt;p&gt;A container’s writable layer doesn’t persist when that container is no longer running.&lt;/p&gt;
+&lt;p&gt;A container’s writable layer is tightly coupled to the host machine where the container is running. You can’t easily move the data somewhere else.&lt;/p&gt;
+&lt;h2&gt;Use of Volumes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;decoupling container from storage&lt;/li&gt;
+&lt;li&gt;share volume(storage/data) among different containers&lt;/li&gt;
+&lt;li&gt;attach volume to container&lt;/li&gt;
+&lt;li&gt;on deleting container volume does not delete&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;To get info about docker volume&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# get information
+$ docker volume&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Create docker volume&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create volume
+$ docker volume create &amp;lt;volume-name&amp;gt;
+
+# Example
+$ docker volume create vol1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;List docker volumes&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# list the volumes
+$ docker volume ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Inspect docker volume&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# inspect docker volume
+$ docker volume inspect &amp;lt;volume-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Remove docker volume&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# remove the volume
+$ docker volume rm &amp;lt;volume-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# remove all unused volumes
+$ docker volume prune
+
+# and press Y in prompt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Using volume in docker containers&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# assigning volume to the container
+$ docker container run -d --name &amp;lt;container-name&amp;gt; -v &amp;lt;volume-name&amp;gt;:&amp;lt;path-to-store-data&amp;gt; &amp;lt;image&amp;gt;
+
+# Example 
+$ docker container run -d --name MyNginx1 -v vol1:/var/nginx_home -p 8080:8080 nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;bind mount&lt;/h4&gt;
+&lt;p&gt;It is used to bind host machine directory with container directory&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# mount physical directory to the container
+$ docker container run -d --name &amp;lt;container-name&amp;gt; -v &amp;lt;directory-path&amp;gt;:&amp;lt;path-to-store-data&amp;gt; &amp;lt;image&amp;gt;
+
+# Example 
+$ docker container run -d --name MyNginx1 -v /home/rahul:/var/nginx_home -p 8080:8080 nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The file or directory does not need to exist on the docker host already. It is created on demand if it does not exist.
+We can use physical location instead of volume too to store the data&lt;/p&gt;
+&lt;h2&gt;More about docker volumes&lt;/h2&gt;
+&lt;p&gt;Docker has 2 options for containers to store files in the host machine, so that the file are persisted even after the container stops&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Volumes&lt;/li&gt;
+&lt;li&gt;Bind Mounts&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Volumes are stored in a part of the filesystem which is managed by Docker.
+Non-docker processes should not modify this part of the filesystem.&lt;/p&gt;
+&lt;p&gt;Bind mounts may be stored anywhere on the host system.
+Non-docker processes on the Docker host or a Docker Container can modify them any time.&lt;/p&gt;
+&lt;p&gt;In bind mounts, the file or directory is referenced by its full path on the host machine.&lt;/p&gt;
+&lt;p&gt;Volumes are the best way to persist data in docker.
+Volumes are managed by docker and are isolated from the core functionality of the host machine.&lt;/p&gt;
+&lt;p&gt;A given volume can be mounted into multiple containers simultaneously.&lt;/p&gt;
+&lt;p&gt;When no running container is using a volume, the volume is still available to Docker and is not removed automatically. You can remove unused volumes using &lt;code class=&quot;language-text&quot;&gt;docker volume prune&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;When you mount a volume, it may be named or anonymous.&lt;/p&gt;
+&lt;p&gt;Anonymous volumes are not given an explicit name when they are first mounted into a container.&lt;/p&gt;
+&lt;p&gt;Volumes also support the use of volume drivers, which allow you to store your data on remote hosts or cloud providers, among other possibilities.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
 &lt;h3&gt;Grab IP Addresses in logs using regex in grep&lt;/h3&gt;
 &lt;p&gt;I want to grab the IP Address from the following line&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;client is accessing /api/register from IP 192.27.82.10&lt;/code&gt;&lt;/p&gt;
@@ -20,8 +167,8 @@ sed &amp;#39;s/.*URL \(.*\), Parameters.*/\1/&amp;#39; file.txt&lt;/code&gt;&lt;
 &lt;p&gt;I want to grab time from the string&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;2020-07-30 12:11 AM&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;pattern=&amp;#39;(0[0-9]|1[0-2]):[0-6][0-9]&amp;#39; # pattern to detect time (hh:mm)
-grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What is docker? Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers…]]></description><link>https://rahuldkjain.github.io/blog/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg&quot; width=&quot;200&quot; alt=&quot;docker rahuldkjain&quot;&gt;
+grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What is docker? Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg&quot; width=&quot;100&quot; alt=&quot;docker rahuldkjain&quot;&gt;
 &lt;/p&gt;
 &lt;h1&gt;What is docker?&lt;/h1&gt;
 &lt;p&gt;Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux. The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.&lt;/p&gt;

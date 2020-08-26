@@ -1,28 +1,31 @@
 ---
-title: 'How Github profile README Generator tool reached 200+ ⭐️ on github'
+title: 'How to gain 1000+ stars🌟 on an open-source project quickly?'
 date: 2020-07-20 16:21:13
 category: 'project'
 description: 'generate github profile readme with latest add-ons like visitors count, shields, dev icons, github stats, etc with cool UI.'
 draft: false
 ---
 
-Github profile README generator tool reached 200+ ⭐️ in less than 36 hours 🥳.
+My open-source project Github profile README generator reached 1000+ ⭐️ in less than 45 days 🥳.
 
-It is currently trending on Github under javascript category🚀
+It was trending on Github under javascript category🚀🚀
 ![github-profile-readme-generator](https://dev-to-uploads.s3.amazonaws.com/i/f6wxs4wo9fxb4bctrf0o.png)
 
-I was scrolling the twitter feed and got the idea of this tool. Never thought that so many developers will find it useful.
+I was scrolling the twitter feed and listening to **Blinding Lights** when I got the idea of this tool. Never thought that so many developers will find it useful.
 
 The open-source community is amazing. The project on GitHub received two pull requests without even opening an issue.
 
-**Thorsten Lünborg**, a member of the Vuejs core team even starred the repository🙇.
+- [Nat Friedman](https://twitter.com/natfriedman?lang=en) **CEO of GitHub** followed me on twitter.
+- [Thorsten Lünborg](https://twitter.com/linus_borg?lang=en), a member of the Vuejs core team even starred the repository🙇.
+
 ![github-profile-readme-generator](https://dev-to-uploads.s3.amazonaws.com/i/659mdvod4dq11bjmckt3.png)
 
 ## How I achieved it?
 Now the question is How I did it. The strategy I followed is a mix of a few steps which are as follows
 
 #### 1. Make project README visually interesting
-Project README on Github puts the first impression of the project. To win the battle i.e to gain attention I designed a visually interesting README using **gifs**, **badges**, and **emojis**. It looks like this
+Project README on Github puts the first impression of the project. To win the battle i.e to gain attention I designed a visually interesting README using **gifs**, **badges**, and **emojis**. It looks like this.
+
 ![github-profile-readme-generator README](https://dev-to-uploads.s3.amazonaws.com/i/3eelbp0qua074rnu2det.png)
 
 #### 2. Make developers aware on **dev.to**
