@@ -35,5 +35,7 @@ I've posted a separate blog on [how to promote your project online?](https://rah
 
 I am telling you that having an amazing open-source project is an amazing feeling for developers like me. So don't think and wait, just execute it. Let the world know about your crazy ideas, don't hesitate.
 
+![happy](https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif)
+
 Wish you very good luck on your upcoming journey.
 Happy Coding 👨‍💻👩‍💻!
