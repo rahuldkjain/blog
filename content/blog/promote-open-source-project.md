@@ -18,7 +18,7 @@ I was seeing a lot of addons to GitHub profile README coming up, so I came up wi
 
 I brainstormed several ideas on how should make it simple, useful, and elegant for users.
 
-![best idea](https://media.giphy.com/media/BfBqQV47hLFh6/giphy.gif)
+![best idea](https://media.giphy.com/media/ame1y0MJNqUPC/giphy.gif)
 
 Once you get the holistic picture of what you are thinking, pick the best one, and freeze it.
 
@@ -31,6 +31,7 @@ Almost every one of us usually loses interest to develop the project after comin
 This happened to me too and said it to myself that **Who cares?**. Yep, it's true who cares.
 
 So stop thinking about it and just execute it. It doesn't matter whether people will like it or not, the experience of going from an idea in the mind to the idea online is simply amazing.
+
 
 ## 3. Promote 🚀
 Let the world know about the masterpiece you've developed. To reach a wider audience for feedback, promotion is very important. This step will make you realize the power of platforms like **DEV**, **Reddit**, **Twitter**, and **YouTube**, etc.
