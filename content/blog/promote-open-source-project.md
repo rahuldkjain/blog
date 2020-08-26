@@ -1,6 +1,6 @@
 ---
 title: 'How to start and promote your open-source project?'
-date: 2020-07-20 16:21:13
+date: 2020-08-26 16:21:13
 category: 'project'
 description: 'Steps that I followed to start and promote my project that got 1000+ stars on github'
 draft: false
