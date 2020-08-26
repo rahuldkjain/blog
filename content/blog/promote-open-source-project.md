@@ -17,6 +17,7 @@ Now you have the IDEA, start drawing how it should work. Brainstorm every possib
 I was seeing a lot of addons to GitHub profile README coming up, so I came up with the idea of [GitHub Profile README Generator](https://github.com/rahuldkjain/github-profile-readme-generator).
 
 I brainstormed several ideas on how should make it simple, useful, and elegant for users.
+
 ![best idea](https://media.giphy.com/media/BfBqQV47hLFh6/giphy.gif)
 
 Once you get the holistic picture of what you are thinking, pick the best one, and freeze it.
@@ -24,7 +25,9 @@ Once you get the holistic picture of what you are thinking, pick the best one, a
 
 ## 2. Execute 👨‍💻
 Almost every one of us usually loses interest to develop the project after coming up with an IDEA. Is it really worth it? People really gonna use it or am I just wasting my time? etc questions like this start haunting the mind.
+
 ![confused](https://media.giphy.com/media/ZQrVQtav6gnzG/giphy.gif)
+
 This happened to me too and said it to myself that **Who cares?**. Yep, it's true who cares.
 
 So stop thinking about it and just execute it. It doesn't matter whether people will like it or not, the experience of going from an idea in the mind to the idea online is simply amazing.
