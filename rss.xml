@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Aug 2020 10:36:43 GMT</lastBuildDate><item><title><![CDATA[How to start and promote your open-source project?]]></title><description><![CDATA[I was listening to Blinding Lights by The Weeknd when I got the idea of an open-source project. In just 45 days the project got 1000+ stars…]]></description><link>https://rahuldkjain.github.io/blog/promote-open-source-project/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/promote-open-source-project/</guid><pubDate>Wed, 26 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was listening to &lt;em&gt;Blinding Lights by The Weeknd&lt;/em&gt; when I got the idea of an open-source project. In just 45 days the project got &lt;strong&gt;1000+ stars&lt;/strong&gt;, &lt;strong&gt;120+ forks&lt;/strong&gt;, and &lt;strong&gt;30+ PRs&lt;/strong&gt; on GitHub. It received sponsorships from two experienced developers. Google Analytics reads that it got 10,000+ visitors so far. Got featured in several YouTube videos and blogs.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Nov 2020 04:53:44 GMT</lastBuildDate><item><title><![CDATA[How to start and promote your open-source project?]]></title><description><![CDATA[I was listening to Blinding Lights by The Weeknd when I got the idea of an open-source project. In just 45 days the project got 1000+ stars…]]></description><link>https://rahuldkjain.github.io/blog/promote-open-source-project/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/promote-open-source-project/</guid><pubDate>Wed, 26 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was listening to &lt;em&gt;Blinding Lights by The Weeknd&lt;/em&gt; when I got the idea of an open-source project. In just 45 days the project got &lt;strong&gt;1000+ stars&lt;/strong&gt;, &lt;strong&gt;120+ forks&lt;/strong&gt;, and &lt;strong&gt;30+ PRs&lt;/strong&gt; on GitHub. It received sponsorships from two experienced developers. Google Analytics reads that it got 10,000+ visitors so far. Got featured in several YouTube videos and blogs.&lt;/p&gt;
 &lt;p&gt;I believe that sharing the process followed by me will help you to get the gist of the same. Go through the following steps sequentially to understand the whole process.&lt;/p&gt;
 &lt;h2&gt;1. Wireframe the IDEA 🖊&lt;/h2&gt;
 &lt;p&gt;Take a pen &amp;#x26; a paper and just draw whatever comes in your mind related to the idea. Don’t worry about your drawing ability and just jot it down. It will give you more realistic view about the idea.&lt;/p&gt;
@@ -18,7 +18,39 @@ I’ve posted a separate blog on &lt;a href=&quot;https://rahuldkjain.github.io/
 &lt;p&gt;I am telling you that having a cool open-source project is an amazing feeling. So don’t think and wait, just execute it. Let the world know about your crazy ideas, don’t hesitate.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif&quot; alt=&quot;happy&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Wish you very good luck on your upcoming journey.&lt;/p&gt;
-&lt;p&gt;Happy Coding 👨‍💻👩‍💻!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[What is docker compose? Docker compose is a tool for defining & running multi-container docker applications use yaml files to configure…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-compose/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-compose/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is docker compose?&lt;/h1&gt;
+&lt;p&gt;Happy Coding 👨‍💻👩‍💻!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dockerfile]]></title><description><![CDATA[What is Dockerfile? Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-file/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-file/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is Dockerfile?&lt;/h1&gt;
+&lt;p&gt;Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation.&lt;/p&gt;
+&lt;p&gt;Let’s understand this using following steps.&lt;/p&gt;
+&lt;h4&gt;Step 1: Create a file named Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; Dockerfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 2: Add instructions in Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# getting base image&lt;/span&gt;
+FROM alpine
+
+&lt;span class=&quot;token comment&quot;&gt;# MAINTAINER rahul &amp;lt;rahuldkjain@gmail.com&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# the above command is deprecated, so will use LABEL instead&lt;/span&gt;
+LABEL &lt;span class=&quot;token assign-left variable&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;rahuldkjain@gmail.com&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes during the build of the image&lt;/span&gt;
+RUN &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HI my name is rahul jain&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes only when you create container out of the image&lt;/span&gt;
+CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;echo&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;Hello World from my first docker image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 3: build docker file to create the image&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build &amp;lt;file-directory&amp;gt;
+
+# Example
+# . means the same directory
+$ docker build .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to give image-name or tag-name&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build -t myImage1:1.0 &amp;lt;file-directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 4: See docker images&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 5: Run Image to create container&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker run &amp;lt;image-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reference: &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[What is docker compose? Docker compose is a tool for defining & running multi-container docker applications use yaml files to configure…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-compose/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-compose/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is docker compose?&lt;/h1&gt;
 &lt;p&gt;Docker compose is a tool for defining &amp;#x26; running multi-container docker applications&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;use yaml files to configure application services (&lt;strong&gt;docker-compose.yml&lt;/strong&gt;)&lt;/li&gt;
@@ -67,39 +99,7 @@ $ docker-compose config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose up -d --scale &amp;lt;service-key&amp;gt;=&amp;lt;number-of-instance&amp;gt;
 
 # Example
-$ docker-compose up -d --scale database=4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Dockerfile]]></title><description><![CDATA[What is Dockerfile? Dockerfile is a text file with instructions to build image.
-In simpler terms it is automation of docker image creation…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-file/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-file/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is Dockerfile?&lt;/h1&gt;
-&lt;p&gt;Dockerfile is a text file with instructions to build image.
-In simpler terms it is automation of docker image creation.&lt;/p&gt;
-&lt;p&gt;Let’s understand this using following steps.&lt;/p&gt;
-&lt;h4&gt;Step 1: Create a file named Dockerfile&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; Dockerfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 2: Add instructions in Dockerfile&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# getting base image&lt;/span&gt;
-FROM alpine
-
-&lt;span class=&quot;token comment&quot;&gt;# MAINTAINER rahul &amp;lt;rahuldkjain@gmail.com&gt;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# the above command is deprecated, so will use LABEL instead&lt;/span&gt;
-LABEL &lt;span class=&quot;token assign-left variable&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;rahuldkjain@gmail.com&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# it executes during the build of the image&lt;/span&gt;
-RUN &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HI my name is rahul jain&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rahul&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# it executes only when you create container out of the image&lt;/span&gt;
-CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;echo&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;Hello World from my first docker image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 3: build docker file to create the image&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build &amp;lt;file-directory&amp;gt;
-
-# Example
-# . means the same directory
-$ docker build .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If you want to give image-name or tag-name&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build -t myImage1:1.0 &amp;lt;file-directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 4: See docker images&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 5: Run Image to create container&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker run &amp;lt;image-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Reference: &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Volume]]></title><description><![CDATA[Docker Volumes Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers. Data is stored inside the…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-volumes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-volumes/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;Docker Volumes&lt;/h1&gt;
+$ docker-compose up -d --scale database=4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Volume]]></title><description><![CDATA[Docker Volumes Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers. Data is stored inside the…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-volumes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-volumes/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;Docker Volumes&lt;/h1&gt;
 &lt;p&gt;Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers.&lt;/p&gt;
 &lt;p&gt;Data is stored inside the container on a writable container layer by default. It gets deleted on deleting the container. But in enterprise applications we do not want to delete the data.&lt;/p&gt;
 &lt;p&gt;A container’s writable layer doesn’t persist when that container is no longer running.&lt;/p&gt;
@@ -187,7 +187,55 @@ sed &amp;#39;s/.*URL \(.*\), Parameters.*/\1/&amp;#39; file.txt&lt;/code&gt;&lt;
 &lt;p&gt;I want to grab time from the string&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;2020-07-30 12:11 AM&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;pattern=&amp;#39;(0[0-9]|1[0-2]):[0-6][0-9]&amp;#39; # pattern to detect time (hh:mm)
-grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What is docker? Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
+grep -o $pattern logFile.log&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Awesome FrontendMasters course resources]]></title><description><![CDATA[I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and…]]></description><link>https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and all of them are created by top-notch professionals around the globe. Beautifully designed course material (documentation, code, and slides) is the cherry on top.&lt;/p&gt;
+&lt;p&gt;I learned Reactjs, Nextjs, SVG Animations, and React-Native from FrontendMasters courses, and I always refer to the course documentation instead of official documentation whenever needed. One day when I got stuck with &lt;em&gt;how to do dynamic routing in nextjs&lt;/em&gt;, I referred to the course documentation of &lt;strong&gt;Intro to Nextjs course by Scott Moss&lt;/strong&gt; and got the answer in just a couple of seconds. &lt;/p&gt;
+&lt;p&gt;There is no need to go through the course videos if you are comfortable with reading the documentation. Although the courses are paid, you can refer to the course material (documentation, slides, and code) for free.&lt;/p&gt;
+&lt;p&gt;My membership is about to expire so I collected all the course resources and created an awesome list to help developers like me to get access to these gems. &lt;/p&gt;
+&lt;h4&gt;Introduction to Next.js&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://hendrixer.github.io/nextjs-course/&quot;&gt;Introduction to Next.js&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/Hendrixer/nextjs-course-app&quot;&gt;nextjs-course-app&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Getting The Front End Job&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://getting-the-front-end-job.surge.sh/&quot;&gt;Getting The Front End Job&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/jeromehardaway/hot-to-get-front-end-job&quot;&gt;hot-to-get-front-end-job&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/jeromehardaway&quot;&gt;Jerome Hardaway&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Introduction to Vue.js&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://github.com/sdras/intro-to-vue#slides&quot;&gt;Introduction to Vue.js&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/sdras/intro-to-vue&quot;&gt;intro-to-vue&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/sdras&quot;&gt;Sarah Drasner&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Introduction to Svelte&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://svelte-workshop.netlify.app/introduction/&quot;&gt;Introduction to Svelte&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/Rich-Harris/svelte-workshop&quot;&gt;svelte-workshop&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/Rich-Harris&quot;&gt;Rich Harris&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Angular 9 Fundamentals&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://static.frontendmasters.com/resources/2020-05-28-angular-9/angular-9-fundamentals.pdf&quot;&gt;Angular 9 Fundamentals&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/onehungrymind/angular9-fundamentals-workshop&quot;&gt;angular9-fundamentals-workshop&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/onehungrymind&quot;&gt;One Hungry Mind&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;React Native: Building mobile applications&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://kadikraman.github.io/react-native-v2/&quot;&gt;React Native: Building mobile applications&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/kadikraman/react-native-v2&quot;&gt;react-native-v2&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/kadikraman&quot;&gt;Kadi Kraman&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;practicalDL&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/Vadikus&quot;&gt;Vadim Karpusenko&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Advanced GraphQL&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1DaTDx2Jdolkws2xPx44ee6WuQYMiIAyaaEmN-IBaW1s/edit#slide=id.p&quot;&gt;Advanced GraphQL&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/FrontendMasters/advanced-gql-v2&quot;&gt;advanced-gql-v2&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Full Stack for Front-End Engineers&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1Mvf_rOFz1wZeH1irajJqhRQgzid7BkqJBd8wigpz39M/edit&quot;&gt;Full Stack for Front-End Engineers&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/young/Full-Stack-For-Frontend&quot;&gt;Full-Stack-For-Frontend&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/young&quot;&gt;Jem Young&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Visual Studio Code Can Do That?&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://burkeholland.gitbook.io/vs-code-can-do-that/&quot;&gt;Visual Studio Code Can Do That?&lt;/a&gt;
+Repository: &lt;a href=&quot;https://github.com/burkeholland/workshop-vs-code-can-do-that&quot;&gt;workshop-vs-code-can-do-that&lt;/a&gt;
+Instructor: &lt;a href=&quot;https://github.com/burkeholland&quot;&gt;Burke Holland&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are &lt;strong&gt;75+&lt;/strong&gt; such course resources in this list and it’s not a good idea to make this article big. &lt;/p&gt;
+&lt;p&gt;You can find the list of all courses materials in the below &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt; list on GitHub&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I hope you find the list useful and please do share with your developer friends.&lt;/p&gt;
+&lt;p&gt;Happy Coding!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Cheatsheet]]></title><description><![CDATA[What is docker? Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-cheatsheet/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg&quot; width=&quot;100&quot; alt=&quot;docker rahuldkjain&quot;&gt;
 &lt;/p&gt;
 &lt;h1&gt;What is docker?&lt;/h1&gt;
@@ -485,67 +533,7 @@ The tip of &lt;code class=&quot;language-text&quot;&gt;develop&lt;/code&gt; bran
 &lt;p&gt;To bring &lt;code class=&quot;language-text&quot;&gt;develop&lt;/code&gt; to its initial state&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git reset HEAD^&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Variables]]></title><description><![CDATA[Bash Path(Shabang or Hashbang) #!/bin/bash also know as  or , is the neccessary command to run the bash script. It is basically the path to…]]></description><link>https://rahuldkjain.github.io/blog/bash/1-variables/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/1-variables/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Bash Path(Shabang or Hashbang)&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;#!/bin/bash&lt;/strong&gt; also know as &lt;code class=&quot;language-text&quot;&gt;shabang&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;hashbang&lt;/code&gt;, is the neccessary command to run the bash script. It is basically the path to bash.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Sometimes when the number of commands are large enough, it becomes difficult to understand which command is doing what. So by adding &lt;code class=&quot;language-text&quot;&gt;-x&lt;/code&gt; after &lt;code class=&quot;language-text&quot;&gt;#!/bin/bash&lt;/code&gt;, the commands will be visible along with the result in the output&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash -x&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# + echo &apos;Hello World!&apos;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Variables&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# give no space before and after of &apos;=&apos;&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;declare&lt;/span&gt; -r &lt;span class=&quot;token assign-left variable&quot;&gt;MIN&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# declare constant variable&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# print variable&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;**2 &lt;span class=&quot;token comment&quot;&gt;# shell takes everything as string, so it will output: 5**2&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# $(()) is used for mathematical calculation&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;MIN&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;MIN&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num1&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 5&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 5**2&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 11&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 25&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Shorthand property&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$rand&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand++ = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;++rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand-- = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;--rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 9&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# rand++ = 9&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# ++rand = 11&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# rand-- = 11&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# --rand = 9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# use python to add floats&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.2&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4.3&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num5&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;python -c &lt;span class=&quot;token string&quot;&gt;&quot;print(&lt;span class=&quot;token variable&quot;&gt;$num3&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num4&lt;/span&gt;)&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num5&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 5.5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# cat prints a file or any string pass to it&lt;/span&gt;
-cat&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; END
-This text prints many line
-etc lorem ipsum END
-
-&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# This text prints many line&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# etc lorem ipsum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[What is bash? What is Shell Scripting]]></title><description><![CDATA[Bash is a shell program designed to listen to my commands and do what I tell it to.  Bash is a simple tool in a vast toolbox of programs…]]></description><link>https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Bash is a shell program designed to listen to my commands and do what I tell it to. &lt;/p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[What is bash? What is Shell Scripting]]></title><description><![CDATA[Bash is a shell program designed to listen to my commands and do what I tell it to.  Bash is a simple tool in a vast toolbox of programs…]]></description><link>https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/0-what-is-bash-scripting/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Bash is a shell program designed to listen to my commands and do what I tell it to. &lt;/p&gt;
 &lt;p&gt;Bash is a simple tool in a vast toolbox of programs that lets me interact with my system using a text-based interface. &lt;/p&gt;
 &lt;p&gt;The bash shell is a binary program that runs either interactively or non-interactively, usually in a text-based interface provided by a terminal emulator program.&lt;/p&gt;
 &lt;p&gt;A bash command is the smallest unit of code that bash can independently execute. While executing a command, you cannot interact with the bash shell. As soon as bash is done executing a command, it returns to you for the next command to execute. &lt;/p&gt;
@@ -607,7 +595,106 @@ etc lorem ipsum END
 &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;q&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
     &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Value seperator in strings]]></title><link>https://rahuldkjain.github.io/blog/bash/12-value-seperator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/12-value-seperator/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Variables]]></title><description><![CDATA[Bash Path(Shabang or Hashbang) #!/bin/bash also know as  or , is the neccessary command to run the bash script. It is basically the path to…]]></description><link>https://rahuldkjain.github.io/blog/bash/1-variables/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/1-variables/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Bash Path(Shabang or Hashbang)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;#!/bin/bash&lt;/strong&gt; also know as &lt;code class=&quot;language-text&quot;&gt;shabang&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;hashbang&lt;/code&gt;, is the neccessary command to run the bash script. It is basically the path to bash.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Sometimes when the number of commands are large enough, it becomes difficult to understand which command is doing what. So by adding &lt;code class=&quot;language-text&quot;&gt;-x&lt;/code&gt; after &lt;code class=&quot;language-text&quot;&gt;#!/bin/bash&lt;/code&gt;, the commands will be visible along with the result in the output&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash -x&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# + echo &apos;Hello World!&apos;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Hello World!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# give no space before and after of &apos;=&apos;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;declare&lt;/span&gt; -r &lt;span class=&quot;token assign-left variable&quot;&gt;MIN&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# declare constant variable&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# print variable&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt;**2 &lt;span class=&quot;token comment&quot;&gt;# shell takes everything as string, so it will output: 5**2&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# $(()) is used for mathematical calculation&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;MIN&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;MIN&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num1&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5**2&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 25&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Shorthand property&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$rand&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand++ = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;++rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rand-- = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;rand&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;--rand = &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;rand&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 9&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# rand++ = 9&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# ++rand = 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# rand-- = 11&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# --rand = 9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# use python to add floats&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.2&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4.3&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num5&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;python -c &lt;span class=&quot;token string&quot;&gt;&quot;print(&lt;span class=&quot;token variable&quot;&gt;$num3&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num4&lt;/span&gt;)&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$num5&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 5.5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# cat prints a file or any string pass to it&lt;/span&gt;
+cat&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; END
+This text prints many line
+etc lorem ipsum END
+
+&lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# This text prints many line&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# etc lorem ipsum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Functions]]></title><link>https://rahuldkjain.github.io/blog/bash/3-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/3-functions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token function-name function&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# get current date and time&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# returns an exit status number between 0-255&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+getDate
+
+&lt;span class=&quot;token comment&quot;&gt;#global variable&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#local values aren&apos;t available outside of the function&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;demLocal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Titu&quot;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+demLocal
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# a function that receives 2 values and returns a sum&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;getSum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# attributes are retrieved by referring $1, $2 ..etc&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
+
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num3&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num4&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;#pass values back with echo&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# pass attributes by seperating them with a space&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# surround function call with $() to get the return value&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;getSum num1 num2&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;the sum is &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Value seperator in strings]]></title><link>https://rahuldkjain.github.io/blog/bash/12-value-seperator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/12-value-seperator/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# you can set what seperates the values with IFS&lt;/span&gt;
 
@@ -667,7 +754,96 @@ etc lorem ipsum END
     &lt;span class=&quot;token comment&quot;&gt;# the value of $# decrements as well&lt;/span&gt;
     &lt;span class=&quot;token builtin class-name&quot;&gt;shift&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum: &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Input and Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum: &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Logical Operators and integer conditional statements]]></title><link>https://rahuldkjain.github.io/blog/bash/4-integer-test/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/4-integer-test/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt; num
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Your number equals 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is greater than 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is less than 10&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is even&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# using logical operators &amp;amp;&amp;amp;, || and !&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num&lt;/span&gt; is between 1 and 10&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# &amp;amp;&amp;amp;, || can also used as control structures&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# create a file and then if that worked open it in gedit&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; samp_file &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; gedit samp_file
+
+&lt;span class=&quot;token comment&quot;&gt;# if samp_dir doesn&apos;t exist, make it&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -d samp_dir &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; samp_dir
+
+&lt;span class=&quot;token comment&quot;&gt;# delete file&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; samp_file
+
+&lt;span class=&quot;token comment&quot;&gt;# delete directory&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;rmdir&lt;/span&gt; samp_dir&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: case]]></title><link>https://rahuldkjain.github.io/blog/bash/5-case/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/5-case/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Use `case` to when it makes more sense than if&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you? &quot;&lt;/span&gt; age
+
+&lt;span class=&quot;token comment&quot;&gt;# check the value of age&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# match numbers 0 - 4&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Too young for school&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# stop checking further&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# match only 5&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to kindergarten&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# check 6-18&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;-9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-8&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;grade&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to grade &lt;span class=&quot;token variable&quot;&gt;$grade&lt;/span&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# default action&lt;/span&gt;
+*&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You are too old for school&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;esac&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# End case&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings]]></title><link>https://rahuldkjain.github.io/blog/bash/6-string/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/6-string/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Strings and Parameter Expansions( ${} )&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;rand_str&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;A random string is a string&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string length&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;string length: &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;rand_str}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string slice starting at index (0 index)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# get string with starting and ending index (0 index)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;7}&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# returns whats left after `a`&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;*a }&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Regular Expressions (Regex)]]></title><link>https://rahuldkjain.github.io/blog/bash/8-regex/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/8-regex/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# with extended test [[ ]] you can use regular expressions&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Validate date: &quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;pat&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;^[0-9]{8}$&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;~ &lt;span class=&quot;token variable&quot;&gt;$pat&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is valid&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is invalid&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Input and Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# take user input using read&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# -p is used to prompt with string&lt;/span&gt;
@@ -716,124 +892,7 @@ etc lorem ipsum END
 &lt;span class=&quot;token assign-left variable&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;
 
 &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Can Vote: &lt;span class=&quot;token variable&quot;&gt;$can_vote&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Logical Operators and integer conditional statements]]></title><link>https://rahuldkjain.github.io/blog/bash/4-integer-test/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/4-integer-test/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt; num
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Your number equals 10&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is greater than 10&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is less than 10&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;It is even&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# using logical operators &amp;amp;&amp;amp;, || and !&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num&lt;/span&gt; is between 1 and 10&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# &amp;amp;&amp;amp;, || can also used as control structures&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# create a file and then if that worked open it in gedit&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; samp_file &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; gedit samp_file
-
-&lt;span class=&quot;token comment&quot;&gt;# if samp_dir doesn&apos;t exist, make it&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -d samp_dir &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; samp_dir
-
-&lt;span class=&quot;token comment&quot;&gt;# delete file&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; samp_file
-
-&lt;span class=&quot;token comment&quot;&gt;# delete directory&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;rmdir&lt;/span&gt; samp_dir&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Functions]]></title><link>https://rahuldkjain.github.io/blog/bash/3-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/3-functions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token function-name function&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# get current date and time&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# returns an exit status number between 0-255&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-getDate
-
-&lt;span class=&quot;token comment&quot;&gt;#global variable&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rahul&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;#local values aren&apos;t available outside of the function&lt;/span&gt;
-&lt;span class=&quot;token function-name function&quot;&gt;demLocal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Titu&quot;&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-demLocal
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# a function that receives 2 values and returns a sum&lt;/span&gt;
-&lt;span class=&quot;token function-name function&quot;&gt;getSum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# attributes are retrieved by referring $1, $2 ..etc&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; 
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
-
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num3&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num4&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-
-    &lt;span class=&quot;token comment&quot;&gt;#pass values back with echo&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# pass attributes by seperating them with a space&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# surround function call with $() to get the return value&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;getSum num1 num2&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;the sum is &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: case]]></title><link>https://rahuldkjain.github.io/blog/bash/5-case/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/5-case/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Use `case` to when it makes more sense than if&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you? &quot;&lt;/span&gt; age
-
-&lt;span class=&quot;token comment&quot;&gt;# check the value of age&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# match numbers 0 - 4&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Too young for school&quot;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# stop checking further&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# match only 5&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to kindergarten&quot;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# check 6-18&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;-9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-8&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token assign-left variable&quot;&gt;grade&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Go to grade &lt;span class=&quot;token variable&quot;&gt;$grade&lt;/span&gt;&quot;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# default action&lt;/span&gt;
-*&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You are too old for school&quot;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;esac&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# End case&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings]]></title><link>https://rahuldkjain.github.io/blog/bash/6-string/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/6-string/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Strings and Parameter Expansions( ${} )&lt;/span&gt;
-
-&lt;span class=&quot;token assign-left variable&quot;&gt;rand_str&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;A random string is a string&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# get string length&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;string length: &lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;rand_str}&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# get string slice starting at index (0 index)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2}&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# get string with starting and ending index (0 index)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;7}&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# returns whats left after `a`&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;*a }&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings with Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/7-testing-strings/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/7-testing-strings/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Can Vote: &lt;span class=&quot;token variable&quot;&gt;$can_vote&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings with Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/7-testing-strings/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/7-testing-strings/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Sad&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Happy&quot;&lt;/span&gt;
@@ -919,44 +978,7 @@ demLocal
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -O &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
         &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a owned by the userid&quot;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Regular Expressions (Regex)]]></title><link>https://rahuldkjain.github.io/blog/bash/8-regex/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/8-regex/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# with extended test [[ ]] you can use regular expressions&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Validate date: &quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;pat&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;^[0-9]{8}$&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;~ &lt;span class=&quot;token variable&quot;&gt;$pat&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is valid&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is invalid&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Scripting Cheatsheet]]></title><description><![CDATA[Shell is common Linux, Unix Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells…]]></description><link>https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Shell is common Linux, Unix&lt;/p&gt;
-&lt;p&gt;Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells the hardware what to do&lt;/p&gt;
-&lt;h4&gt;To create a script file&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gedit first.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Commands&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash #to the tell the path of bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# hash is used for comments&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# prints stuff on the screen&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Run the script&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x first.sh &lt;span class=&quot;token comment&quot;&gt;# +x makes the file executable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;or &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;755&lt;/span&gt; first.sh &lt;span class=&quot;token comment&quot;&gt;# 755 is the octal here which is used to manage permissions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;To show which command is giving which output&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash/ -x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# to know the path(run this in the root directory)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Use &lt;code class=&quot;language-text&quot;&gt;\&lt;/code&gt; to make the long commands readable&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; chrome inkspace vlc sublime mediaplayer &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-soundrecorder vscode &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Points to remember&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;BASH is very well documented, don’t hesitate to search the web&lt;/li&gt;
-&lt;li&gt;Always use absolute paths in a script. Eg: /home/Documents/logo.png&lt;/li&gt;
-&lt;li&gt;Write detailed comments&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~&lt;/code&gt; in terminal refers to &lt;strong&gt;home&lt;/strong&gt; directory&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Arrays]]></title><link>https://rahuldkjain.github.io/blog/bash/9-arrays/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/9-arrays/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Arrays]]></title><link>https://rahuldkjain.github.io/blog/bash/9-arrays/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/9-arrays/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# bash arrays can only have 1 dimesion and indexes start at 0&lt;/span&gt;
 
@@ -999,7 +1021,33 @@ fav_nums&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span c
 &lt;span class=&quot;token builtin class-name&quot;&gt;unset&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;sorted_nums[1]&apos;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# delete array&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;unset&lt;/span&gt; sorted_nums&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How to gain 1000+ stars🌟 on an open-source project quickly?]]></title><description><![CDATA[My open-source project Github profile README generator reached 1000+ ⭐️ in less than 45 days 🥳. It was trending on Github under javascript…]]></description><link>https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</guid><pubDate>Mon, 20 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;My open-source project &lt;strong&gt;Github profile README generator&lt;/strong&gt; reached 1000+ ⭐️ in less than 45 days 🥳.&lt;/p&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;unset&lt;/span&gt; sorted_nums&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Scripting Cheatsheet]]></title><description><![CDATA[Shell is common Linux, Unix Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells…]]></description><link>https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/bash-scripting-cheatsheet/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Shell is common Linux, Unix&lt;/p&gt;
+&lt;p&gt;Bash is a CLI tool to run the scripts. The shell script communicate with the kernel which in turn kernel tells the hardware what to do&lt;/p&gt;
+&lt;h4&gt;To create a script file&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gedit first.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Commands&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash #to the tell the path of bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# hash is used for comments&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# prints stuff on the screen&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Run the script&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x first.sh &lt;span class=&quot;token comment&quot;&gt;# +x makes the file executable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;or &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;755&lt;/span&gt; first.sh &lt;span class=&quot;token comment&quot;&gt;# 755 is the octal here which is used to manage permissions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To show which command is giving which output&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash/ -x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# to know the path(run this in the root directory)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Use &lt;code class=&quot;language-text&quot;&gt;\&lt;/code&gt; to make the long commands readable&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; chrome inkspace vlc sublime mediaplayer &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+soundrecorder vscode &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Points to remember&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BASH is very well documented, don’t hesitate to search the web&lt;/li&gt;
+&lt;li&gt;Always use absolute paths in a script. Eg: /home/Documents/logo.png&lt;/li&gt;
+&lt;li&gt;Write detailed comments&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~&lt;/code&gt; in terminal refers to &lt;strong&gt;home&lt;/strong&gt; directory&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[How to gain 1000+ stars🌟 on an open-source project quickly?]]></title><description><![CDATA[My open-source project Github profile README generator reached 1000+ ⭐️ in less than 45 days 🥳. It was trending on Github under javascript…]]></description><link>https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/how-github-profile-readme-generator-reached-200+-stars-on-github/</guid><pubDate>Mon, 20 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;My open-source project &lt;strong&gt;Github profile README generator&lt;/strong&gt; reached 1000+ ⭐️ in less than 45 days 🥳.&lt;/p&gt;
 &lt;p&gt;It was trending on Github under javascript category🚀
 &lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/f6wxs4wo9fxb4bctrf0o.png&quot; alt=&quot;github-profile-readme-generator&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I was scrolling the twitter feed and listening to &lt;strong&gt;Blinding Lights&lt;/strong&gt; when I got the idea of this tool. Never thought that so many developers will find it useful.&lt;/p&gt;
@@ -1539,66 +1587,7 @@ takes a DS/Algo round. Make sure that you are able to crack it. If you
 have mastered the art of problem-solving, everything would be easy for
 you, be it Android, be it web, be it ML/AI.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Source - &lt;a href=&quot;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&quot;&gt;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Coviam Technologies SDE Internship Interview Experience]]></title><description><![CDATA[COVIAM TECHNOLOGIES, BANGALORE 10 Jan, 01 Feb 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h3&gt;COVIAM TECHNOLOGIES, BANGALORE&lt;/h3&gt;
-&lt;p&gt;10 Jan, 01 Feb 2019&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;70% in the current degree pursuing or 7.0 CPI and above.&lt;/li&gt;
-&lt;li&gt;Should be available for 6 months internship starting from Jun/Jul’19.&lt;/li&gt;
-&lt;li&gt;BE/B.Tech/M.Tech in Computer Science and Electronics &amp;#x26; Communication.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Stipend&lt;/strong&gt; - Rs. 24,000/month&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PPO(Pre Placement Offer)&lt;/strong&gt; – Rs. 7.5 LPA&lt;/p&gt;
-&lt;p&gt;Coviam conducted three rounds for summer internship recruitment at IIITDM Jabalpur on 10th January(Online Test), 01 February(Interview) 2019.&lt;/p&gt;
-&lt;p&gt;The 3 rounds were:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Online Aptitude Test&lt;/li&gt;
-&lt;li&gt;Tech Interview I&lt;/li&gt;
-&lt;li&gt;Tech Interview II&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Round 1: Online Aptitude Test&lt;/h2&gt;
-&lt;p&gt;Coviam Aptitude Test tests the candidates INFERENCE, DEDUCTION, PROGRAMMING  and MATH skills in a strict time pressured environment.&lt;/p&gt;
-&lt;p&gt;Here are some important instructions for Aptitude Test:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the test format?&lt;/strong&gt;
-Two sections – 24 Aptitude Ability questionsand 16 Programming Ability questions.&lt;/p&gt;
-&lt;p&gt;Aptitude Sections:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Quant&lt;/li&gt;
-&lt;li&gt;Verbal Reasoning&lt;/li&gt;
-&lt;li&gt;Logical Reasoning&lt;/li&gt;
-&lt;li&gt;Data Interpretation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Programming Section&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Java I/O Questions&lt;/li&gt;
-&lt;li&gt;Java Basics&lt;/li&gt;
-&lt;li&gt;Java OOPs&lt;/li&gt;
-&lt;li&gt;Java Collections&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;What is the question format?&lt;/strong&gt;
-Multiple choice format – 4 choices provided per question with only 1 correct answer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the time provided per question?&lt;/strong&gt;
-60 minutes for 40 questions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Is a calculator permitted?&lt;/strong&gt;
-No, but you can use Desktop’s calculator, when needed.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Can the test be retaken?&lt;/strong&gt;
-The test does not allow retakes for 1 year and hence it is critical to get it right the first time around.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: You need to score good in both sections in-order to clear for interviews.&lt;/p&gt;
-&lt;h2&gt;Round 2: Tech Interview I&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Tell me about yourself&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Java OOPS, Collections, Garbage Collector&lt;/li&gt;
-&lt;li&gt;OS Memory Concepts&lt;/li&gt;
-&lt;li&gt;Write code of Data Structures and Algo problems(in any language)&lt;/li&gt;
-&lt;li&gt;Write code of basic DP problems(in any language)&lt;/li&gt;
-&lt;li&gt;Puzzles&lt;/li&gt;
-&lt;li&gt;Do you have any questions?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Questions asked during the interviews were mostly from Data Structures &amp;#x26; Algorithms, Java, DBMS, Operating System, Computer Networks.&lt;/p&gt;
-&lt;h2&gt;Round 3: Technical Interview II&lt;/h2&gt;
-&lt;p&gt;This round was  taken by Senior Executives of Coviam. This round was basically meant for checking whether the candidate is good fit for the company culture. Questions asked during this interview were CV based. If you are developer, then you will be asked to explain each and every projects and your role in it. If you are a competitve programmer, then you are more likely to be asked concepts like Convex Hull, DP etc.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Remember&lt;/strong&gt;: To make a good impact be prepared with your github profile and your online presence(development, extra-curricular presence).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 IBM ISL SDE Internship Interview Experience]]></title><description><![CDATA[IBM ISL, BANGALORE 07 Jan - 08 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be available…]]></description><link>https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;IBM ISL, BANGALORE&lt;/h2&gt;
+&lt;p&gt;Source - &lt;a href=&quot;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&quot;&gt;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 IBM ISL SDE Internship Interview Experience]]></title><description><![CDATA[IBM ISL, BANGALORE 07 Jan - 08 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be available…]]></description><link>https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;IBM ISL, BANGALORE&lt;/h2&gt;
 &lt;p&gt;07 Jan - 08 Jan 2019&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Eligibility Criteria&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1672,7 +1661,66 @@ The test does not allow retakes for 1 year and hence it is critical to get it ri
 &lt;li&gt;Computer Networks&lt;/li&gt;
 &lt;li&gt;Project Based Questions (whatever Project who have mentioned in CV)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Although I was not selected for the interviews I gained a lot from this experience. The one thing that I learnt is that never expect anything out of the recruitment. Anything can happen. Even those who don’t know any technical stuff get selected and even best matched candidate will not be selected. Anything can happen during the recruitments. The Key is to KEEP GOING AHEAD keeping in mind that there are millions of companies in this whole world and there will be some companies which will respect and recognize your talent and hard work.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Oracle RGBU SDE Internship Interview Experience]]></title><description><![CDATA[Oracle RGBU, BANGALORE  11 Jan, 17 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Oracle RGBU, BANGALORE&lt;/h2&gt;
+&lt;p&gt;Although I was not selected for the interviews I gained a lot from this experience. The one thing that I learnt is that never expect anything out of the recruitment. Anything can happen. Even those who don’t know any technical stuff get selected and even best matched candidate will not be selected. Anything can happen during the recruitments. The Key is to KEEP GOING AHEAD keeping in mind that there are millions of companies in this whole world and there will be some companies which will respect and recognize your talent and hard work.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Coviam Technologies SDE Internship Interview Experience]]></title><description><![CDATA[COVIAM TECHNOLOGIES, BANGALORE 10 Jan, 01 Feb 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h3&gt;COVIAM TECHNOLOGIES, BANGALORE&lt;/h3&gt;
+&lt;p&gt;10 Jan, 01 Feb 2019&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;70% in the current degree pursuing or 7.0 CPI and above.&lt;/li&gt;
+&lt;li&gt;Should be available for 6 months internship starting from Jun/Jul’19.&lt;/li&gt;
+&lt;li&gt;BE/B.Tech/M.Tech in Computer Science and Electronics &amp;#x26; Communication.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Stipend&lt;/strong&gt; - Rs. 24,000/month&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PPO(Pre Placement Offer)&lt;/strong&gt; – Rs. 7.5 LPA&lt;/p&gt;
+&lt;p&gt;Coviam conducted three rounds for summer internship recruitment at IIITDM Jabalpur on 10th January(Online Test), 01 February(Interview) 2019.&lt;/p&gt;
+&lt;p&gt;The 3 rounds were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Online Aptitude Test&lt;/li&gt;
+&lt;li&gt;Tech Interview I&lt;/li&gt;
+&lt;li&gt;Tech Interview II&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Round 1: Online Aptitude Test&lt;/h2&gt;
+&lt;p&gt;Coviam Aptitude Test tests the candidates INFERENCE, DEDUCTION, PROGRAMMING  and MATH skills in a strict time pressured environment.&lt;/p&gt;
+&lt;p&gt;Here are some important instructions for Aptitude Test:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the test format?&lt;/strong&gt;
+Two sections – 24 Aptitude Ability questionsand 16 Programming Ability questions.&lt;/p&gt;
+&lt;p&gt;Aptitude Sections:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Quant&lt;/li&gt;
+&lt;li&gt;Verbal Reasoning&lt;/li&gt;
+&lt;li&gt;Logical Reasoning&lt;/li&gt;
+&lt;li&gt;Data Interpretation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Programming Section&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Java I/O Questions&lt;/li&gt;
+&lt;li&gt;Java Basics&lt;/li&gt;
+&lt;li&gt;Java OOPs&lt;/li&gt;
+&lt;li&gt;Java Collections&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;What is the question format?&lt;/strong&gt;
+Multiple choice format – 4 choices provided per question with only 1 correct answer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the time provided per question?&lt;/strong&gt;
+60 minutes for 40 questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Is a calculator permitted?&lt;/strong&gt;
+No, but you can use Desktop’s calculator, when needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can the test be retaken?&lt;/strong&gt;
+The test does not allow retakes for 1 year and hence it is critical to get it right the first time around.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: You need to score good in both sections in-order to clear for interviews.&lt;/p&gt;
+&lt;h2&gt;Round 2: Tech Interview I&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Tell me about yourself&lt;/li&gt;
+&lt;li&gt;Projects&lt;/li&gt;
+&lt;li&gt;Java OOPS, Collections, Garbage Collector&lt;/li&gt;
+&lt;li&gt;OS Memory Concepts&lt;/li&gt;
+&lt;li&gt;Write code of Data Structures and Algo problems(in any language)&lt;/li&gt;
+&lt;li&gt;Write code of basic DP problems(in any language)&lt;/li&gt;
+&lt;li&gt;Puzzles&lt;/li&gt;
+&lt;li&gt;Do you have any questions?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Questions asked during the interviews were mostly from Data Structures &amp;#x26; Algorithms, Java, DBMS, Operating System, Computer Networks.&lt;/p&gt;
+&lt;h2&gt;Round 3: Technical Interview II&lt;/h2&gt;
+&lt;p&gt;This round was  taken by Senior Executives of Coviam. This round was basically meant for checking whether the candidate is good fit for the company culture. Questions asked during this interview were CV based. If you are developer, then you will be asked to explain each and every projects and your role in it. If you are a competitve programmer, then you are more likely to be asked concepts like Convex Hull, DP etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remember&lt;/strong&gt;: To make a good impact be prepared with your github profile and your online presence(development, extra-curricular presence).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Oracle RGBU SDE Internship Interview Experience]]></title><description><![CDATA[Oracle RGBU, BANGALORE  11 Jan, 17 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Oracle RGBU, BANGALORE&lt;/h2&gt;
 &lt;p&gt; 11 Jan, 17 Jan 2019&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
