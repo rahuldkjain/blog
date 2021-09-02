@@ -2,7 +2,7 @@
 title: "CRED Interview Experience"
 date: 2021-07-20 16:21:13
 category: "development"
-description: "Frontend Developer Role Interview Experience at CRED"
+description: "Learn more about my interview experience at CRED for a frontend developer role."
 draft: false
 ---
 

@@ -1,4 +1,266 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Nov 2020 04:57:05 GMT</lastBuildDate><item><title><![CDATA[How to start and promote your open-source project?]]></title><description><![CDATA[I was listening to Blinding Lights by The Weeknd when I got the idea of an open-source project. In just 45 days the project got 1000+ stars…]]></description><link>https://rahuldkjain.github.io/blog/promote-open-source-project/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/promote-open-source-project/</guid><pubDate>Wed, 26 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was listening to &lt;em&gt;Blinding Lights by The Weeknd&lt;/em&gt; when I got the idea of an open-source project. In just 45 days the project got &lt;strong&gt;1000+ stars&lt;/strong&gt;, &lt;strong&gt;120+ forks&lt;/strong&gt;, and &lt;strong&gt;30+ PRs&lt;/strong&gt; on GitHub. It received sponsorships from two experienced developers. Google Analytics reads that it got 10,000+ visitors so far. Got featured in several YouTube videos and blogs.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Sep 2021 03:04:51 GMT</lastBuildDate><item><title><![CDATA[CRED Interview Experience]]></title><description><![CDATA[Intro CRED is an Indian  unicorn fintech startup that give rewards for paying credit card bills. But it’s more of a lifestyle brand than…]]></description><link>https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</guid><pubDate>Tue, 20 Jul 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://cred.club/&quot;&gt;CRED&lt;/a&gt; is an Indian  unicorn fintech startup that give rewards for paying credit card bills. But it’s more of a lifestyle brand than being a fintech product. The credit-score threshold to become a CRED member is around 750, which means it filters out the customers with low credit score. It’s a smart way to provide value experience to the customers. CRED has not became a profit making company yet and still investing more in marketing to gain a large user base, I see an amazing opportunity to grow my skills by contributing in their vision.&lt;/p&gt;
+&lt;h2&gt;How I landed the interview?&lt;/h2&gt;
+&lt;p&gt;I created my profile on &lt;a href=&quot;https://www.instahyre.com/&quot;&gt;Instahyre&lt;/a&gt; and updated all the neccessary details to stand out from the crowd. In just 2 days, I received a call from an HR at CRED about a frontend developer role &amp;#x26; I decided to give it a try.&lt;/p&gt;
+&lt;h2&gt;Interview Process&lt;/h2&gt;
+&lt;p&gt;CRED conduct 3-5 interview rounds.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tech Round 1: 90 minutes&lt;/li&gt;
+&lt;li&gt;Tech Round 2: 90 minutes&lt;/li&gt;
+&lt;li&gt;Tech Round 3: 90 minutes&lt;/li&gt;
+&lt;li&gt;Cultural Fit Round: 60 minutes&lt;/li&gt;
+&lt;li&gt;Salary Discussion: 30 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Tech Round 1&lt;/h1&gt;
+&lt;p&gt;I met an amazing developer at CRED during the interview. It started with a basic introduction &amp;#x26; then we started talking about Work From Home, Coronavirus, &amp;#x26; Monsoon, etc. Interviewer told me about the working culture, his journey till now and the ongoing projects in web-team at CRED. Then he asked me introduce myself with what I do, what I like and all. So I opened my &lt;a href=&quot;https://about.rahuldkjain.vercel.app/&quot;&gt;bio&lt;/a&gt; and shared the screen to give him a better picture of myself. I told him about my work at zolo, freelancing, animation, and open-source projects. We discussed about business models of CRED and Zolo. He asked me about why I want to switch and all. Then he gave me a moderate javascript problem. I read the problem, repeated what I understood so that we can be on the same page. I prepared the process in my mind and explained him with psuedo codes. Then I started live coding the problem. He gave me hints to make the code working and optimised. I completed the problem. Then we talked about why he joined CRED and how he made the decision to join CRED etc. It was an amazing experience overall. I met a nice developer. &lt;/p&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// applySpec(): Given a specification object that&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// recursively maps properties to functions,&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// applySpec takes in this specification object and&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// returns a function that when called with some arguments&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// produces an object of the same structure.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// For Eg:&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; getMetrics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;applySpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// sum is called with (2, 4)&lt;/span&gt;
+  nested&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function-variable function&quot;&gt;mul&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// mul is called with (2, 4)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getMetrics&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; { sum: 6, nested: { mul: 8 } }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; getMetrics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;applySpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// sum is called with (2, 4)&lt;/span&gt;
+  nested&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function-variable function&quot;&gt;mul&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// mul is called with (2, 4)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;specObj&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; newObj &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; keys &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;specObj&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  keys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; specObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;function&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      newObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; specObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; specObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; newSpecObj &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; specObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      newObj&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;newSpecObj&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; newObj&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;applySpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;specObj&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;args&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;HOC=&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;specObj&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;Cleared the round 1 &amp;#x26; scheduled the round 2 for next week.&lt;/p&gt;
+&lt;h1&gt;Tech Round 2&lt;/h1&gt;
+&lt;p&gt;I cleared the round 1 and appeared for the round 2. I really liked the flexibility to schedule the interview as per my choice. I need to brush up my Javascript knowledge, so I took a week time before the round 2.&lt;/p&gt;
+&lt;p&gt;I again met an amazing developer at CRED during the interview. It started with a basic introduction &amp;#x26; then he started talking about work and projects at CRED. Interviewer asked me about my expectation in terms of work. Then he asked me introduce myself with what I do, what I like and all. So I opened my &lt;a href=&quot;https://about.rahuldkjain.vercel.app/&quot;&gt;bio&lt;/a&gt; and shared the screen to give him a better picture of myself. I told him about my work at zolo, freelancing, animation, and open-source projects. He asked me about why I want to switch and all. Then he gave me a moderate machine coding problem. The task to develop a search box that gives suggestions on input. He gave me the API to fetch the suggestions. I asked him about the functionalities like debouncing, events and all to properly understand the requirements. He told me to develop it in vanilla javascript. When I completed the code,
+he started asking me the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Approach to attach the click event listeners on the suggestions? Event bubbling, event delegation? (✅)&lt;/li&gt;
+&lt;li&gt;Difference between &lt;code class=&quot;language-text&quot;&gt;defer&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;async&lt;/code&gt; scripts, their pros and cons. (✅)&lt;/li&gt;
+&lt;li&gt;Modular scripts, scopes, IIFE. (✅)&lt;/li&gt;
+&lt;li&gt;Loading of CSS files is synchronous or asynchronous? Does it blocks the HTML parsing? (❌)&lt;/li&gt;
+&lt;li&gt;Why react? How react works under the hood? (❌)&lt;/li&gt;
+&lt;li&gt;What is virtualDOM? Its advantage? (❌)&lt;/li&gt;
+&lt;li&gt;Why Nextjs? Dynamic routes in file based routing? Advantages of Nextjs over React? Can we switch to client side rendering or pre-rendering in Nextjs? (❌)&lt;/li&gt;
+&lt;li&gt;React states, Layout, Scalability. (✅)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Machine Coding Solution&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// applySpec(): Given a specification object that&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// recursively maps properties to functions,&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// applySpec takes in this specification object and&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// returns a function that when called with some arguments&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// produces an object of the same structure.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// For Eg:&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; getMetrics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;applySpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// sum is called with (2, 4)&lt;/span&gt;
+  nested&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function-variable function&quot;&gt;mul&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// mul is called with (2, 4)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getMetrics&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; { sum: 6, nested: { mul: 8 } }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// index.html&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;DOCTYPE&lt;/span&gt; html&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;html lang&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta charset&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta http&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;equiv&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;meta name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;viewport&quot;&lt;/span&gt; content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link rel&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;style.css&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script src&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;script.js&quot;&lt;/span&gt; defer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script defer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hi&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;searchField&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Practice &lt;span class=&quot;token constant&quot;&gt;JS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;title&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;head&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search-container&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search-input-container&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input
+          type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text&quot;&lt;/span&gt;
+          placeholder&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Enter Country&quot;&lt;/span&gt;
+          id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search-input&quot;&lt;/span&gt;
+          name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search&quot;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;suggestions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search-btn&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Search&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;body&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;html&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/* style.css */&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;box-sizing&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; border-box&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Poppins&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100vh&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;justify-content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;align-items&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;.search-container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;justify-content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;align-items&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex-start&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;#search-input&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 48px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 8px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#search-btn&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 5px 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 4px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 50px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pointer&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;#suggestions&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 210px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #efefef&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;overflow-y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; absolute&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;.suggestion&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 40px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pointer&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; black&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;.suggestion:hover&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; aliceblue&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// script.js&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; searchField &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;search-input&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; suggestionsContainer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;suggestions&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+searchField&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;input&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; keyword &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;keyword&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;fetchResults&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;keyword&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;removeOldSuggestions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;display &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;none&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;fetchResults&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;keyword&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://restcountries.eu/rest/v2/name/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;keyword&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;?fields=name&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; json &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;populateSuggestions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;populateSuggestions&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;list&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// remove the old suggestions&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;removeOldSuggestions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// append new suggestions&lt;/span&gt;
+    list&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; elem &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;li&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      elem&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;class&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;suggestion&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      elem&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; country&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;elem&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;display &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;block&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;removeOldSuggestions&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// remove the old suggestions&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lastElementChild&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;removeChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;suggestionsContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lastElementChild&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;Cleared the round 2 &amp;#x26; scheduled the round 3 for next week.&lt;/p&gt;
+&lt;h1&gt;Tech Round 3&lt;/h1&gt;
+&lt;p&gt;I cleared the round 1, 2 and appeared for the round 3. I really liked the flexibility to schedule the interview as per my choice. I need to brush up my Javascript &amp;#x26; React knowledge, so I took a week time before the round 3.&lt;/p&gt;
+&lt;p&gt;I again met an amazing developer at CRED during the interview. It started with a basic introduction &amp;#x26; then he started talking about work and projects at CRED. Interviewer asked me about my expectation in terms of work. Then he asked me introduce myself with what I do, what I like and all. So I opened my &lt;a href=&quot;https://about.rahuldkjain.vercel.app/&quot;&gt;bio&lt;/a&gt; and shared the screen to give him a better picture of myself. I told him about my work at zolo, freelancing, animation, and open-source projects. He asked me about why I want to switch and all.&lt;/p&gt;
+&lt;p&gt;Then the actual interview started with a basic machine coding problem in React. The task was to develop a form based web application with input fields like PAN Number, &amp;#x26; Aadhar Number etc. He wanted to test React skills on how I maintain the the states of the input fields. Then he started questioning about optimization aspect of the web-app when there are 10+ input fields.&lt;/p&gt;
+&lt;p&gt;When I completed the code, he started asking me the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is it good to attach a state to every input field and modify it onChange, when there are 10+ input fields. Answer it in terms of scalability? (✅)&lt;/li&gt;
+&lt;li&gt;How to handle forms without states in React? (✅)&lt;/li&gt;
+&lt;li&gt;Event Delegation? (✅)&lt;/li&gt;
+&lt;li&gt;How to make decision on which framework to use (Gatsby, Next or CRA)(❌)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;Cleared the round 3 &amp;#x26; scheduled the cultural fit round.&lt;/p&gt;
+&lt;h1&gt;Cultural Fit Round&lt;/h1&gt;
+&lt;p&gt;I cleared the round 1, 2, 3 and appeared for the cultural fit round. I really liked the flexibility to schedule the interview as per my choice.&lt;/p&gt;
+&lt;p&gt;Tech Leat at CRED took this round. The interview started with the basic introduction and then started briefing me about the feedback in all 3 tech rounds. He told me that I need to grow my Javascript skills, which totally made sense to me. Then he started questioning me about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you grow your skills on daily basis?&lt;/li&gt;
+&lt;li&gt;Why do you want to join CRED?&lt;/li&gt;
+&lt;li&gt;Do you believe in work-life balance?&lt;/li&gt;
+&lt;li&gt;Are you baised towards certain work or open to work with any tech skill?&lt;/li&gt;
+&lt;li&gt;What are the things that you hate about CRED?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;Cleared the round and got the offer letter after the salary discussion round.&lt;/p&gt;
+&lt;h1&gt;Resources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://javascript.info/&quot;&gt;Javascript Info&lt;/a&gt;: To learn and improve javascript fundamentals.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://experience.cred.club/start&quot;&gt;CRED Experience Web App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pN6jk0uUrD8&amp;#x26;list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&amp;#x26;ab_channel=AkshaySaini&quot;&gt;Namaster JavaScript&lt;/a&gt; by Akshay Saini&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.toptal.com/javascript/interview-questions&quot;&gt;Javascript Interview Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.interviewbit.com/react-interview-questions/&quot;&gt;React Interview Questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[How to start and promote your open-source project?]]></title><description><![CDATA[I was listening to Blinding Lights by The Weeknd when I got the idea of an open-source project. In just 45 days the project got 1000+ stars…]]></description><link>https://rahuldkjain.github.io/blog/promote-open-source-project/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/promote-open-source-project/</guid><pubDate>Wed, 26 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I was listening to &lt;em&gt;Blinding Lights by The Weeknd&lt;/em&gt; when I got the idea of an open-source project. In just 45 days the project got &lt;strong&gt;1000+ stars&lt;/strong&gt;, &lt;strong&gt;120+ forks&lt;/strong&gt;, and &lt;strong&gt;30+ PRs&lt;/strong&gt; on GitHub. It received sponsorships from two experienced developers. Google Analytics reads that it got 10,000+ visitors so far. Got featured in several YouTube videos and blogs.&lt;/p&gt;
 &lt;p&gt;I believe that sharing the process followed by me will help you to get the gist of the same. Go through the following steps sequentially to understand the whole process.&lt;/p&gt;
 &lt;h2&gt;1. Wireframe the IDEA 🖊&lt;/h2&gt;
 &lt;p&gt;Take a pen &amp;#x26; a paper and just draw whatever comes in your mind related to the idea. Don’t worry about your drawing ability and just jot it down. It will give you more realistic view about the idea.&lt;/p&gt;
@@ -18,39 +280,7 @@ I’ve posted a separate blog on &lt;a href=&quot;https://rahuldkjain.github.io/
 &lt;p&gt;I am telling you that having a cool open-source project is an amazing feeling. So don’t think and wait, just execute it. Let the world know about your crazy ideas, don’t hesitate.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif&quot; alt=&quot;happy&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Wish you very good luck on your upcoming journey.&lt;/p&gt;
-&lt;p&gt;Happy Coding 👨‍💻👩‍💻!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dockerfile]]></title><description><![CDATA[What is Dockerfile? Dockerfile is a text file with instructions to build image.
-In simpler terms it is automation of docker image creation…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-file/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-file/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is Dockerfile?&lt;/h1&gt;
-&lt;p&gt;Dockerfile is a text file with instructions to build image.
-In simpler terms it is automation of docker image creation.&lt;/p&gt;
-&lt;p&gt;Let’s understand this using following steps.&lt;/p&gt;
-&lt;h4&gt;Step 1: Create a file named Dockerfile&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; Dockerfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 2: Add instructions in Dockerfile&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# getting base image&lt;/span&gt;
-FROM alpine
-
-&lt;span class=&quot;token comment&quot;&gt;# MAINTAINER rahul &amp;lt;rahuldkjain@gmail.com&gt;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# the above command is deprecated, so will use LABEL instead&lt;/span&gt;
-LABEL &lt;span class=&quot;token assign-left variable&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;rahuldkjain@gmail.com&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# it executes during the build of the image&lt;/span&gt;
-RUN &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HI my name is rahul jain&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rahul&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# it executes only when you create container out of the image&lt;/span&gt;
-CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;echo&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;Hello World from my first docker image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 3: build docker file to create the image&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build &amp;lt;file-directory&amp;gt;
-
-# Example
-# . means the same directory
-$ docker build .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If you want to give image-name or tag-name&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build -t myImage1:1.0 &amp;lt;file-directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 4: See docker images&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;Step 5: Run Image to create container&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker run &amp;lt;image-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Reference: &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[What is docker compose? Docker compose is a tool for defining & running multi-container docker applications use yaml files to configure…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-compose/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-compose/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is docker compose?&lt;/h1&gt;
+&lt;p&gt;Happy Coding 👨‍💻👩‍💻!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[What is docker compose? Docker compose is a tool for defining & running multi-container docker applications use yaml files to configure…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-compose/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-compose/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is docker compose?&lt;/h1&gt;
 &lt;p&gt;Docker compose is a tool for defining &amp;#x26; running multi-container docker applications&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;use yaml files to configure application services (&lt;strong&gt;docker-compose.yml&lt;/strong&gt;)&lt;/li&gt;
@@ -99,7 +329,39 @@ $ docker-compose config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker-compose up -d --scale &amp;lt;service-key&amp;gt;=&amp;lt;number-of-instance&amp;gt;
 
 # Example
-$ docker-compose up -d --scale database=4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Docker Volume]]></title><description><![CDATA[Docker Volumes Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers. Data is stored inside the…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-volumes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-volumes/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;Docker Volumes&lt;/h1&gt;
+$ docker-compose up -d --scale database=4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Dockerfile]]></title><description><![CDATA[What is Dockerfile? Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-file/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-file/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;What is Dockerfile?&lt;/h1&gt;
+&lt;p&gt;Dockerfile is a text file with instructions to build image.
+In simpler terms it is automation of docker image creation.&lt;/p&gt;
+&lt;p&gt;Let’s understand this using following steps.&lt;/p&gt;
+&lt;h4&gt;Step 1: Create a file named Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; Dockerfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 2: Add instructions in Dockerfile&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# getting base image&lt;/span&gt;
+FROM alpine
+
+&lt;span class=&quot;token comment&quot;&gt;# MAINTAINER rahul &amp;lt;rahuldkjain@gmail.com&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# the above command is deprecated, so will use LABEL instead&lt;/span&gt;
+LABEL &lt;span class=&quot;token assign-left variable&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;rahuldkjain@gmail.com&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes during the build of the image&lt;/span&gt;
+RUN &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HI my name is rahul jain&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# it executes only when you create container out of the image&lt;/span&gt;
+CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;echo&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;Hello World from my first docker image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 3: build docker file to create the image&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build &amp;lt;file-directory&amp;gt;
+
+# Example
+# . means the same directory
+$ docker build .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to give image-name or tag-name&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker build -t myImage1:1.0 &amp;lt;file-directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 4: See docker images&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Step 5: Run Image to create container&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ docker run &amp;lt;image-id&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reference: &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile Reference&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Volume]]></title><description><![CDATA[Docker Volumes Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers. Data is stored inside the…]]></description><link>https://rahuldkjain.github.io/blog/docker/docker-volumes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/docker/docker-volumes/</guid><pubDate>Sat, 01 Aug 2020 16:21:13 GMT</pubDate><content:encoded>&lt;h1&gt;Docker Volumes&lt;/h1&gt;
 &lt;p&gt;Volumes are the preferred mechanism for persisting data generated by and used by Docker Containers.&lt;/p&gt;
 &lt;p&gt;Data is stored inside the container on a writable container layer by default. It gets deleted on deleting the container. But in enterprise applications we do not want to delete the data.&lt;/p&gt;
 &lt;p&gt;A container’s writable layer doesn’t persist when that container is no longer running.&lt;/p&gt;
@@ -165,7 +427,55 @@ Volumes are managed by docker and are isolated from the core functionality of th
 &lt;p&gt;When no running container is using a volume, the volume is still available to Docker and is not removed automatically. You can remove unused volumes using &lt;code class=&quot;language-text&quot;&gt;docker volume prune&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;When you mount a volume, it may be named or anonymous.&lt;/p&gt;
 &lt;p&gt;Anonymous volumes are not given an explicit name when they are first mounted into a container.&lt;/p&gt;
-&lt;p&gt;Volumes also support the use of volume drivers, which allow you to store your data on remote hosts or cloud providers, among other possibilities.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
+&lt;p&gt;Volumes also support the use of volume drivers, which allow you to store your data on remote hosts or cloud providers, among other possibilities.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Awesome FrontendMasters course resources]]></title><description><![CDATA[I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and…]]></description><link>https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and all of them are created by top-notch professionals around the globe. Beautifully designed course material (documentation, code, and slides) is the cherry on top.&lt;/p&gt;
+&lt;p&gt;I learned Reactjs, Nextjs, SVG Animations, and React-Native from FrontendMasters courses, and I always refer to the course documentation instead of official documentation whenever needed. One day when I got stuck with &lt;em&gt;how to do dynamic routing in nextjs&lt;/em&gt;, I referred to the course documentation of &lt;strong&gt;Intro to Nextjs course by Scott Moss&lt;/strong&gt; and got the answer in just a couple of seconds. &lt;/p&gt;
+&lt;p&gt;There is no need to go through the course videos if you are comfortable with reading the documentation. Although the courses are paid, you can refer to the course material (documentation, slides, and code) for free.&lt;/p&gt;
+&lt;p&gt;My membership is about to expire so I collected all the course resources and created an awesome list to help developers like me to get access to these gems. &lt;/p&gt;
+&lt;h4&gt;Introduction to Next.js&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://hendrixer.github.io/nextjs-course/&quot;&gt;Introduction to Next.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Hendrixer/nextjs-course-app&quot;&gt;nextjs-course-app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Getting The Front End Job&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://getting-the-front-end-job.surge.sh/&quot;&gt;Getting The Front End Job&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/jeromehardaway/hot-to-get-front-end-job&quot;&gt;hot-to-get-front-end-job&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/jeromehardaway&quot;&gt;Jerome Hardaway&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Introduction to Vue.js&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://github.com/sdras/intro-to-vue#slides&quot;&gt;Introduction to Vue.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/sdras/intro-to-vue&quot;&gt;intro-to-vue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/sdras&quot;&gt;Sarah Drasner&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Introduction to Svelte&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://svelte-workshop.netlify.app/introduction/&quot;&gt;Introduction to Svelte&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Rich-Harris/svelte-workshop&quot;&gt;svelte-workshop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Rich-Harris&quot;&gt;Rich Harris&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Angular 9 Fundamentals&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://static.frontendmasters.com/resources/2020-05-28-angular-9/angular-9-fundamentals.pdf&quot;&gt;Angular 9 Fundamentals&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/onehungrymind/angular9-fundamentals-workshop&quot;&gt;angular9-fundamentals-workshop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/onehungrymind&quot;&gt;One Hungry Mind&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;React Native: Building mobile applications&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://kadikraman.github.io/react-native-v2/&quot;&gt;React Native: Building mobile applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/kadikraman/react-native-v2&quot;&gt;react-native-v2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/kadikraman&quot;&gt;Kadi Kraman&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;practicalDL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Vadikus&quot;&gt;Vadim Karpusenko&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Advanced GraphQL&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1DaTDx2Jdolkws2xPx44ee6WuQYMiIAyaaEmN-IBaW1s/edit#slide=id.p&quot;&gt;Advanced GraphQL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/FrontendMasters/advanced-gql-v2&quot;&gt;advanced-gql-v2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Full Stack for Front-End Engineers&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1Mvf_rOFz1wZeH1irajJqhRQgzid7BkqJBd8wigpz39M/edit&quot;&gt;Full Stack for Front-End Engineers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/young/Full-Stack-For-Frontend&quot;&gt;Full-Stack-For-Frontend&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/young&quot;&gt;Jem Young&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Visual Studio Code Can Do That?&lt;/h4&gt;
+&lt;p&gt;Material: &lt;a href=&quot;https://burkeholland.gitbook.io/vs-code-can-do-that/&quot;&gt;Visual Studio Code Can Do That?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/burkeholland/workshop-vs-code-can-do-that&quot;&gt;workshop-vs-code-can-do-that&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/burkeholland&quot;&gt;Burke Holland&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are &lt;strong&gt;75+&lt;/strong&gt; such course resources in this list and it’s not a good idea to make this article big. &lt;/p&gt;
+&lt;p&gt;You can find the list of all courses materials in the below &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt; list on GitHub&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I hope you find the list useful and please do share with your developer friends.&lt;/p&gt;
+&lt;p&gt;Happy Coding!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bash Useful Commands]]></title><description><![CDATA[This article lists useful bash shell-scripting commands which can be used filtering out data from log files. Grab IP Addresses in logs using…]]></description><link>https://rahuldkjain.github.io/blog/bash-useful-commands/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash-useful-commands/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;This article lists useful bash shell-scripting commands which can be used filtering out data from log files.&lt;/p&gt;
 &lt;h3&gt;Grab IP Addresses in logs using regex in grep&lt;/h3&gt;
 &lt;p&gt;I want to grab the IP Address from the following line&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;client is accessing /api/register from IP 192.27.82.10&lt;/code&gt;&lt;/p&gt;
@@ -432,55 +742,7 @@ apt-get install iputils-ping&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;containers shouldn’t rely on IP’s for inter-communication&lt;/li&gt;
 &lt;li&gt;DNS for friendly names is built-in if you use custom networks&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Awesome FrontendMasters course resources]]></title><description><![CDATA[I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and…]]></description><link>https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/awesome-frontendmasters-resources/</guid><pubDate>Thu, 30 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;I used my GitHub Student Developer Pack to redeem FrontendMasters’ 6-month membership. I fell in love with the quality of their courses and all of them are created by top-notch professionals around the globe. Beautifully designed course material (documentation, code, and slides) is the cherry on top.&lt;/p&gt;
-&lt;p&gt;I learned Reactjs, Nextjs, SVG Animations, and React-Native from FrontendMasters courses, and I always refer to the course documentation instead of official documentation whenever needed. One day when I got stuck with &lt;em&gt;how to do dynamic routing in nextjs&lt;/em&gt;, I referred to the course documentation of &lt;strong&gt;Intro to Nextjs course by Scott Moss&lt;/strong&gt; and got the answer in just a couple of seconds. &lt;/p&gt;
-&lt;p&gt;There is no need to go through the course videos if you are comfortable with reading the documentation. Although the courses are paid, you can refer to the course material (documentation, slides, and code) for free.&lt;/p&gt;
-&lt;p&gt;My membership is about to expire so I collected all the course resources and created an awesome list to help developers like me to get access to these gems. &lt;/p&gt;
-&lt;h4&gt;Introduction to Next.js&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://hendrixer.github.io/nextjs-course/&quot;&gt;Introduction to Next.js&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Hendrixer/nextjs-course-app&quot;&gt;nextjs-course-app&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Getting The Front End Job&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://getting-the-front-end-job.surge.sh/&quot;&gt;Getting The Front End Job&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/jeromehardaway/hot-to-get-front-end-job&quot;&gt;hot-to-get-front-end-job&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/jeromehardaway&quot;&gt;Jerome Hardaway&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Introduction to Vue.js&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://github.com/sdras/intro-to-vue#slides&quot;&gt;Introduction to Vue.js&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/sdras/intro-to-vue&quot;&gt;intro-to-vue&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/sdras&quot;&gt;Sarah Drasner&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Introduction to Svelte&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://svelte-workshop.netlify.app/introduction/&quot;&gt;Introduction to Svelte&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Rich-Harris/svelte-workshop&quot;&gt;svelte-workshop&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Rich-Harris&quot;&gt;Rich Harris&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Angular 9 Fundamentals&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://static.frontendmasters.com/resources/2020-05-28-angular-9/angular-9-fundamentals.pdf&quot;&gt;Angular 9 Fundamentals&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/onehungrymind/angular9-fundamentals-workshop&quot;&gt;angular9-fundamentals-workshop&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/onehungrymind&quot;&gt;One Hungry Mind&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;React Native: Building mobile applications&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://kadikraman.github.io/react-native-v2/&quot;&gt;React Native: Building mobile applications&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/kadikraman/react-native-v2&quot;&gt;react-native-v2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/kadikraman&quot;&gt;Kadi Kraman&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;Practical Guide to Deep Learning with TensorFlow 2.0 and Keras&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/Vadikus/practicalDL&quot;&gt;practicalDL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Vadikus&quot;&gt;Vadim Karpusenko&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Advanced GraphQL&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1DaTDx2Jdolkws2xPx44ee6WuQYMiIAyaaEmN-IBaW1s/edit#slide=id.p&quot;&gt;Advanced GraphQL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/FrontendMasters/advanced-gql-v2&quot;&gt;advanced-gql-v2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/Hendrixer&quot;&gt;Scott Moss&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Full Stack for Front-End Engineers&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://docs.google.com/presentation/d/1Mvf_rOFz1wZeH1irajJqhRQgzid7BkqJBd8wigpz39M/edit&quot;&gt;Full Stack for Front-End Engineers&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/young/Full-Stack-For-Frontend&quot;&gt;Full-Stack-For-Frontend&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/young&quot;&gt;Jem Young&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Visual Studio Code Can Do That?&lt;/h4&gt;
-&lt;p&gt;Material: &lt;a href=&quot;https://burkeholland.gitbook.io/vs-code-can-do-that/&quot;&gt;Visual Studio Code Can Do That?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Repository: &lt;a href=&quot;https://github.com/burkeholland/workshop-vs-code-can-do-that&quot;&gt;workshop-vs-code-can-do-that&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Instructor: &lt;a href=&quot;https://github.com/burkeholland&quot;&gt;Burke Holland&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;There are &lt;strong&gt;75+&lt;/strong&gt; such course resources in this list and it’s not a good idea to make this article big. &lt;/p&gt;
-&lt;p&gt;You can find the list of all courses materials in the below &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt; list on GitHub&lt;/p&gt;
-&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/rahuldkjain/awesome-frontendmasters&quot;&gt;awesome-frontendmasters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I hope you find the list useful and please do share with your developer friends.&lt;/p&gt;
-&lt;p&gt;Happy Coding!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Merge a specific change with master, following the master-develop-features git structure]]></title><description><![CDATA[Situation I am currently working on  whose base is off  branch
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Merge a specific change with master, following the master-develop-features git structure]]></title><description><![CDATA[Situation I am currently working on  whose base is off  branch
 The tip of  branch got diverged after merging changes by other developers…]]></description><link>https://rahuldkjain.github.io/blog/git/push-specific-changes-to-master/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/git/push-specific-changes-to-master/</guid><pubDate>Thu, 23 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/blog/static/99dfc00e261227963df099ddb2600b1a/50383/push-specific-to-master.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAACNUlEQVQoz1VRW2sTQRjNDxHxQcULFG29PAsi/ghB8VHRF7WPosX0lqa+KOprWxXaaqOopUmaGoySS20qiU02Sy67STezl9ndmd2Z3aQW/NZKofANzHc4Z77vnAkR5nUt/lMi+WZQ6y2iWJx5PRkzaAstkmuSDZkalBPXsw9WqN/vfSrho+Hqpef1q6+ahx5V5rLKLrdHl+WBSfHyi8aVl41TY8KmTDzfN52DYub5v2QystyJJJXoqvLwc6fQtHf6fnILP1lRJhKAb4/HFclwYR2b+UHtiy3Xc7gH7N2d3p++zx1i2XbXsLBpc5dqmmroGncJ0k3VsDTDxBblfg8kgRgO2EY2z4gktWXESygtWE3VqSO6VjUTZQ0qI9qqxYoSSVWMRAl9E+1NmZJgsuNxzy916GBEGJyqXZgWj4xU3xT0ubx+LFw9FxWHpsQzk7WKQm++lcA8EE6MCtdnW5T9E0MSYPtspAa8i0/Fw48rs3ltJqcdD1eHorXz0+LAhPB7m954LZ0eD8Qnx4RrMy2y59nlfkNz7y+17y21h2PtW/NyumatCdbtBXn4QwA+iLUhsGfp7p1FQDp337XhDmZDe7nBDti0FKSpugGBwXMu9zQDK6qGdIMQSpnPOEea3lV14BDH+S+GBUzKsuX6+9VsLJXPlhuYMmQ66Y3qYvzHx6/rxZpMmC8hM5krL6x8/5IpVloIkND+p2HiqibtYoIJ20MM4iJMESamw2AApKPbDrRAsx0OhL+tYSTVDF2fzAAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -655,46 +917,28 @@ etc lorem ipsum END
 
 &lt;span class=&quot;token comment&quot;&gt;# Output&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# This text prints many line&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# etc lorem ipsum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Functions]]></title><link>https://rahuldkjain.github.io/blog/bash/3-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/3-functions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# etc lorem ipsum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Positional Parameters]]></title><link>https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
-&lt;span class=&quot;token function-name function&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# get current date and time&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# returns an exit status number between 0-255&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-getDate
+&lt;span class=&quot;token comment&quot;&gt;# positional parameters are variables that can store data on the command line in variable names 0-9&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;#global variable&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rahul&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# $0 always contains the path tp the executed script&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# you can access names past 9 by using parameter expansio like this ${10}&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;#local values aren&apos;t available outside of the function&lt;/span&gt;
-&lt;span class=&quot;token function-name function&quot;&gt;demLocal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Titu&quot;&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-demLocal
+&lt;span class=&quot;token comment&quot;&gt;# add all numbers on the command line&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1st argument: &lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
 
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# $# tells you the number of arguments&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$#&lt;/span&gt; -gt &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# get the first argument&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;
+    &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;sum&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;# a function that receives 2 values and returns a sum&lt;/span&gt;
-&lt;span class=&quot;token function-name function&quot;&gt;getSum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# attributes are retrieved by referring $1, $2 ..etc&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; 
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
-
-    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num3&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num4&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-
-    &lt;span class=&quot;token comment&quot;&gt;#pass values back with echo&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# pass attributes by seperating them with a space&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# surround function call with $() to get the return value&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;getSum num1 num2&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;the sum is &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Value seperator in strings]]></title><link>https://rahuldkjain.github.io/blog/bash/12-value-seperator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/12-value-seperator/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# shift moves the value of $2 into $1 until none are left&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# the value of $# decrements as well&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;shift&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum: &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Value seperator in strings]]></title><link>https://rahuldkjain.github.io/blog/bash/12-value-seperator/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/12-value-seperator/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# you can set what seperates the values with IFS&lt;/span&gt;
 
@@ -733,28 +977,95 @@ demLocal
 
 &lt;span class=&quot;token comment&quot;&gt;# this uses the default value if it doesn&apos;t exists and assigns the value&lt;/span&gt;
 &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;I am &lt;span class=&quot;token variable&quot;&gt;${name&lt;span class=&quot;token operator&quot;&gt;:=&lt;/span&gt;titu}&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Positional Parameters]]></title><link>https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/11-positional-parameters/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Input and Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;# positional parameters are variables that can store data on the command line in variable names 0-9&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# take user input using read&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# -p is used to prompt with string&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;What is your name: &quot;&lt;/span&gt; name &lt;span class=&quot;token comment&quot;&gt;# space after string is neccessary&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;# $0 always contains the path tp the executed script&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# you can access names past 9 by using parameter expansio like this ${10}&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you: &quot;&lt;/span&gt; age
 
-&lt;span class=&quot;token comment&quot;&gt;# add all numbers on the command line&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1st argument: &lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# place your conditions within []&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# include a space after [ and before ]&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Integer comparisons: eq, ne, lt, gt, le, ge&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -ge &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive&quot;&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;# $# tells you the number of arguments&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$#&lt;/span&gt; -gt &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# get the first argument&lt;/span&gt;
-    &lt;span class=&quot;token assign-left variable&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;
-    &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;sum&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# check another condition&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -eq &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive next year&quot;&lt;/span&gt;
 
-    &lt;span class=&quot;token comment&quot;&gt;# shift moves the value of $2 into $1 until none are left&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;# the value of $# decrements as well&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;shift&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum: &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Logical Operators and integer conditional statements]]></title><link>https://rahuldkjain.github.io/blog/bash/4-integer-test/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/4-integer-test/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# executed by default&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can&apos;t drive&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# closes the if statement&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# read multiple values&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter 2 numbers to sum: &quot;&lt;/span&gt; num1 num2
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt; = &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# hide the input with s code (password)&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -sp &lt;span class=&quot;token string&quot;&gt;&quot;Enter the secret code: &quot;&lt;/span&gt; secret
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$secret&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Enter&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Wrong password&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+
+&lt;span class=&quot;token comment&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;can_vote&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;
+
+&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Can Vote: &lt;span class=&quot;token variable&quot;&gt;$can_vote&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Functions]]></title><link>https://rahuldkjain.github.io/blog/bash/3-functions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/3-functions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token function-name function&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# get current date and time&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# returns an exit status number between 0-255&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+getDate
+
+&lt;span class=&quot;token comment&quot;&gt;#global variable&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Rahul&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#local values aren&apos;t available outside of the function&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;demLocal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Titu&quot;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+demLocal
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# a function that receives 2 values and returns a sum&lt;/span&gt;
+&lt;span class=&quot;token function-name function&quot;&gt;getSum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# attributes are retrieved by referring $1, $2 ..etc&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; 
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;num4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
+
+    &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num3&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num4&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;#pass values back with echo&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# pass attributes by seperating them with a space&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# surround function call with $() to get the return value&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;getSum num1 num2&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;the sum is &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Logical Operators and integer conditional statements]]></title><link>https://rahuldkjain.github.io/blog/bash/4-integer-test/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/4-integer-test/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt; num
 
@@ -832,67 +1143,7 @@ demLocal
 &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;2&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;7}&lt;/span&gt;&quot;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# returns whats left after `a`&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;*a }&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Regular Expressions (Regex)]]></title><link>https://rahuldkjain.github.io/blog/bash/8-regex/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/8-regex/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# with extended test [[ ]] you can use regular expressions&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Validate date: &quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;pat&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;^[0-9]{8}$&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;~ &lt;span class=&quot;token variable&quot;&gt;$pat&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is valid&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is invalid&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Input and Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/2-input-with-conditions/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# take user input using read&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# -p is used to prompt with string&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;What is your name: &quot;&lt;/span&gt; name &lt;span class=&quot;token comment&quot;&gt;# space after string is neccessary&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello &lt;span class=&quot;token variable&quot;&gt;$name&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;How old are you: &quot;&lt;/span&gt; age
-
-&lt;span class=&quot;token comment&quot;&gt;# place your conditions within []&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# include a space after [ and before ]&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Integer comparisons: eq, ne, lt, gt, le, ge&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -ge &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# check another condition&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$age&lt;/span&gt; -eq &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; 
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can drive next year&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# executed by default&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;You can&apos;t drive&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# closes the if statement&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# read multiple values&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Enter 2 numbers to sum: &quot;&lt;/span&gt; num1 num2
-&lt;span class=&quot;token assign-left variable&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$((&lt;/span&gt;num1&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;num2&lt;span class=&quot;token variable&quot;&gt;))&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$num1&lt;/span&gt; + &lt;span class=&quot;token variable&quot;&gt;$num2&lt;/span&gt; = &lt;span class=&quot;token variable&quot;&gt;$sum&lt;/span&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# hide the input with s code (password)&lt;/span&gt;
-
-&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -sp &lt;span class=&quot;token string&quot;&gt;&quot;Enter the secret code: &quot;&lt;/span&gt; secret
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$secret&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Enter&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Wrong password&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
-
-
-&lt;span class=&quot;token comment&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;token assign-left variable&quot;&gt;can_vote&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;
-
-&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;((&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;can_vote&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Can Vote: &lt;span class=&quot;token variable&quot;&gt;$can_vote&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings with Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/7-testing-strings/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/7-testing-strings/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${rand_str&lt;span class=&quot;token operator&quot;&gt;#&lt;/span&gt;*a }&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Strings with Conditionals(if else)]]></title><link>https://rahuldkjain.github.io/blog/bash/7-testing-strings/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/7-testing-strings/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Sad&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;str3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Happy&quot;&lt;/span&gt;
@@ -978,6 +1229,17 @@ demLocal
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -O &lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
         &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file1&lt;/span&gt; is a owned by the userid&quot;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Regular Expressions (Regex)]]></title><link>https://rahuldkjain.github.io/blog/bash/8-regex/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/8-regex/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# with extended test [[ ]] you can use regular expressions&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;Validate date: &quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;pat&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;^[0-9]{8}$&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;~ &lt;span class=&quot;token variable&quot;&gt;$pat&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is valid&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$date&lt;/span&gt; is invalid&quot;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Bash Shell Scripting: Arrays]]></title><link>https://rahuldkjain.github.io/blog/bash/9-arrays/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/bash/9-arrays/</guid><pubDate>Tue, 21 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# bash arrays can only have 1 dimesion and indexes start at 0&lt;/span&gt;
@@ -1587,7 +1849,66 @@ takes a DS/Algo round. Make sure that you are able to crack it. If you
 have mastered the art of problem-solving, everything would be easy for
 you, be it Android, be it web, be it ML/AI.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Source - &lt;a href=&quot;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&quot;&gt;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 IBM ISL SDE Internship Interview Experience]]></title><description><![CDATA[IBM ISL, BANGALORE 07 Jan - 08 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be available…]]></description><link>https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;IBM ISL, BANGALORE&lt;/h2&gt;
+&lt;p&gt;Source - &lt;a href=&quot;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&quot;&gt;https://www.quora.com/How-do-I-compete-with-the-students-studying-in-IITs-while-studying-in-a-mediocre-college&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Coviam Technologies SDE Internship Interview Experience]]></title><description><![CDATA[COVIAM TECHNOLOGIES, BANGALORE 10 Jan, 01 Feb 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h3&gt;COVIAM TECHNOLOGIES, BANGALORE&lt;/h3&gt;
+&lt;p&gt;10 Jan, 01 Feb 2019&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;70% in the current degree pursuing or 7.0 CPI and above.&lt;/li&gt;
+&lt;li&gt;Should be available for 6 months internship starting from Jun/Jul’19.&lt;/li&gt;
+&lt;li&gt;BE/B.Tech/M.Tech in Computer Science and Electronics &amp;#x26; Communication.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Stipend&lt;/strong&gt; - Rs. 24,000/month&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PPO(Pre Placement Offer)&lt;/strong&gt; – Rs. 7.5 LPA&lt;/p&gt;
+&lt;p&gt;Coviam conducted three rounds for summer internship recruitment at IIITDM Jabalpur on 10th January(Online Test), 01 February(Interview) 2019.&lt;/p&gt;
+&lt;p&gt;The 3 rounds were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Online Aptitude Test&lt;/li&gt;
+&lt;li&gt;Tech Interview I&lt;/li&gt;
+&lt;li&gt;Tech Interview II&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Round 1: Online Aptitude Test&lt;/h2&gt;
+&lt;p&gt;Coviam Aptitude Test tests the candidates INFERENCE, DEDUCTION, PROGRAMMING  and MATH skills in a strict time pressured environment.&lt;/p&gt;
+&lt;p&gt;Here are some important instructions for Aptitude Test:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the test format?&lt;/strong&gt;
+Two sections – 24 Aptitude Ability questionsand 16 Programming Ability questions.&lt;/p&gt;
+&lt;p&gt;Aptitude Sections:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Quant&lt;/li&gt;
+&lt;li&gt;Verbal Reasoning&lt;/li&gt;
+&lt;li&gt;Logical Reasoning&lt;/li&gt;
+&lt;li&gt;Data Interpretation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Programming Section&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Java I/O Questions&lt;/li&gt;
+&lt;li&gt;Java Basics&lt;/li&gt;
+&lt;li&gt;Java OOPs&lt;/li&gt;
+&lt;li&gt;Java Collections&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;What is the question format?&lt;/strong&gt;
+Multiple choice format – 4 choices provided per question with only 1 correct answer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the time provided per question?&lt;/strong&gt;
+60 minutes for 40 questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Is a calculator permitted?&lt;/strong&gt;
+No, but you can use Desktop’s calculator, when needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can the test be retaken?&lt;/strong&gt;
+The test does not allow retakes for 1 year and hence it is critical to get it right the first time around.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: You need to score good in both sections in-order to clear for interviews.&lt;/p&gt;
+&lt;h2&gt;Round 2: Tech Interview I&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Tell me about yourself&lt;/li&gt;
+&lt;li&gt;Projects&lt;/li&gt;
+&lt;li&gt;Java OOPS, Collections, Garbage Collector&lt;/li&gt;
+&lt;li&gt;OS Memory Concepts&lt;/li&gt;
+&lt;li&gt;Write code of Data Structures and Algo problems(in any language)&lt;/li&gt;
+&lt;li&gt;Write code of basic DP problems(in any language)&lt;/li&gt;
+&lt;li&gt;Puzzles&lt;/li&gt;
+&lt;li&gt;Do you have any questions?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Questions asked during the interviews were mostly from Data Structures &amp;#x26; Algorithms, Java, DBMS, Operating System, Computer Networks.&lt;/p&gt;
+&lt;h2&gt;Round 3: Technical Interview II&lt;/h2&gt;
+&lt;p&gt;This round was  taken by Senior Executives of Coviam. This round was basically meant for checking whether the candidate is good fit for the company culture. Questions asked during this interview were CV based. If you are developer, then you will be asked to explain each and every projects and your role in it. If you are a competitve programmer, then you are more likely to be asked concepts like Convex Hull, DP etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remember&lt;/strong&gt;: To make a good impact be prepared with your github profile and your online presence(development, extra-curricular presence).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 IBM ISL SDE Internship Interview Experience]]></title><description><![CDATA[IBM ISL, BANGALORE 07 Jan - 08 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be available…]]></description><link>https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/IBM ISL Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;IBM ISL, BANGALORE&lt;/h2&gt;
 &lt;p&gt;07 Jan - 08 Jan 2019&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Eligibility Criteria&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1661,66 +1982,7 @@ The test does not allow retakes for 1 year and hence it is critical to get it ri
 &lt;li&gt;Computer Networks&lt;/li&gt;
 &lt;li&gt;Project Based Questions (whatever Project who have mentioned in CV)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Although I was not selected for the interviews I gained a lot from this experience. The one thing that I learnt is that never expect anything out of the recruitment. Anything can happen. Even those who don’t know any technical stuff get selected and even best matched candidate will not be selected. Anything can happen during the recruitments. The Key is to KEEP GOING AHEAD keeping in mind that there are millions of companies in this whole world and there will be some companies which will respect and recognize your talent and hard work.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Coviam Technologies SDE Internship Interview Experience]]></title><description><![CDATA[COVIAM TECHNOLOGIES, BANGALORE 10 Jan, 01 Feb 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Coviam Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h3&gt;COVIAM TECHNOLOGIES, BANGALORE&lt;/h3&gt;
-&lt;p&gt;10 Jan, 01 Feb 2019&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;70% in the current degree pursuing or 7.0 CPI and above.&lt;/li&gt;
-&lt;li&gt;Should be available for 6 months internship starting from Jun/Jul’19.&lt;/li&gt;
-&lt;li&gt;BE/B.Tech/M.Tech in Computer Science and Electronics &amp;#x26; Communication.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Stipend&lt;/strong&gt; - Rs. 24,000/month&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PPO(Pre Placement Offer)&lt;/strong&gt; – Rs. 7.5 LPA&lt;/p&gt;
-&lt;p&gt;Coviam conducted three rounds for summer internship recruitment at IIITDM Jabalpur on 10th January(Online Test), 01 February(Interview) 2019.&lt;/p&gt;
-&lt;p&gt;The 3 rounds were:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Online Aptitude Test&lt;/li&gt;
-&lt;li&gt;Tech Interview I&lt;/li&gt;
-&lt;li&gt;Tech Interview II&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Round 1: Online Aptitude Test&lt;/h2&gt;
-&lt;p&gt;Coviam Aptitude Test tests the candidates INFERENCE, DEDUCTION, PROGRAMMING  and MATH skills in a strict time pressured environment.&lt;/p&gt;
-&lt;p&gt;Here are some important instructions for Aptitude Test:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the test format?&lt;/strong&gt;
-Two sections – 24 Aptitude Ability questionsand 16 Programming Ability questions.&lt;/p&gt;
-&lt;p&gt;Aptitude Sections:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Quant&lt;/li&gt;
-&lt;li&gt;Verbal Reasoning&lt;/li&gt;
-&lt;li&gt;Logical Reasoning&lt;/li&gt;
-&lt;li&gt;Data Interpretation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Programming Section&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Java I/O Questions&lt;/li&gt;
-&lt;li&gt;Java Basics&lt;/li&gt;
-&lt;li&gt;Java OOPs&lt;/li&gt;
-&lt;li&gt;Java Collections&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;What is the question format?&lt;/strong&gt;
-Multiple choice format – 4 choices provided per question with only 1 correct answer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the time provided per question?&lt;/strong&gt;
-60 minutes for 40 questions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Is a calculator permitted?&lt;/strong&gt;
-No, but you can use Desktop’s calculator, when needed.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Can the test be retaken?&lt;/strong&gt;
-The test does not allow retakes for 1 year and hence it is critical to get it right the first time around.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: You need to score good in both sections in-order to clear for interviews.&lt;/p&gt;
-&lt;h2&gt;Round 2: Tech Interview I&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Tell me about yourself&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Java OOPS, Collections, Garbage Collector&lt;/li&gt;
-&lt;li&gt;OS Memory Concepts&lt;/li&gt;
-&lt;li&gt;Write code of Data Structures and Algo problems(in any language)&lt;/li&gt;
-&lt;li&gt;Write code of basic DP problems(in any language)&lt;/li&gt;
-&lt;li&gt;Puzzles&lt;/li&gt;
-&lt;li&gt;Do you have any questions?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Questions asked during the interviews were mostly from Data Structures &amp;#x26; Algorithms, Java, DBMS, Operating System, Computer Networks.&lt;/p&gt;
-&lt;h2&gt;Round 3: Technical Interview II&lt;/h2&gt;
-&lt;p&gt;This round was  taken by Senior Executives of Coviam. This round was basically meant for checking whether the candidate is good fit for the company culture. Questions asked during this interview were CV based. If you are developer, then you will be asked to explain each and every projects and your role in it. If you are a competitve programmer, then you are more likely to be asked concepts like Convex Hull, DP etc.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Remember&lt;/strong&gt;: To make a good impact be prepared with your github profile and your online presence(development, extra-curricular presence).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Oracle RGBU SDE Internship Interview Experience]]></title><description><![CDATA[Oracle RGBU, BANGALORE  11 Jan, 17 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Oracle RGBU, BANGALORE&lt;/h2&gt;
+&lt;p&gt;Although I was not selected for the interviews I gained a lot from this experience. The one thing that I learnt is that never expect anything out of the recruitment. Anything can happen. Even those who don’t know any technical stuff get selected and even best matched candidate will not be selected. Anything can happen during the recruitments. The Key is to KEEP GOING AHEAD keeping in mind that there are millions of companies in this whole world and there will be some companies which will respect and recognize your talent and hard work.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🎯 Oracle RGBU SDE Internship Interview Experience]]></title><description><![CDATA[Oracle RGBU, BANGALORE  11 Jan, 17 Jan 2019 Eligibility Criteria 70% in the current degree pursuing or 7.0 CPI and above. Should be…]]></description><link>https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/Oracle RGBU Interview Prep Guide/</guid><pubDate>Sat, 06 Apr 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Oracle RGBU, BANGALORE&lt;/h2&gt;
 &lt;p&gt; 11 Jan, 17 Jan 2019&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Eligibility Criteria&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
