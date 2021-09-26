@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Sep 2021 03:27:30 GMT</lastBuildDate><item><title><![CDATA[CRED Interview Experience]]></title><description><![CDATA[Intro CRED is an Indian  unicorn fintech startup that give rewards for paying credit card bills. But it’s more of a lifestyle brand than…]]></description><link>https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</guid><pubDate>Tue, 20 Jul 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Sep 2021 17:05:38 GMT</lastBuildDate><item><title><![CDATA[One month at CRED]]></title><description><![CDATA[I joined CRED on 23rd Aug 2021 as a frontend engineer. It’s been over a month now and I am truly having a great time working here. The past…]]></description><link>https://rahuldkjain.github.io/blog/cred/1-month-at-CRED/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred/1-month-at-CRED/</guid><pubDate>Mon, 26 Jul 2021 21:09:13 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png&quot; alt=&quot;cred.club&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;I joined &lt;a href=&quot;https://cred.club&quot;&gt;CRED&lt;/a&gt; on 23rd Aug 2021 as a frontend engineer. It’s been over a month now and I am truly having a great time working here. The past one month has been a great learning experience for me. My journey started with CRED Assemble sessions in which folks from different teams openly share knowledge about their work. They openly shared the stats and numbers that shows their impact in CRED’s growth. I attended 4-6 sessions daily for two weeks straight. Finally I had a better and realistic understanding of how CRED’s make money.&lt;/p&gt;
+&lt;p&gt;There is a tradition of assigning a buddy to every new team member. I am very lucky to have &lt;a href=&quot;https://twitter.com/qwerty__ui&quot;&gt;Himanshu Singh&lt;/a&gt; as my buddy. He took my first interview and it was amazing to interact with him. I really liked how he explained me about taking decisions in choosing the right employer. You can read my &lt;a href=&quot;https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/&quot;&gt;interview experience&lt;/a&gt; to know more. He contacted me even before joining CRED. He was there right from the beginning to clear doubts. We both had a great time in Buddy Banter sessions.&lt;/p&gt;
+&lt;p&gt;After the assemble sessions I started learning about the web ecosystem at CRED. Started diving into the codebase to get a good understanding of the architecture. After going through the codebase I realized these technical gaps to overcome:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Error Boundaries: which don’t break the whole app if something crashes.&lt;/li&gt;
+&lt;li&gt;MobX: elegant state management library.&lt;/li&gt;
+&lt;li&gt;XState: using Finite State Machines in code. Finally something that I learned in college lectures.&lt;/li&gt;
+&lt;li&gt;Storybook: UI components explorer&lt;/li&gt;
+&lt;li&gt;Typescript: still a noob here. I know few type checks and interface only.&lt;/li&gt;
+&lt;li&gt;Xcode: how to run apps in iOS simulator to debug webview.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I brushed these concepts from FrontendMasters courses.&lt;/p&gt;
+&lt;p&gt;I recently solved a UI bug which is coming up only in iOS 15. This took me 2 days to setup things in Xcode in-order to debug. This boasted my confidence towards codebase.&lt;/p&gt;
+&lt;p&gt;I am currently working on a component library with my team. Let’s see how it goes.&lt;/p&gt;
+&lt;p&gt;Poker Tournament (10L Prize Money 🤑)
+CRED Social Sessions (beat boxer, illusionist, &amp;#x26; singer)&lt;/p&gt;
+&lt;h1&gt;Things I liked&lt;/h1&gt;
+&lt;h2&gt;Monthly gifts&lt;/h2&gt;
+&lt;figure align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://pbs.twimg.com/media/E-cGk-cVQAYlXB5?format=jpg&amp;amp;name=large&quot; height=&quot;400&quot; width=&quot;auto&quot; alt=&quot;cred.club gift&quot;&gt;
+&lt;figcaption&gt;Image by &lt;a href=&quot;https://twitter.com/abhisheknaiidu&quot; target=&quot;blank&quot;&gt;Abhishek Naidu&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+CRED sends such amazing gifts every month. I am speechless how CRED as an organization takes care of the shareholders. Everyone at CRED is a shareholder because every employee owns CRED&amp;apos;s ESOPs.
+&lt;h2&gt;Events&lt;/h2&gt;
+&lt;p&gt;CRED organized a Poker tournament worth 10Lac of prize money 🤑. I learned how to play poker and secured the 141th position out of 196. Not bad ha!
+CRED is organizing the Badminton League in Bangalore. FOMOed!!&lt;/p&gt;
+&lt;p&gt;CRED also organizes social sessions. It invites creative talents like beat-boxer, singer, &amp;#x26; illusionist etc every saturday on zoom.&lt;/p&gt;
+&lt;h2&gt;Professional Workshops&lt;/h2&gt;
+&lt;figure align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://i2.wp.com/yukaichou.com/wp-content/uploads/2020/12/Gamification-Framework.jpeg?resize=825%2C510&amp;amp;ssl=1&quot; height=&quot;400&quot; width=&quot;auto&quot; alt=&quot;octalysis&quot;&gt;
+&lt;figcaption&gt;
+Image source &lt;a href=&quot;https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/&quot; target=&quot;blank&quot;&gt;Octalysis&lt;/a&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;CRED organized a professional working on how gamification can bring a good growth to the org. The guru of Gamification, &lt;a href=&quot;https://twitter.com/yukaichou&quot;&gt;Yo-kai Chou&lt;/a&gt; who designed the Octalysis framework took the 2 day workshop and explained the 8 pillars.&lt;/p&gt;
+&lt;h2&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;memes channel&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;flexible working hours&lt;/li&gt;
+&lt;li&gt;Unlimited leave policy&lt;/li&gt;
+&lt;li&gt;ESOPs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Things I disliked&lt;/h1&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Everyone here feels so driven and takes pride in whatever they are doing.
+I am loving it and you will love it too. If you think you can be a great fit at CRED then don’t hesitate to reach out to me on twitter at &lt;a href=&quot;https://twitter.com/Rahuldkjain&quot;&gt;rahuldkjain&lt;/a&gt;.
+Until next time.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CRED Interview Experience]]></title><description><![CDATA[Intro CRED is an Indian  unicorn fintech startup that give rewards for paying credit card bills. But it’s more of a lifestyle brand than…]]></description><link>https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred-interview/CRED-interview-experience/</guid><pubDate>Tue, 20 Jul 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://cred.club/&quot;&gt;CRED&lt;/a&gt; is an Indian  unicorn fintech startup that give rewards for paying credit card bills. But it’s more of a lifestyle brand than being a fintech product. The credit-score threshold to become a CRED member is around 750, which means it filters out the customers with low credit score. It’s a smart way to provide value experience to the customers. CRED has not became a profit making company yet and still investing more in marketing to gain a large user base, I see an amazing opportunity to grow my skills by contributing in their vision.&lt;/p&gt;
 &lt;h2&gt;How I landed the interview?&lt;/h2&gt;
 &lt;p&gt;I created my profile on &lt;a href=&quot;https://www.instahyre.com/&quot;&gt;Instahyre&lt;/a&gt; and updated all the neccessary details to stand out from the crowd. In just 2 days, I received a call from an HR at CRED about a frontend developer role &amp;#x26; I decided to give it a try.&lt;/p&gt;
