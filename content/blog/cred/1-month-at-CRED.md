@@ -62,7 +62,7 @@ CRED organized a professional working on how gamification can bring a good growt
 
 ## Other
 
-- #memes channel
+- `memes` channel
 - flexible working hours
 - Unlimited leave policy
 - ESOPs
