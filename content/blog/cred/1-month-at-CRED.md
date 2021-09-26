@@ -1,7 +1,7 @@
 ---
 title: "One month at CRED"
 date: 2021-07-26 21:09:13
-category: "development"
+category: "experience"
 description: "Let me share some nuggets about my one month of working experience at CRED."
 draft: false
 ---
