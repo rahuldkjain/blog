@@ -15,7 +15,7 @@ Form Link: [CRED Referral form](https://forms.gle/3yV5J3Avu9fmTRPR8)
 
 **_NOTE: This is not an official referral form. I've created it personally to analyze the candidates effectively._**
 
-There is no 100% guarantee that you will get a call for the interview after getting referred. You need to stand out from others in-order to get the call.
+There is no guarantee that you will get a call for the interview after getting referred. You need to stand out from others in-order to get the call.
 
 ## How to stand out?
 
