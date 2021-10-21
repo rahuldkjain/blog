@@ -1,5 +1,5 @@
 ---
-title: "How to ask for a referral?"
+title: "How to reach out for a referral?"
 date: 2021-10-21 21:09:13
 category: "open-source"
 description: "Analyzing candidates from LinkedIn DMs doesn't seem fair to me. See how you can double your chances of getting a referral."
