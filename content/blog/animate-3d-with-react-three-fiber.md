@@ -1,6 +1,6 @@
 ---
 title: Animate 3D models using react-three-fiber
-date: 2020-06-09
+date: 2022-06-28
 description: Let's learn how to import 3d models in your react app and how to animate it. @react-three/fiber @react-three/drei three
 ---
 
