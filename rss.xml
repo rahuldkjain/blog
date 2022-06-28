@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Mar 2022 13:25:20 GMT</lastBuildDate><item><title><![CDATA[How to reach out for a referral?]]></title><description><![CDATA[I got 100+ direct messages on LinkedIn for the referral at CRED in the last couple of days. Found it very difficult to analyze the candidate…]]></description><link>https://rahuldkjain.github.io/blog/cred/how-to-reach-out-for-referral-at-cred/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred/how-to-reach-out-for-referral-at-cred/</guid><pubDate>Thu, 21 Oct 2021 21:09:13 GMT</pubDate><content:encoded>&lt;p&gt;I got 100+ direct messages on LinkedIn for the referral at CRED in the last couple of days. Found it very difficult to analyze the candidate’s suitability with the job profile.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Jun 2022 09:21:38 GMT</lastBuildDate><item><title><![CDATA[How to reach out for a referral?]]></title><description><![CDATA[I got 100+ direct messages on LinkedIn for the referral at CRED in the last couple of days. Found it very difficult to analyze the candidate…]]></description><link>https://rahuldkjain.github.io/blog/cred/how-to-reach-out-for-referral-at-cred/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred/how-to-reach-out-for-referral-at-cred/</guid><pubDate>Thu, 21 Oct 2021 21:09:13 GMT</pubDate><content:encoded>&lt;p&gt;I got 100+ direct messages on LinkedIn for the referral at CRED in the last couple of days. Found it very difficult to analyze the candidate’s suitability with the job profile.
 So to streamline the process and make it fair for everyone, I’ve created a google form.&lt;/p&gt;
 &lt;p&gt;Fill this google form to double your chances of getting a referral.&lt;/p&gt;
 &lt;p&gt;Form Link: &lt;a href=&quot;https://forms.gle/3yV5J3Avu9fmTRPR8&quot;&gt;CRED Referral form&lt;/a&gt;&lt;/p&gt;
@@ -1972,7 +1972,42 @@ From “Yeh Shaam Mastaani Madhosh kiye Jaaye” to “So Gaya Ye Jahan So Gaya 
 He gets bamboozled by unconsciously kicking a beer bootle lying on the floor. He rubs his eyes as the bottle rolls across the hall. &lt;/p&gt;
 &lt;p&gt;He opens his eyes and finds something strange. He can’t remember what exaclty happened after dancing in the night and sees Shambhoo and Birju lying and sleeping next to each other wearing only &lt;code class=&quot;language-text&quot;&gt;Chaddi&lt;/code&gt;. He starts feeling wet in his legs and finds his pee coming out his Chaddi slowly. Suddenly he sees a Chaddi lying on the floor dying out of loneliness. The fact that this is the same chaddi that Ramesh was wearing, scares the shit out him.&lt;/p&gt;
 &lt;p&gt;-----Alarm Sound-----------------&lt;/p&gt;
-&lt;p&gt;Umm, Oh thank God it was a dream. What time is it! OMG it’s 9:10. I have to attend the meeting the otherwise the boss will definitely fire me this time. Why God Why. I wanna go back to hostel and live with Birju &amp;#x26; Shambhoo. I really miss them. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[List of food items for healthy eyes 👀]]></title><description><![CDATA[Foods You Should Be Eating For Healthy Eyes No matter your age, it’s important that you take care of your body to the best of your ability…]]></description><link>https://rahuldkjain.github.io/blog/HealthyEyes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/HealthyEyes/</guid><pubDate>Fri, 01 Nov 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Foods You Should Be Eating For Healthy Eyes&lt;/h2&gt;
+&lt;p&gt;Umm, Oh thank God it was a dream. What time is it! OMG it’s 9:10. I have to attend the meeting the otherwise the boss will definitely fire me this time. Why God Why. I wanna go back to hostel and live with Birju &amp;#x26; Shambhoo. I really miss them. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animate 3D models using react-three-fiber]]></title><description><![CDATA[This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get…]]></description><link>https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</guid><pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get started.&lt;/p&gt;
+&lt;h3&gt;1. Download 3D model&lt;/h3&gt;
+&lt;p&gt;You need a 3D asset to get started. I personally use &lt;a href=&quot;https://sketchfab.com/&quot;&gt;Sketchfab&lt;/a&gt; marketplace to download CC licensed 3D models.
+For this demo, I’ll be using the &lt;a href=&quot;https://sketchfab.com/3d-models/skateboard-4295ea44111e45299d5ab4862a354664&quot;&gt;skateboard&lt;/a&gt; model.&lt;/p&gt;
+&lt;h3&gt;2. Convert model to .glb&lt;/h3&gt;
+&lt;p&gt;Install gltf-pipeline globally.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g gltf-pipeline&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Place the glTF file in an empty folder and open your command line tool. cd into the folder and run the command below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gltf-pipeline -i &amp;lt;source file&amp;gt; -o &amp;lt;output file&amp;gt;
+
+// example
+gltf-pipeline -i skateboard.gltf -o skateboard.glb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;3. Compress the model&lt;/h3&gt;
+&lt;p&gt;We’ll use a glTF pipeline compression extension called &lt;a href=&quot;https://google.github.io/draco/&quot;&gt;Draco&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gltf-pipeline -i &amp;lt;source file&amp;gt; -o &amp;lt;output file&amp;gt; --draco.compressionLevel=10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Draco compression has a maximum value of ten and a minimum value of zero. Passing 10 into the compression level provides the maximum possible compression.&lt;/p&gt;
+&lt;h3&gt;4. Dependencies&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i @react-three/fiber @react-three/drei three&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;5. Converting the model into reusable react-component (optional)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i gltfjsx
+npx gltfjsx &amp;lt;glTF model source file&amp;gt;
+
+// example
+npx gltfjsx skateboard-draco.gltf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;6. Adding 3d component into the scene&lt;/h3&gt;
+&lt;p&gt;There are two ways to import 3D model into scene:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the reusable react-component after converting it using gltfjsx&lt;/li&gt;
+&lt;li&gt;Import the model using &lt;code class=&quot;language-text&quot;&gt;useLoader&lt;/code&gt; hook with &lt;code class=&quot;language-text&quot;&gt;GLTFLoader&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;7. Animating the model&lt;/h3&gt;
+&lt;h3&gt;8. Conclusion&lt;/h3&gt;
+&lt;h3&gt;9. References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.logrocket.com/configure-3d-models-react-three-fiber/&quot;&gt;Configure 3D models with react-three-fiber&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[List of food items for healthy eyes 👀]]></title><description><![CDATA[Foods You Should Be Eating For Healthy Eyes No matter your age, it’s important that you take care of your body to the best of your ability…]]></description><link>https://rahuldkjain.github.io/blog/HealthyEyes/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/HealthyEyes/</guid><pubDate>Fri, 01 Nov 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h2&gt;Foods You Should Be Eating For Healthy Eyes&lt;/h2&gt;
 &lt;p&gt;No matter your age, it’s important that you take care of your body to the best of your ability. One important topic that often gets overlooked (and thrown into the “for old people” category) is eye health.&lt;/p&gt;
 &lt;p&gt;In order to protect your eyes against age-related eye diseases, you should incorporate foods rich in antioxidants like vitamin C and E, beta-carotene, blah blah…&lt;/p&gt;
 &lt;p&gt;I feel the same too&lt;/p&gt;
