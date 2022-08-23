@@ -1,4 +1,506 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Jun 2022 09:24:04 GMT</lastBuildDate><item><title><![CDATA[Animate 3D models using react-three-fiber]]></title><description><![CDATA[This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get…]]></description><link>https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</guid><pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get started.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rahul's Blog]]></title><description><![CDATA[Blog where I cook technical and fictional stories using animations.]]></description><link>https://rahuldkjain.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Aug 2022 14:48:11 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I tweeted this exactly one year ago. So yeah today marks my one year journey at CRED. After so many parties, releases, & an offsite, I can…]]></description><link>https://rahuldkjain.github.io/blog/cred/1-year-at-CRED/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/cred/1-year-at-CRED/</guid><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/b1085c47847a39ab753c0e3ab07c8f07/04784/tweet.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABTElEQVQoz41R23KCMBDlz9vpl3W0iqJS7UwBuYVLCEFIIASsBZGu2pk+9MUzk52dkz2bsxtF1EJba6UQMcac8WEYxsdwPp8V09q/PD/hrDAs2/aQqOWD4svlosjmGERJ27ZN0wqwAecGSJqmqarfyDi/X/CyBAaquq5TKKWLxWK7+1CXq5m69Hzko9BxPcO0fIRsx/VRsLedT8OECAxUup7nOh48pjDGcZIQQmzLjAP0fTqND0Ppul5K8P7Fh5ENoziPoh/FsWOMAV1WlbwBbJdlVdeyKFjBWJ4X14UFYTifq5q+U51sYuCVk+oB2+6D6dtsqa309+16A2G32ujT2fx1MoWJwiiK4/gqJiRNSEozGge+uzdxFFKCaUpgFIQCqIPuOCGHPKc0830Emj/bx6/ToeCyPcI2y7oRsoURWCVKIQtedX3//4fugPwHvDb0Gu/WF2QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;23-aug-21-tweet&quot;
+        title=&quot;23-aug-21-tweet&quot;
+        src=&quot;/blog/static/b1085c47847a39ab753c0e3ab07c8f07/fcda8/tweet.png&quot;
+        srcset=&quot;/blog/static/b1085c47847a39ab753c0e3ab07c8f07/12f09/tweet.png 148w,
+/blog/static/b1085c47847a39ab753c0e3ab07c8f07/e4a3f/tweet.png 295w,
+/blog/static/b1085c47847a39ab753c0e3ab07c8f07/fcda8/tweet.png 590w,
+/blog/static/b1085c47847a39ab753c0e3ab07c8f07/efc66/tweet.png 885w,
+/blog/static/b1085c47847a39ab753c0e3ab07c8f07/04784/tweet.png 1174w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+I tweeted this exactly one year ago. So yeah today marks my one year journey at CRED. After so many parties, releases, &amp;#x26; an offsite, I can say it’s been an amazing journey in terms of personal and technical growth.&lt;/p&gt;
+&lt;h3&gt;Highlights&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Max(Rent + Education payments) ⇒ 242% growth in monthly transactions.&lt;/li&gt;
+&lt;li&gt;Utility Bill Payments ⇒ scratch to 2.4M transactions a month.&lt;/li&gt;
+&lt;li&gt;Open Sourced &lt;a href=&quot;https://github.com/CRED-CLUB/neopop-web&quot;&gt;neopop-web&lt;/a&gt; component library on GitHub.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Super fortunate to work in such a great team that leaves no opportunity to make fun of each other apart from shipping great quality products. A team that pushes you to compound exponentially in becoming the best version of yourself. I feel that I have become more confident in asking questions, starting a conversation with anyone, shipping good quality products, and making fun of anybody (yes of course).&lt;/p&gt;
+&lt;p&gt;I am very bad at giving shoutouts but I think today is the day to break all the streaks.&lt;/p&gt;
+&lt;p&gt;A huge shoutout to the powerhouse of the team, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mittalchirag_&quot;&gt;Chirag Mittal&lt;/a&gt;&lt;/strong&gt; for believing in me from the very start and giving me the opportunity to contribute to one of the best products in CRED. Thanks for coming up on all the quick calls to clear doubts, thanks for pushing me to develop the product mindset. I really admire his ability to think from first principles.&lt;/p&gt;
+&lt;p&gt;A big shoutout to the knowledge bank of the team, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/tripurari001&quot;&gt;Tripurari Shankar&lt;/a&gt;&lt;/strong&gt; for all the official, and unofficial Gurukul sessions, and for all the pseudo birthday parties that he sponsored.&lt;/p&gt;
+&lt;p&gt;A big shoutout to the greek god of the team, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/amalkrishna_t&quot;&gt;Amal Krishna&lt;/a&gt;&lt;/strong&gt; for all the guidance and 1:1 sessions to keep me moving forward.&lt;/p&gt;
+&lt;p&gt;A :party-parrot: shoutout to &lt;strong&gt;&lt;a href=&quot;https://twitter.com/tathagat2006&quot;&gt;Tathagat Thapliyal 🇮🇳&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/sharmaadityaHQ&quot;&gt;Aditya Sharma&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/abhisheknaiidu&quot;&gt;Abhishek Naidu&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/Utkarsh9799_&quot;&gt;Utkarsh Gupta&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/hdsatija&quot;&gt;Himanshu Satija&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/yogicodes&quot;&gt;Yoginth S&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/harishkumar_s_s&quot;&gt;Harish Kumar S S&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://twitter.com/ImanshuRathore&quot;&gt;Imanshu Rathore&lt;/a&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;a href=&quot;https://twitter.com/naikkeerti20&quot;&gt;Keerti Naik&lt;/a&gt;&lt;/strong&gt; for keeping the fun alive at work.&lt;/p&gt;
+&lt;p&gt;A special shoutout to &lt;strong&gt;&lt;a href=&quot;https://twitter.com/ketan_jogani&quot;&gt;Ketan Jogani&lt;/a&gt;&lt;/strong&gt;, for organizing great parties and building this great team to have fun and grow together.&lt;/p&gt;
+&lt;p&gt;Have been working with &lt;strong&gt;&lt;a href=&quot;https://twitter.com/divyaftw&quot;&gt;Divya Kant Singh&lt;/a&gt;&lt;/strong&gt; right from the start and really enjoyed shipping features with him. I really admire his fearless attitude towards building great products. We have worked together on a few animation concepts as well. Kudos to all of that.&lt;/p&gt;
+&lt;p&gt;A big shoutout to &lt;strong&gt;&lt;a href=&quot;https://twitter.com/dharamjchauhan&quot;&gt;Dharam Chauhan&lt;/a&gt;&lt;/strong&gt; as well for bringing stress-free moments while shipping time-critical features.&lt;/p&gt;
+&lt;p&gt;Well, this is just the beginning. Super excited about the cool products and features to come.&lt;/p&gt;
+&lt;h3&gt;Events&lt;/h3&gt;
+&lt;p&gt;Here are the events and things that kept me growing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;learnt how to debug and fix webview bugs in iOS.&lt;/li&gt;
+&lt;li&gt;typescript, mobX&lt;/li&gt;
+&lt;li&gt;react-spring animations&lt;/li&gt;
+&lt;li&gt;BBPS: Utility Bill Payments&lt;/li&gt;
+&lt;li&gt;CRED Poker League&lt;/li&gt;
+&lt;li&gt;max NeoPOP revamp&lt;/li&gt;
+&lt;li&gt;Profile page in NeoPOP&lt;/li&gt;
+&lt;li&gt;Pay-tab&lt;/li&gt;
+&lt;li&gt;FE Offsite&lt;/li&gt;
+&lt;li&gt;All hands&lt;/li&gt;
+&lt;li&gt;CRED 3 Year anniversary&lt;/li&gt;
+&lt;li&gt;CRED Curios: Tanmay Bhatt&lt;/li&gt;
+&lt;li&gt;Parties&lt;/li&gt;
+&lt;li&gt;open sourced neopop-web&lt;/li&gt;
+&lt;li&gt;Abby&lt;/li&gt;
+&lt;li&gt;CRED Curios: Carl Pei&lt;/li&gt;
+&lt;li&gt;CRED Badminton League&lt;/li&gt;
+&lt;li&gt;Three.js POCs&lt;/li&gt;
+&lt;li&gt;Max, BBPS Presentations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Onwards &amp;#x26; Upwards 🚀&lt;/p&gt;
+&lt;h3&gt;Gallery&lt;/h3&gt;
+&lt;p&gt;That’s how the journey has been so far
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/de96cdf6cd43732527b3717f2f265eb6/6a068/p1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAIDAQQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDAP/aAAwDAQACEAMQAAAB5ojkVJCUMJBp7RAx/8QAHBABAAIBBQAAAAAAAAAAAAAAAQACERASITFC/9oACAEBAAEFAqJlUqbQ8ZJ1GNhqPDr/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8BEjZ//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AVVr/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQETEgIWH/2gAIAQEABj8C2oAtuqCTStox/8QAGxAAAwADAQEAAAAAAAAAAAAAAAERITFBEFH/2gAIAQEAAT8hQvgTMCmiIm4+waTjtihgNMD4UoRXcwfZFqssNTvn/9oADAMBAAIAAwAAABBPyzD/xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEDAQE/EFhMgS4XdTf/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxA67IXcvVov/8QAHRABAAMAAgMBAAAAAAAAAAAAAQARITFRQWGx8f/aAAgBAQABPxBGF+Nw9ViRt314izHiHlykBdrt/ktEDRtBfUssUcCwB27W95VQT1lDRXInyCa0PDGptepy7hnE/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p1&quot;
+        title=&quot;p1&quot;
+        src=&quot;/blog/static/de96cdf6cd43732527b3717f2f265eb6/1c72d/p1.jpg&quot;
+        srcset=&quot;/blog/static/de96cdf6cd43732527b3717f2f265eb6/a80bd/p1.jpg 148w,
+/blog/static/de96cdf6cd43732527b3717f2f265eb6/1c91a/p1.jpg 295w,
+/blog/static/de96cdf6cd43732527b3717f2f265eb6/1c72d/p1.jpg 590w,
+/blog/static/de96cdf6cd43732527b3717f2f265eb6/a8a14/p1.jpg 885w,
+/blog/static/de96cdf6cd43732527b3717f2f265eb6/6a068/p1.jpg 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/5b405bab2f6d5e639df5ef807ced46e4/64f73/p2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABcy5ky2CwlTa2s6pDgH//xAAeEAABAwQDAAAAAAAAAAAAAAACAQMRABITIjIzQv/aAAgBAQABBQLMmVHQgivU9XAlBa4mEHZIwVOdnmv/xAAXEQEAAwAAAAAAAAAAAAAAAAAAEBES/9oACAEDAQE/AYpl/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAECAQE/Acqv/8QAHhAAAgIBBQEAAAAAAAAAAAAAAAERIRIgMTJRYXH/2gAIAQEABj8CxfW43dEyeSP6WLIs46P/xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRYXEQ/9oACAEBAAE/IbTmO6YTVgPYi80oyr4dQXO04fjKas3xHwiJqFrku5UBY+TJfip//9oADAMBAAIAAwAAABBYFbz/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/EJiQg//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxC1a02//8QAIBABAAICAQQDAAAAAAAAAAAAAQARITFBUWHB8HGBof/aAAgBAQABPxCiVKwdiZpDsSvxCE0dMduFKLqiunEVI1WKl5V9MFEajrFh72lqQyiDBWPEUrpXkWUCeYekBQMgGI4YBr5M3Oao/Jx95gEzP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p2&quot;
+        title=&quot;p2&quot;
+        src=&quot;/blog/static/5b405bab2f6d5e639df5ef807ced46e4/1c72d/p2.jpg&quot;
+        srcset=&quot;/blog/static/5b405bab2f6d5e639df5ef807ced46e4/a80bd/p2.jpg 148w,
+/blog/static/5b405bab2f6d5e639df5ef807ced46e4/1c91a/p2.jpg 295w,
+/blog/static/5b405bab2f6d5e639df5ef807ced46e4/1c72d/p2.jpg 590w,
+/blog/static/5b405bab2f6d5e639df5ef807ced46e4/a8a14/p2.jpg 885w,
+/blog/static/5b405bab2f6d5e639df5ef807ced46e4/64f73/p2.jpg 958w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/aeb4a331e19bd93516c3c67a7a841e58/eea4a/p3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFWGUSylgP/xAAbEAABBQEBAAAAAAAAAAAAAAABAAIDERIhQf/aAAgBAQABBQL3bl1bGBUjXiK//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BCf/EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAgEBPwG1j//EABsQAAMAAgMAAAAAAAAAAAAAAAABEQIhElFi/9oACAEBAAY/ApBo3D12LliqbR//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFRYf/aAAgBAQABPyFysHdSihCuQRupya9Fy8OwRPJtm/k//9oADAMBAAIAAwAAABAg3//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QE7Y3/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxCXFn//xAAeEAEAAgEEAwAAAAAAAAAAAAABESEAMUFRYXHR4f/aAAgBAQABPxAsCDZJT87y8xIeW1YRD20gQdYBclDeAzrrjrpQWypfWAMKHjn/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p3&quot;
+        title=&quot;p3&quot;
+        src=&quot;/blog/static/aeb4a331e19bd93516c3c67a7a841e58/1c72d/p3.jpg&quot;
+        srcset=&quot;/blog/static/aeb4a331e19bd93516c3c67a7a841e58/a80bd/p3.jpg 148w,
+/blog/static/aeb4a331e19bd93516c3c67a7a841e58/1c91a/p3.jpg 295w,
+/blog/static/aeb4a331e19bd93516c3c67a7a841e58/1c72d/p3.jpg 590w,
+/blog/static/aeb4a331e19bd93516c3c67a7a841e58/a8a14/p3.jpg 885w,
+/blog/static/aeb4a331e19bd93516c3c67a7a841e58/fbd2c/p3.jpg 1180w,
+/blog/static/aeb4a331e19bd93516c3c67a7a841e58/eea4a/p3.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/1bfbddb0143acfaeef83415301177f32/6a068/p4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EABYBAQEBAAAAAAAAAAAAAAAAAAECAP/aAAwDAQACEAMQAAAB3uc8RCUm7Ebaaf/EAB0QAAIBBQEBAAAAAAAAAAAAAAECAwAREiExEyL/2gAIAQEAAQUCVfnz29sixVZJjgMyCL00Whyh09//xAAXEQEBAQEAAAAAAAAAAAAAAAAAARES/9oACAEDAQE/AWulr//EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BNV//xAAbEAACAwADAAAAAAAAAAAAAAAAARARITFRYf/aAAgBAQAGPwLkRhdi9MY1edGMUKP/xAAcEAEAAwEAAwEAAAAAAAAAAAABABExIRBBUXH/2gAIAQEAAT8h1Fm6qI3Ud5KEOyXaVPVTinuoytRDtP5twyA0RJyRlR8LT9n/2gAMAwEAAgADAAAAEIcegf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QkELkmt//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAgEBPxBYP//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExUXFBYYHw/9oACAEBAAE/ELUYMYW/sTVtYoibiTAuFKWJd2BSvG5ZwptcfiNMc0IRBoiuwq97g68AUbBnHLCNRzGhC0pZe50wRjuf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p4&quot;
+        title=&quot;p4&quot;
+        src=&quot;/blog/static/1bfbddb0143acfaeef83415301177f32/1c72d/p4.jpg&quot;
+        srcset=&quot;/blog/static/1bfbddb0143acfaeef83415301177f32/a80bd/p4.jpg 148w,
+/blog/static/1bfbddb0143acfaeef83415301177f32/1c91a/p4.jpg 295w,
+/blog/static/1bfbddb0143acfaeef83415301177f32/1c72d/p4.jpg 590w,
+/blog/static/1bfbddb0143acfaeef83415301177f32/a8a14/p4.jpg 885w,
+/blog/static/1bfbddb0143acfaeef83415301177f32/6a068/p4.jpg 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f3037564b6db005108edad9ce78e9a5a/eea4a/p5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGZTkl0cZP/xAAcEAEAAAcBAAAAAAAAAAAAAAABAAIDEBESFCH/2gAIAQEAAQUCI6DFSc3D1t//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQMTL/2gAIAQEABj8Csyhin//EABoQAAMBAQEBAAAAAAAAAAAAAAABETEhQVH/2gAIAQEAAT8hcRR2+8gw9Y34WRdZUfR6f//aAAwDAQACAAMAAAAQm+//xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAwEBPxBX/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EFCKf//EABwQAQADAAMBAQAAAAAAAAAAAAEAESFBYXExUf/aAAgBAQABPxBguljmxUjtApTN32VE2EOB+T4AoPIQHDruJUs//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p5&quot;
+        title=&quot;p5&quot;
+        src=&quot;/blog/static/f3037564b6db005108edad9ce78e9a5a/1c72d/p5.jpg&quot;
+        srcset=&quot;/blog/static/f3037564b6db005108edad9ce78e9a5a/a80bd/p5.jpg 148w,
+/blog/static/f3037564b6db005108edad9ce78e9a5a/1c91a/p5.jpg 295w,
+/blog/static/f3037564b6db005108edad9ce78e9a5a/1c72d/p5.jpg 590w,
+/blog/static/f3037564b6db005108edad9ce78e9a5a/a8a14/p5.jpg 885w,
+/blog/static/f3037564b6db005108edad9ce78e9a5a/fbd2c/p5.jpg 1180w,
+/blog/static/f3037564b6db005108edad9ce78e9a5a/eea4a/p5.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e99ef8194e9c2e744c82c498461de6c7/eea4a/p6.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHlvNLQykh//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECMSL/2gAIAQEAAQUCiVU00cix6f/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFwf//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AYf/xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgUf/aAAgBAQAGPwJvCK//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQITFB/9oACAEBAAE/IRFQ70zao0Rv6kSddyf/2gAMAwEAAgADAAAAEK/f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QIf/EABcRAQADAAAAAAAAAAAAAAAAAAEQESH/2gAIAQIBAT8QTeR//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFhcZHB/9oACAEBAAE/ELXkLGG0PNwYvcQtZxrigEAyDuJoW0vyKz//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p6&quot;
+        title=&quot;p6&quot;
+        src=&quot;/blog/static/e99ef8194e9c2e744c82c498461de6c7/1c72d/p6.jpg&quot;
+        srcset=&quot;/blog/static/e99ef8194e9c2e744c82c498461de6c7/a80bd/p6.jpg 148w,
+/blog/static/e99ef8194e9c2e744c82c498461de6c7/1c91a/p6.jpg 295w,
+/blog/static/e99ef8194e9c2e744c82c498461de6c7/1c72d/p6.jpg 590w,
+/blog/static/e99ef8194e9c2e744c82c498461de6c7/a8a14/p6.jpg 885w,
+/blog/static/e99ef8194e9c2e744c82c498461de6c7/fbd2c/p6.jpg 1180w,
+/blog/static/e99ef8194e9c2e744c82c498461de6c7/eea4a/p6.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/13bda7235859288bd4619436d3d4ccf1/80e3c/p7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBBQL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHg5ZiJFK13IfXMyulG2jBDwC//xAAdEAACAQQDAAAAAAAAAAAAAAABAgMABBESEBMg/9oACAEBAAEFAuTFgaFBoKmVeu+wCkwVZLlRTuXOfH//xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAEDAQE/AVanf//EABgRAAMBAQAAAAAAAAAAAAAAAAABEhAR/9oACAECAQE/AeksRT3/xAAeEAACAQMFAAAAAAAAAAAAAAAAARECIDEhIkFxkf/aAAgBAQAGPwKzcsnPg4yUpdkNEU6ku3//xAAdEAADAQABBQAAAAAAAAAAAAAAAREhEDFBUWGh/9oACAEBAAE/IedR95Bo8vIpqcBRsQ10RQmQJm1FhF/C2ay/XMP/2gAMAwEAAgADAAAAEEcIsAv/AP/EABcRAQEBAQAAAAAAAAAAAAAAABEAARD/2gAIAQMBAT8QIQzBh3//xAAZEQACAwEAAAAAAAAAAAAAAAAAARARIWH/2gAIAQIBAT8QSvEcRduolH//xAAgEAEAAwABAwUAAAAAAAAAAAABABEhMRBhkUFRcYHh/9oACAEBAAE/EK6VFJVNlVzEUCs5/VRStLRMPmXCabA9OIk8pK29aI7sCsBvvPmAXP1BJwKAyj2nY8JyhAEc4ZTeZ//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p7&quot;
+        title=&quot;p7&quot;
+        src=&quot;/blog/static/13bda7235859288bd4619436d3d4ccf1/1c72d/p7.jpg&quot;
+        srcset=&quot;/blog/static/13bda7235859288bd4619436d3d4ccf1/a80bd/p7.jpg 148w,
+/blog/static/13bda7235859288bd4619436d3d4ccf1/1c91a/p7.jpg 295w,
+/blog/static/13bda7235859288bd4619436d3d4ccf1/1c72d/p7.jpg 590w,
+/blog/static/13bda7235859288bd4619436d3d4ccf1/80e3c/p7.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/dcdc4298050ab38b9af3f5f933330d3d/80e3c/p8.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAckESqR6HNGxcSwnFotAT//EABwQAAICAwEBAAAAAAAAAAAAAAACAQMREhMhMv/aAAgBAQABBQLU1IjJ0U65OzC0iVDLiezuVTq10xtV8jx7/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAHRAAAgICAwEAAAAAAAAAAAAAAAERIQIQMTJRM//aAAgBAQAGPwLfXI+Z0R74WpRwQqRbFGU0Tv8A/8QAHxAAAgEDBQEAAAAAAAAAAAAAAREAIVFxEDFBYfCB/9oACAEBAAE/IdlBmENvW9iCYm8AueHYDnsxElspqiqCIYsdQYdIXo8TsvRTigI6Iz7kZfKgy9xP/9oADAMBAAIAAwAAABBk8DOD3//EABgRAAMBAQAAAAAAAAAAAAAAAAABESEQ/9oACAEDAQE/EKiowzv/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/ECEI1v8A/8QAHxABAQACAgIDAQAAAAAAAAAAAREAITFBUWGRwfBx/9oACAEBAAE/EBw6BKCzx+8ZO8BJ/KfRMnSFr5B+8VI14aGNC6Qd36ZSwx2acSyIAlN80msomi0rgQ9YsADgfgesCQUSOTfeT00B8GsKUARQ7rgLGuYdRwewTX1CXBKWg5//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p8&quot;
+        title=&quot;p8&quot;
+        src=&quot;/blog/static/dcdc4298050ab38b9af3f5f933330d3d/1c72d/p8.jpg&quot;
+        srcset=&quot;/blog/static/dcdc4298050ab38b9af3f5f933330d3d/a80bd/p8.jpg 148w,
+/blog/static/dcdc4298050ab38b9af3f5f933330d3d/1c91a/p8.jpg 295w,
+/blog/static/dcdc4298050ab38b9af3f5f933330d3d/1c72d/p8.jpg 590w,
+/blog/static/dcdc4298050ab38b9af3f5f933330d3d/80e3c/p8.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/a3e1f59ae1b494cf0d1c51485789089c/80e3c/p9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABxelfQiqkrWjHuNV1Jh6INgN//8QAHRAAAgMAAgMAAAAAAAAAAAAAAgMAAREEIRITFP/aAAgBAQABBQIAtk+dsJRDMgJo1kGXXHAj8fWxnR06pXKphGruCFZs/8QAFxEBAAMAAAAAAAAAAAAAAAAAEAAREv/aAAgBAwEBPwEqZf/EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8Bujn/xAAgEAABAwQCAwAAAAAAAAAAAAABAAIQERIhMSIyQVGB/9oACAEBAAY/ArW7XVcqD7FeV0EawmegiFUOyg3RW4a7zH//xAAeEAEAAwEAAQUAAAAAAAAAAAABABEhMWEQQVGR0f/aAAgBAQABPyHKL6iHfHpFQTJdQKXBbrOVMSVta2zYbD9mxUFUMEoRG3GqexdWQ38/Rmjyivmf/9oADAMBAAIAAwAAABCkHXIHz//EABgRAAMBAQAAAAAAAAAAAAAAAAABERBh/9oACAEDAQE/EG4VHRAs/8QAFhEBAQEAAAAAAAAAAAAAAAAAEBFB/9oACAECAQE/ECjB/8QAHxABAQACAQQDAAAAAAAAAAAAAREAITFBUWFxgZGh/9oACAEBAAE/EGWH02AF2q+8GFQUHWXg5zf0IGh5+so1cg6VJCQyvbB5T5vOACNsgreh0xjtuF0hez+4G+BKnGEpUGhfScZQasQRfnKmHRtwMUM13SaMyvafef/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p9&quot;
+        title=&quot;p9&quot;
+        src=&quot;/blog/static/a3e1f59ae1b494cf0d1c51485789089c/1c72d/p9.jpg&quot;
+        srcset=&quot;/blog/static/a3e1f59ae1b494cf0d1c51485789089c/a80bd/p9.jpg 148w,
+/blog/static/a3e1f59ae1b494cf0d1c51485789089c/1c91a/p9.jpg 295w,
+/blog/static/a3e1f59ae1b494cf0d1c51485789089c/1c72d/p9.jpg 590w,
+/blog/static/a3e1f59ae1b494cf0d1c51485789089c/80e3c/p9.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/de1bfc62f4517fd2e135e038b736e6cf/80e3c/p10.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABwe2bEZ6yLOhSnLJAZ8iwD//EABwQAAIDAQADAAAAAAAAAAAAAAABAgMREwQQFP/aAAgBAQABBQL3GmTHQc2K2WryMHat5QOKPnNNNP/EABYRAAMAAAAAAAAAAAAAAAAAABARIP/aAAgBAwEBPwEKP//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/AWv/xAAdEAABAwUBAAAAAAAAAAAAAAAAAQIxAxAgIZEy/9oACAEBAAY/ArwaRSMNVEPTekt7h//EAB0QAAMAAgIDAAAAAAAAAAAAAAABESFBMVFxkeH/2gAIAQEAAT8hEiE91GO5SGt8jZprwZmMPTKminwmBRzoTtX3hMUX2f/aAAwDAQACAAMAAAAQL+ByDD//xAAXEQADAQAAAAAAAAAAAAAAAAAAEBEB/9oACAEDAQE/EIqJr//EABcRAQEBAQAAAAAAAAAAAAAAABEAARD/2gAIAQIBAT8QEzk53//EAB8QAQACAgICAwAAAAAAAAAAAAEAESFBMWFRcYGhwf/aAAgBAQABPxCpaw6QBSK8cyiJAyU0yufVKJShxQPXxCON3FhjUemEto6YIGv3f4nJ40BAyK9Dc8iY+Z2p/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p10&quot;
+        title=&quot;p10&quot;
+        src=&quot;/blog/static/de1bfc62f4517fd2e135e038b736e6cf/1c72d/p10.jpg&quot;
+        srcset=&quot;/blog/static/de1bfc62f4517fd2e135e038b736e6cf/a80bd/p10.jpg 148w,
+/blog/static/de1bfc62f4517fd2e135e038b736e6cf/1c91a/p10.jpg 295w,
+/blog/static/de1bfc62f4517fd2e135e038b736e6cf/1c72d/p10.jpg 590w,
+/blog/static/de1bfc62f4517fd2e135e038b736e6cf/80e3c/p10.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ae4d270fa55fd53d96302e5f4eb03767/80e3c/p11.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAQDAgEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAD/9oADAMBAAIQAxAAAAGanjvNQPoiop7GgzZitMRH0V//xAAbEAEBAAIDAQAAAAAAAAAAAAACAQMRABITIf/aAAgBAQABBQJ3ax5SCvqs6mISeXfiyHXbU9ck4gVRjGuN0zHdtT7/AP/EABgRAAMBAQAAAAAAAAAAAAAAAAABERAS/9oACAEDAQE/AUqciLv/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIQERL/2gAIAQIBAT8BkzsZl//EAB0QAAICAgMBAAAAAAAAAAAAAAABESEQMgISMUH/2gAIAQEABj8CZonho1JojrBBRLo5L76sUTj/xAAcEAEBAQACAwEAAAAAAAAAAAABEQAhMUFRYcH/2gAIAQEAAT8hvPDpNX9MaIBc5HJeRP3dnKfcQmB95SCXTMARW6AFAyhBGZZC4SOZMN9mW7t9bk7/2gAMAwEAAgADAAAAEAQmTvPv/8QAGBEBAQADAAAAAAAAAAAAAAAAARARMUH/2gAIAQMBAT8QMZkdJNT/xAAYEQEBAQEBAAAAAAAAAAAAAAABADEQEf/aAAgBAgEBPxByKjG8zvP/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAxIVFBgWGRof/aAAgBAQABPxCG7OOw8GIHg4chLRWAgYSpJLX5enrOavhLwbrEAdQJX3Mbjh2RdecKyyDIXBhySEcPakHtXb+4SvqRrLAymBJYUsZaUoJwJ1hbnP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p11&quot;
+        title=&quot;p11&quot;
+        src=&quot;/blog/static/ae4d270fa55fd53d96302e5f4eb03767/1c72d/p11.jpg&quot;
+        srcset=&quot;/blog/static/ae4d270fa55fd53d96302e5f4eb03767/a80bd/p11.jpg 148w,
+/blog/static/ae4d270fa55fd53d96302e5f4eb03767/1c91a/p11.jpg 295w,
+/blog/static/ae4d270fa55fd53d96302e5f4eb03767/1c72d/p11.jpg 590w,
+/blog/static/ae4d270fa55fd53d96302e5f4eb03767/80e3c/p11.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/8ff4bda3a31cb53a572b140be3379acc/80e3c/p12.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgUE/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//aAAwDAQACEAMQAAABzrzfLUeDws7VIs0CsiQFAHTH/8QAHhAAAgICAgMAAAAAAAAAAAAAAAECEQMhEhMjMUH/2gAIAQEAAQUC+ooUlI3dFFtHYcfJLKowXqUm8kNuz//EABYRAQEBAAAAAAAAAAAAAAAAABABEf/aAAgBAwEBPwEwh//EABkRAQACAwAAAAAAAAAAAAAAAAEAEAIRgf/aAAgBAgEBPwFNU5M5Gv/EAB4QAAIBAwUAAAAAAAAAAAAAAAABIQIQEhEgIlFh/9oACAEBAAY/Ar8tnaIRONPgsRaJDZNv/8QAIBABAAIBBAIDAAAAAAAAAAAAAQARITFBYaEQUXHR8f/aAAgBAQABPyHJlqdfHqC8Bd9/c5ls0UXswpR68B5gWqiJ0K5ZWmZp+J7B63COLVxFA5gN5W0ULTP/2gAMAwEAAgADAAAAELctjYvf/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARMWH/2gAIAQMBAT8QEeWQRs9upv/EABgRAQEBAQEAAAAAAAAAAAAAAAABESEx/9oACAECAQE/EKcVqiY2nhH/xAAgEAEAAgMAAQUBAAAAAAAAAAABABEhMUFxUWGBkfCx/9oACAEBAAE/EK2vNQ+jXk5mTlGdvy7/AB7Ra/cVEgEdhi/3IKg504CQocjcAQaukuH0LMm68PINpMdIWQtlBrvl6wuGX8FvP247Io7FsZuWOEAGFqACALi5/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p12&quot;
+        title=&quot;p12&quot;
+        src=&quot;/blog/static/8ff4bda3a31cb53a572b140be3379acc/1c72d/p12.jpg&quot;
+        srcset=&quot;/blog/static/8ff4bda3a31cb53a572b140be3379acc/a80bd/p12.jpg 148w,
+/blog/static/8ff4bda3a31cb53a572b140be3379acc/1c91a/p12.jpg 295w,
+/blog/static/8ff4bda3a31cb53a572b140be3379acc/1c72d/p12.jpg 590w,
+/blog/static/8ff4bda3a31cb53a572b140be3379acc/80e3c/p12.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/80e3c/p13.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAUG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHJHRZh1NRPN30W6uk5Aq5miIr/xAAeEAACAgEFAQAAAAAAAAAAAAABAgARAxIiIzEyQv/aAAgBAQABBQKxKBbGm3GqlgnInSCKKZclAsZqlmfTep//xAAWEQEBAQAAAAAAAAAAAAAAAAAQARH/2gAIAQMBAT8BNKf/xAAXEQADAQAAAAAAAAAAAAAAAAAAEBEB/9oACAECAQE/AVCGL//EAB0QAAEEAgMAAAAAAAAAAAAAAAEAECExERJRcYH/2gAIAQEABj8ClQ0Gl62dsISTyramHb//xAAdEAEAAwEAAgMAAAAAAAAAAAABABEhMUFRcZGh/9oACAEBAAE/IRjROQNzIPhAlj1sp6IH7nlJR1GzUAQOS5S8qUDBPl+4bd6TCJc//9oADAMBAAIAAwAAABBo/DOAL//EABgRAAMBAQAAAAAAAAAAAAAAAAABERBB/9oACAEDAQE/EIUccKtf/8QAGREAAwADAAAAAAAAAAAAAAAAAAEREEFR/9oACAECAQE/EKJCvZfcv//EAB8QAQADAAICAwEAAAAAAAAAAAEAESExQXHRUYHw8f/aAAgBAQABPxAnp7uXRgAeHysowoDRGdEZvnmvM4Vqun3aQhYFp4lwdLIpcHdLtbAr3UUI4O3AHBofu494LrgSfxL3MbRUxUAVFDU//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p13&quot;
+        title=&quot;p13&quot;
+        src=&quot;/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/1c72d/p13.jpg&quot;
+        srcset=&quot;/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/a80bd/p13.jpg 148w,
+/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/1c91a/p13.jpg 295w,
+/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/1c72d/p13.jpg 590w,
+/blog/static/5bb8d9b686cbd3c2a36b88353f3b8fef/80e3c/p13.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/80e3c/p14.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAck2qFIl2Z1kejA1yyI9gb//xAAcEAACAwADAQAAAAAAAAAAAAABAgADEgQRIRP/2gAIAQEAAQUC69PcBjAE5WaUQ06LJ8pmmVXiqNydR20w9KevYgD/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BX//EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BuDn/xAAeEAADAAICAwEAAAAAAAAAAAAAARECMhAhIjFBkf/aAAgBAQAGPwL3DY6LYb3jYVy/EeWUY6rTSlyw74Sf0a7P/8QAHBAAAwEAAwEBAAAAAAAAAAAAAAERITFRYUGB/9oACAEBAAE/IdNbcMSrNXhFTCXhXuMXyBIRCWJbS6LqnlqEyHOCZGu1G1MHyhtj+hqU6QwLQ8en/9oADAMBAAIAAwAAABBHKvx0P//EABkRAAMAAwAAAAAAAAAAAAAAAAABERAhMf/aAAgBAwEBPxCYipsXSI//xAAZEQADAAMAAAAAAAAAAAAAAAAAAREQMVH/2gAIAQIBAT8QTwm4R00RT//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExQWFRcaGB/9oACAEBAAE/EHUgU14xcpMSpXf3Ev8AQy23zEKW0RLvuLtWhkhxhA3cB4iDBpcw86VQAOBX5BVYw1RkQb13DCNWdDt9y+Vk4DrZ6jAilJY1+xLTz8JQcKW4c8ynuVW5PbP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;p14&quot;
+        title=&quot;p14&quot;
+        src=&quot;/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/1c72d/p14.jpg&quot;
+        srcset=&quot;/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/a80bd/p14.jpg 148w,
+/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/1c91a/p14.jpg 295w,
+/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/1c72d/p14.jpg 590w,
+/blog/static/7a0c6ba56b7222d2b8c8f6d74df95eb6/80e3c/p14.jpg 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animate 3D models using react-three-fiber]]></title><description><![CDATA[This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get…]]></description><link>https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</link><guid isPermaLink="false">https://rahuldkjain.github.io/blog/animate-3d-with-react-three-fiber/</guid><pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article will help you to understand the lifecycle of developing 3D animations using react-three-fiber. Follow these steps to get started.&lt;/p&gt;
 &lt;h3&gt;1. Download 3D model&lt;/h3&gt;
 &lt;p&gt;You need a 3D asset to get started. I personally use &lt;a href=&quot;https://sketchfab.com/&quot;&gt;Sketchfab&lt;/a&gt; marketplace to download CC licensed 3D models.
 For this demo, I’ll be using the &lt;a href=&quot;https://sketchfab.com/3d-models/skateboard-4295ea44111e45299d5ab4862a354664&quot;&gt;skateboard&lt;/a&gt; model.&lt;/p&gt;
