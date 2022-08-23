@@ -1,5 +1,13 @@
+---
+title: "One Year at CRED"
+date: 2022-08-23 20:20:13
+category: "experience"
+description: "Last one year at CRED has been super amazing. Worked and enjoyed a lot."
+draft: false
+---
+
 ![23-aug-21-tweet](../../assets/one-year-at-cred/tweet.png)
-I tweeted this exactly one year ago. So yeah today marks my one year journey at CRED. After so many parties, releases, & an offsite, I can say it’s been an amazing journey in terms of personal and technical growth.
+I tweeted this exactly an year ago. So yeah today marks my one year journey at CRED. After so many parties, releases, & an offsite, I can say it’s been an amazing journey in terms of personal and technical growth.
 
 ### Highlights
 
@@ -56,6 +64,7 @@ Onwards & Upwards 🚀
 ### Gallery
 
 That's how the journey has been so far
+
 ![](../../assets/one-year-at-cred/p1.jpeg)
 ![](../../assets/one-year-at-cred/p2.jpeg)
 ![](../../assets/one-year-at-cred/p3.jpeg)
