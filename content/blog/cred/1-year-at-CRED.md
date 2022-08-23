@@ -27,6 +27,30 @@ A big shoutout to **[Dharam Chauhan](https://twitter.com/dharamjchauhan)** as we
 
 Well, this is just the beginning. Super excited about the cool products and features to come.
 
+### Events
+
+Here are the events and things that kept me growing:
+
+- learnt how to debug and fix webview bugs in iOS.
+- typescript, mobX
+- react-spring animations
+- BBPS: Utility Bill Payments
+- CRED Poker League
+- max NeoPOP revamp
+- Profile page in NeoPOP
+- Pay-tab
+- FE Offsite
+- All hands
+- CRED 3 Year anniversary
+- CRED Curios: Tanmay Bhatt
+- Parties
+- open sourced neopop-web
+- Abby
+- CRED Curios: Carl Pei
+- CRED Badminton League
+- Three.js POCs
+- Max, BBPS Presentations
+
 Onwards & Upwards 🚀
 
 ### Gallery
