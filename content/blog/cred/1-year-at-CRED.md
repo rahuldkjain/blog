@@ -11,7 +11,7 @@ I tweeted this exactly an year ago. So yeah today marks my one year journey at C
 
 ### Highlights
 
-1. pay-tab(rent, education-fees & utility bill payments).
+1. rent, education-fees & bill payments.
 2. open Sourced [neopop-web](https://github.com/CRED-CLUB/neopop-web) component library on GitHub.
 
 Super fortunate to work in such a great team that leaves no opportunity to make fun of each other apart from shipping great quality products. A team that pushes you to compound exponentially in becoming the best version of yourself. I feel that I have become more confident in asking questions, starting a conversation with anyone, shipping good quality products, and making fun of anybody (yes of course).
@@ -41,22 +41,19 @@ Here are the events and things that kept me growing:
 - learnt how to debug and fix webview bugs in iOS.
 - typescript, mobX
 - react-spring animations
-- BBPS: Utility Bill Payments
+- bill payments
 - CRED Poker League
 - max NeoPOP revamp
 - Profile page in NeoPOP
-- Pay-tab
 - FE Offsite
-- All hands
+- all hands
 - CRED 3 Year anniversary
 - CRED Curios: Tanmay Bhatt
-- Parties
+- parties
 - open sourced neopop-web
-- Abby
 - CRED Curios: Carl Pei
 - CRED Badminton League
 - Three.js POCs
-- Max, BBPS Presentations
 
 Onwards & Upwards 🚀
 
@@ -76,5 +73,4 @@ That's how the journey has been so far
 ![](../../assets/one-year-at-cred/p10.jpeg)
 ![](../../assets/one-year-at-cred/p11.jpeg)
 ![](../../assets/one-year-at-cred/p12.jpeg)
-![](../../assets/one-year-at-cred/p13.jpeg)
 ![](../../assets/one-year-at-cred/p14.jpeg)
