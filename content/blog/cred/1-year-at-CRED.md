@@ -11,9 +11,8 @@ I tweeted this exactly an year ago. So yeah today marks my one year journey at C
 
 ### Highlights
 
-1. Max(Rent + Education payments) ⇒ 242% growth in monthly transactions.
-2. Utility Bill Payments ⇒ scratch to 2.4M transactions a month.
-3. Open Sourced [neopop-web](https://github.com/CRED-CLUB/neopop-web) component library on GitHub.
+1. pay-tab(rent, education-fees & utility bill payments).
+2. open Sourced [neopop-web](https://github.com/CRED-CLUB/neopop-web) component library on GitHub.
 
 Super fortunate to work in such a great team that leaves no opportunity to make fun of each other apart from shipping great quality products. A team that pushes you to compound exponentially in becoming the best version of yourself. I feel that I have become more confident in asking questions, starting a conversation with anyone, shipping good quality products, and making fun of anybody (yes of course).
 
